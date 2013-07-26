@@ -1,4 +1,6 @@
 logos
 =====
 
-Design and artwork
+Design and artwork.
+
+for now only Tetra.
