@@ -1,4 +1,4 @@
 logos
 =====
 
-design artwork
+Design and artwork
