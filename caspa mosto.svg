@@ -13,8 +13,8 @@
    height="744.09448"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="caspa mosto.png">
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="caspa mosto.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -28,12 +28,12 @@
      inkscape:cx="728.30512"
      inkscape:cy="464.45014"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="text7279"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="838"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1231"
+     inkscape:window-height="776"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,18 +71,30 @@
              sodipodi:ry="260.92239"
              d="m 4198.8001,165.9548 c 0,144.10346 -116.819,260.9224 -260.9224,260.9224 -144.1035,0 -260.9224,-116.81894 -260.9224,-260.9224 0,-144.103456 116.8189,-260.92239 260.9224,-260.92239 144.1034,0 260.9224,116.818934 260.9224,260.92239 z"
              transform="matrix(0.77506774,0,0,0.77506774,10883.171,244.5525)" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text7279"
-             y="499.94656"
-             x="13801.062"
+          <g
              style="font-size:47.26416779px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-             xml:space="preserve"><tspan
-               style="font-size:85.07550049px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
-               y="499.94656"
-               x="13801.062"
-               id="tspan7281"
-               sodipodi:role="line">MOSTO</tspan></text>
+             id="text7279">
+            <path
+               d="m 13811.271,458.00434 15.568,23.14054 4.85,0 15.569,-23.14054 0,41.94222 8.507,0 0,-59.55285 -6.806,0 -19.652,28.92567 -19.653,-28.92567 -6.976,0 0,59.55285 8.593,0 0,-41.94222"
+               style="font-size:85.07550049px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3049" />
+            <path
+               d="m 13913.024,470.17014 c 0,6.12543 -2.468,11.4852 -6.296,15.39866 -3.999,3.99855 -9.529,6.46574 -15.399,6.46574 -5.87,0 -11.315,-2.46719 -15.228,-6.46574 -3.914,-3.91346 -6.381,-9.35831 -6.381,-15.39866 0,-6.04036 2.467,-11.4852 6.381,-15.39867 3.913,-3.99854 9.358,-6.46574 15.228,-6.46574 5.87,0 11.4,2.4672 15.399,6.46574 3.828,3.91347 6.296,9.27324 6.296,15.39867 m -51.982,0 c 0,8.42246 3.489,15.9942 8.848,21.5241 5.445,5.61498 13.102,9.018 21.439,9.018 8.423,0 15.994,-3.40302 21.524,-9.018 5.36,-5.5299 8.848,-13.10164 8.848,-21.5241 0,-8.42247 -3.488,-15.9942 -8.848,-21.5241 -5.53,-5.52991 -13.101,-9.01801 -21.524,-9.01801 -8.337,0 -15.994,3.4881 -21.439,9.01801 -5.359,5.5299 -8.848,13.10163 -8.848,21.5241"
+               style="font-size:85.07550049px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3051" />
+            <path
+               d="m 13968.051,455.45208 c -1.531,-10.88966 -11.059,-15.6539 -20.248,-15.6539 -6.891,0 -14.037,2.72243 -18.036,7.91203 -2.552,3.31794 -3.573,7.31649 -3.232,11.31504 l 0,-0.0851 c 0.935,12.42101 11.825,14.46284 21.098,15.39867 5.956,0.59553 12.081,1.36121 13.102,5.87021 0.17,0.76568 0.255,1.44628 0.255,2.04181 0,6.12543 -6.976,9.69861 -13.357,9.69861 -5.53,0 -12.251,-2.89258 -12.846,-8.42248 l 0,0.3403 -0.09,-1.27613 -8.678,0.17015 0.09,1.61644 c 1.106,10.63442 12.251,16.07927 21.439,16.07927 10.72,0 22.12,-6.6359 22.12,-18.12108 0,-1.19106 -0.17,-2.63735 -0.426,-3.91348 -2.297,-9.52844 -12.421,-11.65534 -20.588,-12.67625 -6.38,-0.59553 -13.101,-1.36121 -13.527,-7.48664 -0.17,-2.04181 0.255,-3.99855 1.447,-5.52991 2.382,-3.06271 6.806,-4.42393 10.804,-4.509 5.19,-0.0851 10.975,2.21197 12.166,7.57172 l 8.507,-0.3403"
+               style="font-size:85.07550049px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3053" />
+            <path
+               d="m 13993.315,500.20179 0,-51.13038 17.951,0 0,-8.6777 -44.58,0 0,8.6777 18.036,0 0,51.13038 8.593,0"
+               style="font-size:85.07550049px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3055" />
+            <path
+               d="m 14062.072,470.17014 c 0,6.12543 -2.467,11.4852 -6.296,15.39866 -3.998,3.99855 -9.528,6.46574 -15.398,6.46574 -5.871,0 -11.315,-2.46719 -15.229,-6.46574 -3.913,-3.91346 -6.381,-9.35831 -6.381,-15.39866 0,-6.04036 2.468,-11.4852 6.381,-15.39867 3.914,-3.99854 9.358,-6.46574 15.229,-6.46574 5.87,0 11.4,2.4672 15.398,6.46574 3.829,3.91347 6.296,9.27324 6.296,15.39867 m -51.981,0 c 0,8.42246 3.488,15.9942 8.848,21.5241 5.444,5.61498 13.101,9.018 21.439,9.018 8.422,0 15.994,-3.40302 21.524,-9.018 5.359,-5.5299 8.848,-13.10164 8.848,-21.5241 0,-8.42247 -3.489,-15.9942 -8.848,-21.5241 -5.53,-5.52991 -13.102,-9.01801 -21.524,-9.01801 -8.338,0 -15.995,3.4881 -21.439,9.01801 -5.36,5.5299 -8.848,13.10163 -8.848,21.5241"
+               style="font-size:85.07550049px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3057" />
+          </g>
           <g
              transform="translate(3.8548185,0)"
              id="g7340">
@@ -209,18 +221,30 @@
              id="path7271"
              style="fill:#a60038;fill-opacity:0.99970063;stroke:none"
              sodipodi:type="arc" />
-          <text
-             xml:space="preserve"
+          <g
              style="font-size:46.87598419px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-             x="13280.843"
-             y="499.82858"
-             id="text7275"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               id="tspan7277"
-               x="13280.843"
-               y="499.82858"
-               style="font-size:84.37677002px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold">CASPA</tspan></text>
+             id="text7275">
+            <path
+               d="m 13281.096,470.46547 c 0,8.18454 3.375,15.6097 8.438,21.00981 5.147,5.40011 12.403,8.77519 20.419,8.77519 13.753,0 24.553,-9.11271 27.928,-22.5286 l -8.353,0 c -3.037,8.94393 -10.631,14.09092 -19.575,14.09092 -5.653,0 -10.8,-2.44693 -14.513,-6.32826 -3.713,-3.88133 -6.075,-9.1127 -6.075,-15.01906 0,-6.07512 2.362,-11.30649 6.075,-15.18782 3.713,-3.88133 8.86,-6.32826 14.513,-6.32826 8.691,0 15.947,4.47198 19.069,13.33153 l 8.438,0 c -3.375,-13.33152 -14.007,-21.76921 -27.507,-21.76921 -8.016,0 -15.272,3.45946 -20.419,8.77519 -5.063,5.40011 -8.438,12.82527 -8.438,21.17857"
+               style="font-size:84.37677002px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3037" />
+            <path
+               d="m 13364.117,453.59011 7.257,20.84106 -14.682,0 7.425,-20.84106 m 17.635,46.23847 9.113,0 -23.71,-59.82313 -6.244,0 -23.71,59.82313 9.197,0 c 1.857,-4.89385 4.81,-11.9815 7.088,-17.38161 l 21.178,0 7.088,17.38161"
+               style="font-size:84.37677002px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3039" />
+            <path
+               d="m 13431.629,455.69953 c -1.518,-10.80021 -10.969,-15.52532 -20.081,-15.52532 -6.835,0 -13.923,2.70006 -17.888,7.84704 -2.532,3.29069 -3.544,7.2564 -3.207,11.22211 l 0,-0.0844 c 0.929,12.319 11.729,14.34405 20.926,15.27219 5.906,0.59064 11.981,1.35004 12.994,5.822 0.169,0.75939 0.253,1.43441 0.253,2.02504 0,6.07513 -6.919,9.61896 -13.247,9.61896 -5.485,0 -12.15,-2.86882 -12.741,-8.3533 l 0,0.3375 -0.08,-1.26565 -8.607,0.16876 0.08,1.60315 c 1.096,10.54709 12.15,15.94721 21.263,15.94721 10.631,0 21.937,-6.5814 21.937,-17.97225 0,-1.18127 -0.168,-2.61568 -0.421,-3.88133 -2.279,-9.45019 -12.319,-11.55962 -20.42,-12.57214 -6.328,-0.59064 -12.994,-1.35003 -13.415,-7.42515 -0.169,-2.02505 0.253,-3.96571 1.434,-5.48449 2.362,-3.03757 6.75,-4.3876 10.716,-4.47197 5.147,-0.0844 10.884,2.1938 12.066,7.50953 l 8.437,-0.33751"
+               style="font-size:84.37677002px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3041" />
+            <path
+               d="m 13437.594,440.76484 0,59.06374 8.606,0 0,-19.65978 12.994,0 c 12.741,0 19.154,-9.78772 19.154,-19.65979 0,-9.87207 -6.413,-19.74417 -19.154,-19.74417 l -21.6,0 m 8.606,30.96628 0,-22.35985 12.994,0 c 7.172,0 10.716,5.56888 10.716,11.22211 0,5.56887 -3.544,11.13774 -10.716,11.13774 l -12.994,0"
+               style="font-size:84.37677002px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3043" />
+            <path
+               d="m 13498.922,453.59011 7.257,20.84106 -14.682,0 7.425,-20.84106 m 17.635,46.23847 9.113,0 -23.71,-59.82313 -6.244,0 -23.71,59.82313 9.197,0 c 1.857,-4.89385 4.81,-11.9815 7.088,-17.38161 l 21.179,0 7.087,17.38161"
+               style="font-size:84.37677002px;font-variant:normal;font-stretch:normal;fill:#ffffff;font-family:Code Bold;-inkscape-font-specification:Code Bold"
+               id="path3045" />
+          </g>
         </g>
       </g>
       <g
