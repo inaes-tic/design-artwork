@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<title>./OPCODE {cooperativa}</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">	
+	<script>
+    window.onload = function(){
+        var logo = document.getElementById("logo");
+        TweenLite.to(logo, 1, {left:"632px"});
+    }
+  </script>
+  <style>
+    body{
+        background-color:#000;
+    }
+    
+    #content-wrapper{height:100px;}
+    
+    #logo {
+        position:relative;
+        width:65%;
+        opacity:0;
+    }
+    
+    #waves, #wavesDos {
+      position:relative;
+      width:100%;
+      margin-top:400px;
+      opacity:.5;
+    }
+    
+    #wavesDos {
+      margin-top:0px;
+      top:-1100px;
+    }
+    
+    p {
+      font-weight:normal;
+      font-size:16px;
+      font-family:sans-serif;
+      text-align:left;
+      position:relative;
+      text-shadow: 0 1px 1px #666;
+    }
+    
+    #somos {
+      color:#571642;
+      right:-300px;
+      top:-800px;
+      width:270px;
+      opacity:1;
+      padding:87px 30px 60px 30px;
+      background-image:url('img/somosBG.png');
+      background-repeat:no-repeat;
+    }
+
+    #malbec{
+      color:#FFEB00;
+      left:-300px;
+      top:-780px;
+      width:235px;
+      opacity:1;
+      padding:100px 60px 60px 70px;
+      background-image:url('img/malbecBG.png');
+      background-repeat:no-repeat;
+    }
+    
+    #zumo {
+      color:#FFD9A0;
+      right:-250px;
+      top:-950px;
+      width:250px;
+      opacity:1;
+      padding:90px 30px 60px 30px;
+      background-image:url('img/zumoBG.png');
+      background-repeat:no-repeat;
+    }
+    
+    #tetra {
+      color:#B3FFFC;
+      left:-250px;
+      top:-1500px;
+      width:260px;
+      opacity:1;
+      padding:90px 30px 80px 60px;
+      background-image:url('img/tetraBG.png');
+      background-repeat:no-repeat;
+    }
+    
+    #contacto {
+      color:#FFD9A0;
+      top:-1450px;
+      width:230px;
+      opacity:1;
+      padding:105px 48px 68px 46px;
+      background-image:url('img/contactoBG.png');
+      background-repeat:no-repeat;
+      text-align:center;
+    }
+    
+    #contacto a, span{
+      font-size:20px;
+      color:#fff;
+    }
+    
+    #malbecLogo{
+      position:relative;
+      right:180px;
+      top:-880px;
+    }
+    #zumoLogo{
+      position:relative;
+      top: -1094px;
+      left: 43px;
+    }
+    #tetraLogo{
+      position:relative;
+      top: -1700px;
+      right: 40px;
+    }
+    
+   </style>
+</head>
+<body class="simple-demo">
+	<div id="content-wrapper">
+  	<div id="examples-1">
+       <img id="logo" src="img/logo_coop.png" />
+       <img id="waves" src="img/waves.png" />
+       <p id="somos">Somos una nueva cooperativa formada por profesionales con amplia trayectoria en media, dedicada exclusivamente al desarrollo de software libre.
+A través de la creatividad, la experiencia y los aportes de nuestros compañeros, y de toda la comunidad, integramos herramientas libres, con el fin de generar productos innovadores, que a su vez puedan ser reutilizados, fomentando e incentivando al desarrollo de tecnologías libres en nuestro país y en el resto del mundo.</p>
+       <p id="malbec">Nuestro principal producto, malbec broadcast, es un sistema integral con plataforma digital, para el armado y transmisión de canales de televisión. Esta plataforma técnica y operativa, está diseñada y programada según los estándares HTML5 (web - internet), abarcando las distintas posibilidades para la transmisión de señal por aire, web, y televisión digital, simultáneamente.</p><img id="malbecLogo" src="img/malbec.png" />
+       <p id="zumo">ZUMO es un software en relación directa con todos nuestros productos, que se encarga de trascodear automáticamente y bajo una misma resolución el material ingestado igualando el formato, y optimizando el espacio de almacenamiento. Con zumo todos ganan!</p><img id="zumoLogo" src="img/zumo.png" />
+       <img id="wavesDos" src="img/wavesDos.png" />
+       <p id="tetra">TETRA es un servicio de automatización de cámaras de televisión que cuenta con equipamiento y soporte open source pensados para la televisión digital. es una solucion integral, competitiva, segura y robusta para el desarrollo, armado y emision de programas de television, pensada en pos de la usabilidad y la comodidad a través de la optimización de hardware y software.</p><img id="tetraLogo" src="img/tetra.png" />     
+       <p id="contacto">Si te interesa colaborar con alguno de nuestros proyectos visita nuestros repositorios en<br /><a href="https://github.com/inaes-tic">GitHub</a>.<br />
+       <br />
+       Por cualquier otra consulta o comentario contáctanos en <span>info@opcode.coop</span></p>
+  	</div>
+	</div>
+	
+	<!--- The following scripts are necessary to do TweenLite tweens on CSS properties -->
+  <script type="text/javascript" src="js/greensock/plugins/CSSPlugin.min.js"></script>
+  <script type="text/javascript" src="js/greensock/TweenLite.min.js"></script>
+	
+	<!--SCROLLORAMA-->
+	<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="_/js/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/jquery.superscrollorama.js"></script>
+  
+  <script>
+    window.onload = function() {
+        $(window).resize();
+        var logo = document.getElementById("logo");
+        TweenLite.to(logo, 1, {opacity: 1.5, ease:Quad.easeOut, delay:.3});
+    }
+    
+    $(window).resize(function() {
+      $("#content-wrapper").css("padding-top", $(window).height() / 2 - $("#logo").height() / 2);
+    });
+    
+    $(document).ready(function() {
+			var controller = $.superscrollorama();
+			controller.addTween('#waves', TweenMax.from( $('#waves'), 1.5, {css:{opacity: 0}}));
+			controller.addTween('#somos', TweenMax.from( $('#somos'), 1, {css:{right:'700px', opacity:0}, ease:Quad.easeInOut, delay:.3}));
+	    controller.addTween('#malbec', TweenMax.from( $('#malbec'), 1, {css:{left:'700px', opacity:0}, ease:Quad.easeInOut, delay:.3}));
+	    controller.addTween('#malbecLogo', TweenMax.from( $('#malbecLogo'), .5, {css:{opacity:0}}));
+	    controller.addTween('#zumo', TweenMax.from( $('#zumo'), .5, {css:{opacity:0}, delay:.5}));
+	    controller.addTween('#zumoLogo', TweenMax.from( $('#zumoLogo'), .5, {css:{opacity:0}}));
+	    controller.addTween('#tetra', TweenMax.from( $('#tetra'), 1, {css:{left:'700px', opacity:0}, ease:Quad.easeInOut, delay:.5}));
+	    controller.addTween('#tetraLogo', TweenMax.from( $('#tetraLogo'), .5, {css:{opacity:0}, delay: 1.5}));
+	    controller.addTween('#wavesDos', TweenMax.from( $('#wavesDos'), .5, {css:{opacity: 0}}));
+	    controller.addTween('#contacto', TweenMax.from( $('#contacto'), .5, {css:{opacity:0}}));
+		});
+
+  </script>	
+</body></html>
