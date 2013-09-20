@@ -15,7 +15,10 @@
    height="744.09448"
    id="svg5647"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="PrintableForDesk01.svg">
+   sodipodi:docname="PrintableForDesk01.svg"
+   inkscape:export-filename="/Users/athy/Documents/Opcode/Repositorios/design-artwork/presentations/HackHackers_MediaParty/PrintableForDesk01.png"
+   inkscape:export-xdpi="300.01797"
+   inkscape:export-ydpi="300.01797">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -95572,7 +95575,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
