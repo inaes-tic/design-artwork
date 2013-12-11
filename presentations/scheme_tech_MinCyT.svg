@@ -14653,11 +14653,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.4229345"
-     inkscape:cx="172.7649"
-     inkscape:cy="319.66807"
+     inkscape:zoom="1.7132734"
+     inkscape:cx="288.17561"
+     inkscape:cy="265.30199"
      inkscape:document-units="px"
-     inkscape:current-layer="g6107"
+     inkscape:current-layer="g7738"
      showgrid="true"
      inkscape:snap-global="true"
      objecttolerance="20"
@@ -14739,7 +14739,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -14751,7 +14751,10 @@
      transform="translate(0,-308.2677)">
     <g
        id="g8380"
-       transform="translate(-4.7126835,-5.0452889)">
+       transform="translate(-4.7126835,-5.0452889)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          transform="translate(-1.4688567,-3.2716378)"
          id="g10862">
@@ -14867,7 +14870,10 @@
     </g>
     <g
        transform="translate(175.4975,105.24546)"
-       id="g6576">
+       id="g6576"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g6578"
          transform="translate(-1.4688567,-3.2716378)">
@@ -14978,7 +14984,10 @@
     </g>
     <g
        transform="translate(-248.1845,-145.11922)"
-       id="g15485">
+       id="g15485"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g15487"
          transform="translate(-1.4688567,-3.2716378)">
@@ -16501,31 +16510,46 @@
        style="fill:#cdddff;fill-opacity:1;stroke:none"
        d="m 252.37783,885.04085 -40.09375,23.15625 -4.46875,-2.59375 c -1.53429,-0.88582 -4.62195,-0.88582 -6.15625,0 l -70.5625,40.75 c -1.5343,0.88583 -1.5343,2.64542 0,3.53125 l 16,9.25 7.65625,0 0,4.40625 46.78125,27.03125 c 1.5343,0.88583 4.62195,0.88583 6.15625,0 l 70.5625,-40.75 c 1.5343,-0.88583 1.5343,-2.64542 0,-3.53125 l -14.5625,-8.4375 -14.59375,-8.40625 -29.125,-16.8125 35,-20.21875 5.34211,-5.21572 z"
        id="path6063"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="csccccscccc"
        inkscape:connector-curvature="0"
        id="path10770"
        d="m 147.17941,950.32708 c -1.15072,-0.66438 -1.86156,-1.56323 -1.86156,-2.33833 0,-0.7751 0.007,-1.82349 0.007,-1.82349 l 55.41825,-31.43449 c 2.30145,-1.24459 5.37004,-1.24459 7.67149,0 l 17.06762,9.3185 c 0,0 0.001,1.06339 -0.003,1.84123 -0.005,0.77785 -0.58965,1.55845 -1.75943,2.23382 l -53.66262,30.98194 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
-       style="fill:url(#linearGradient10994);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)" />
+       style="fill:url(#linearGradient10994);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
        d="m 147.04816,948.47299 c -2.30144,-1.32875 -2.30144,-3.1004 0,-4.42914 l 53.69494,-31.00058 c 2.30145,-1.32874 5.37004,-1.32874 7.67149,0 l 15.34297,8.85826 c 2.30144,1.32874 2.30144,3.1004 0,4.42914 l -53.69494,31.00059 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
        id="path10772"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:url(#linearGradient10990);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
        d="m 177.72864,967.96453 c -1.15072,-0.66438 -1.86156,-1.56323 -1.86156,-2.33833 0,-0.7751 0.007,-1.82349 0.007,-1.82349 l 55.41825,-31.43449 c 2.30145,-1.24459 5.37004,-1.24459 7.67149,0 l 24.90998,13.84644 c 0,0 10e-4,1.06339 -0.003,1.84123 -0.005,0.77785 -0.58965,1.55845 -1.75943,2.23382 l -53.66262,30.98194 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
        id="path10774"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csccccscccc" />
+       sodipodi:nodetypes="csccccscccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="ccccccccc"
        inkscape:connector-curvature="0"
        id="path10776"
        d="m 177.59739,966.11044 c -2.30144,-1.32875 -2.30144,-3.1004 0,-4.42914 l 53.69494,-31.00058 c 2.30145,-1.32874 5.37004,-1.32874 7.67149,0 l 23.18533,13.3862 c 2.30144,1.32874 2.30144,3.1004 0,4.42914 l -53.69494,31.00059 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
@@ -16533,7 +16557,10 @@
        y="911.91125"
        id="text11091"
        sodipodi:linespacing="125%"
-       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"><tspan
+       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan11093"
          x="-860.0354"
@@ -16545,7 +16572,10 @@
        y="949.7298"
        x="-858.0683"
        style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          y="949.7298"
          x="-858.0683"
          id="tspan11097"
@@ -16555,37 +16585,55 @@
        d="m 436.66727,981.60168 -45.13955,26.03012 -4.46875,-2.5937 c -1.53429,-0.8859 -4.62195,-0.8859 -6.15625,0 l -70.5625,40.75 c -1.5343,0.8858 -1.5343,2.6454 0,3.5312 l 16,9.25 7.65625,0 0,4.4063 46.78125,27.0312 c 1.5343,0.8858 4.62195,0.8858 6.15625,0 l 70.56248,-40.75 c 1.5343,-0.8858 1.5343,-2.6454 0,-3.5312 l -14.5625,-8.4375 -14.5937,-8.4063 -29.12503,-16.8125 46.94792,-27.15327"
        id="path11480"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#bf6dbf;fill-opacity:1;stroke:none"
        d="m 467.98682,972.12738 134.22474,-76.99945 -11.50723,-6.6437 -7.67149,0 0,4.42913 3.61298,2.51908 -19.17872,11.07284 -49.45266,-29.1431 3.64653,-2.16535 0,-4.42914 -7.48226,-0.10925 -11.69645,6.75295 57.31335,33.52302 -26.23035,15.03123 -11.90429,-6.47747 -7.67148,0 0,4.42914 11.50722,6.64369 -70.6225,40.49833"
        id="path10996"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:url(#linearGradient11088);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
        d="m 326.42305,1049.7618 c -1.15072,-0.6644 -1.86156,-1.5632 -1.86156,-2.3383 0,-0.7751 0.007,-1.8235 0.007,-1.8235 l 55.41825,-31.4345 c 2.30145,-1.2446 5.37004,-1.2446 7.67149,0 l 17.06762,9.3185 c 0,0 0.001,1.0634 -0.003,1.8412 -0.005,0.7779 -0.58965,1.5585 -1.75943,2.2338 l -53.66262,30.982 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
        id="path10998"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csccccscccc" />
+       sodipodi:nodetypes="csccccscccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="ccccccccc"
        inkscape:connector-curvature="0"
        id="path11000"
        d="m 326.2918,1047.9077 c -2.30144,-1.3287 -2.30144,-3.1004 0,-4.4291 l 53.69494,-31.0006 c 2.30145,-1.3288 5.37004,-1.3288 7.67149,0 l 15.34297,8.8582 c 2.30144,1.3288 2.30144,3.1004 0,4.4292 l -53.69494,31.0006 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)" />
+       style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="csccccscccc"
        inkscape:connector-curvature="0"
        id="path11002"
        d="m 356.97228,1067.3992 c -1.15072,-0.6643 -1.86156,-1.5632 -1.86156,-2.3383 0,-0.7751 0.007,-1.8235 0.007,-1.8235 l 55.41825,-31.4345 c 2.30145,-1.2446 5.37008,-1.2446 7.67148,0 l 24.91,13.8465 c 0,0 10e-4,1.0634 0,1.8412 0,0.7779 -0.5897,1.5585 -1.7594,2.2338 l -53.66266,30.982 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,0 z"
-       style="fill:url(#linearGradient11090);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)" />
+       style="fill:url(#linearGradient11090);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
        d="m 356.84103,1065.5452 c -2.30144,-1.3288 -2.30144,-3.1004 0,-4.4292 l 53.69494,-31.0006 c 2.30145,-1.3287 5.37008,-1.3287 7.67148,0 l 23.1853,13.3862 c 2.3015,1.3288 2.3015,3.1004 0,4.4292 l -53.6949,31.0006 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
        id="path11004"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <text
        transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
        sodipodi:linespacing="125%"
@@ -16593,7 +16641,10 @@
        y="1087.646"
        x="-855.98328"
        style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          y="1087.646"
          x="-855.98328"
          id="tspan11008"
@@ -16605,7 +16656,10 @@
        y="1125.9296"
        id="text11010"
        sodipodi:linespacing="125%"
-       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"><tspan
+       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan11012"
          x="-855.98315"
@@ -16622,11 +16676,17 @@
        inkscape:connector-curvature="0"
        id="path146178"
        d="m 433.42506,779.96897 -7.65765,4.43061 -42.19316,-24.36023 -7.67149,0 0,4.42913 42.19317,24.36024 -64.57781,37.11741 -7.6875,-4.4375 -7.65625,0 0,4.4375 7.65625,4.4375 -65.15625,37.625 -0.67437,4.97894 9.61187,-1.29144 40.875,-23.59375 7.6875,-4.4375 87.59304,-50.39866 0,-4.4375 7.65625,0 7.67288,-4.43062 0,-4.42913 z"
-       style="fill:#bf6dbf;fill-opacity:1;stroke:none" />
+       style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <g
        style="fill:#bf6dbf;fill-opacity:1"
        transform="translate(-26.234218,14.978633)"
-       id="g146180">
+       id="g146180"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -16700,7 +16760,10 @@
     <g
        id="g146190"
        transform="translate(-136.00457,72.74723)"
-       style="filter:url(#filter8417)">
+       style="filter:url(#filter8417)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          inkscape:connector-curvature="0"
          id="path146192"
@@ -16757,7 +16820,10 @@
        y="627.74939"
        id="text146208"
        sodipodi:linespacing="125%"
-       transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
+       transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan146210"
          x="955.33667"
@@ -16769,7 +16835,10 @@
        y="627.90643"
        x="1012.7664"
        style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          y="627.90643"
          x="1012.7664"
          id="tspan146214"
@@ -16779,7 +16848,10 @@
        d="m 444.9469,795.48078 -7.6875,-4.4375 -7.65625,0 0,4.4375 7.65625,4.4375 7.6875,4.4375 0,-4.4375 7.65625,0 z"
        id="path15479"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
   </g>
   <g
      style="display:inline"
@@ -16792,29 +16864,50 @@
        inkscape:connector-curvature="0"
        id="path7410"
        d="m 505.83559,863.02674 0,4.42913 -18.70959,10.80199 -7.59001,-0.047 0,-4.42913 18.62811,-10.75495 z"
-       style="fill:#df8888;fill-opacity:1;stroke:none" />
+       style="fill:#df8888;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="cccccc"
        style="fill:#8dc19d;fill-opacity:1;stroke:none"
        d="m 441.93167,860.12199 -12.24704,-7.07083 -7.75296,0.047 0,4.33506 12.32851,7.11787 z"
        id="path7432"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#df8888;fill-opacity:1;stroke:none"
        d="m 333.70959,766.68305 0,4.42913 L 330,773.25392 349.05256,784.39958 380,766.53207 l 7.40999,4.58011 7.67148,-4.42913 -7.67148,-4.32087 42.19316,-24.4685 7.67149,0 0.0682,4.4685 -88.29027,50.89567 -26.8502,-15.50197 -7.20236,4.15829 -7.59001,-0.047 0,-4.42913 18.62811,-10.75495 z"
        id="path10655"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccc" />
+       sodipodi:nodetypes="cccccccccccccccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        inkscape:connector-curvature="0"
        id="path9877"
        d="m 250.85755,767.81887 -22.98374,-13.2185 3.88004,-2.24016 -0.0443,-4.40354 -7.63338,-0.022 -3.87384,2.23657 -38.38814,-22.21457 3.83574,-2.21457 0,-4.42913 -7.67149,0 -3.83574,2.21456 -7.67148,4.42914 46.0289,26.5748 30.68594,17.71654 z"
        style="fill:#8dc19d;fill-opacity:1;stroke:none"
-       sodipodi:nodetypes="ccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <g
        transform="translate(-525.48226,281.25834)"
        style="filter:url(#filter8486)"
-       id="g7976">
+       id="g7976"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7810"
+         d="m 840.48226,547.26052 0,7.08661 -6.13718,-3.54331 z"
+         style="fill:#aeaeae;fill-opacity:1;stroke:none"
+         sodipodi:nodetypes="cccc" />
       <path
          sodipodi:nodetypes="cccc"
          style="fill:#aeaeae;fill-opacity:1;stroke:none"
@@ -16847,10 +16940,10 @@
          sodipodi:nodetypes="cccc" />
       <path
          style="fill:#d2d2d2;fill-opacity:1;stroke:none"
-         d="m 791.50858,476.14781 7.2103,0.17233 74.66008,45.84289 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -3.63915,2.16018 0.0614,-4.3937 -7.73286,4.3937 0,4.42914 -35.23498,20.34291 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -12.3282,-7.05551 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -7.61761,-4.46024 0.0442,-4.38688 -7.67154,-4.42913 -0.0442,4.38688 -7.67143,-4.42914 0.0442,-4.38688 -7.67148,-4.42915 -0.0442,4.38689 -7.67148,-4.42912 0.0442,-4.38688 -7.59653,-4.38583 -0.0442,4.38688 -11.58219,-6.68701 c -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
+         d="m 791.50858,476.14781 7.2103,0.17233 74.66008,45.84289 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -3.63915,2.16018 0.0614,-4.3937 -7.73286,4.3937 0,4.42914 -19.87217,11.06397 0,-4.42914 -8.1406,4.69998 0,4.42914 -7.22221,4.57896 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -12.3282,-7.05551 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -7.61761,-4.46024 0.0442,-4.38688 -7.67154,-4.42913 -0.0442,4.38688 -7.67143,-4.42914 0.0442,-4.38688 -7.67148,-4.42915 -0.0442,4.38689 -7.67148,-4.42912 0.0442,-4.38688 -7.59653,-4.38583 -0.0442,4.38688 -11.58219,-6.68701 c -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
          id="path7988"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccsccccccccccccccccccccccccscc" />
+         sodipodi:nodetypes="cccsccccccccccccccccccccccccccccscc" />
       <path
          sodipodi:nodetypes="ccccccccc"
          inkscape:connector-curvature="0"
@@ -16891,11 +16984,17 @@
        inkscape:connector-curvature="0"
        id="path15430"
        d="m 617.55453,841.97833 0,4.42913 -42.19316,24.36023 -7.59001,-0.047 0,-4.42913 42.11168,-24.31319 z"
-       style="fill:#df8888;fill-opacity:1;stroke:none" />
+       style="fill:#df8888;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <g
        id="g6955"
        style="filter:url(#filter8486)"
-       transform="translate(-353.67955,377.54196)">
+       transform="translate(-353.67955,377.54196)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          inkscape:connector-curvature="0"
          id="path6957"
@@ -16976,7 +17075,10 @@
     <g
        style="filter:url(#filter8486)"
        transform="translate(-669.37647,-230.19128)"
-       id="g10399">
+       id="g10399"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <text
          transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
          sodipodi:linespacing="125%"
@@ -16993,7 +17095,10 @@
     <g
        transform="translate(-678.72859,-221.90774)"
        style="filter:url(#filter8486)"
-       id="g10807">
+       id="g10807"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="cccc"
          style="fill:#aeaeae;fill-opacity:1;stroke:none"
@@ -17038,7 +17143,10 @@
     <g
        id="g10670"
        style="filter:url(#filter8486)"
-       transform="translate(-433.28963,-80.172865)">
+       transform="translate(-433.28963,-80.172865)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          inkscape:connector-curvature="0"
          id="path10672"
@@ -17089,7 +17197,10 @@
     <g
        transform="translate(-253.03405,23.803092)"
        style="filter:url(#filter8486)"
-       id="g8779">
+       id="g8779"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="cccc"
          style="fill:#aeaeae;fill-opacity:1;stroke:none"
@@ -17141,7 +17252,10 @@
   <g
      id="g146117"
      style="filter:url(#filter8486)"
-     transform="translate(-444.30056,-2.863755)">
+     transform="translate(-444.30056,-2.863755)"
+     inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300">
     <path
        inkscape:connector-curvature="0"
        id="path15471"
@@ -17181,7 +17295,10 @@
      style="display:inline">
     <g
        id="g10825"
-       transform="translate(-86.90341,50.710654)">
+       transform="translate(-86.90341,50.710654)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccscccccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -17241,7 +17358,10 @@
     </g>
     <g
        id="g10837"
-       transform="translate(-86.90341,50.710654)">
+       transform="translate(-86.90341,50.710654)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          style="fill:#cccccc;fill-opacity:1;stroke:none"
          d="m 161.16256,906.19684 c -2.30145,1.32872 -2.18581,3.16714 0,4.42913 l 22.98036,13.30708 c 2.50537,1.45077 5.46912,1.27154 7.67148,0 l 7.64421,-4.44488 L 215,928.461 l 22.81603,-13.40197 0,-4.42913 -7.67148,0 -15.34297,8.85827 -7.67149,-4.42914 7.67149,-4.42913 c 2.30145,-1.32874 2.30145,-3.10039 0.058,-4.4626 -0.033,-0.21547 -23.03836,-13.27363 -23.03836,-13.27363 -2.30145,-1.32873 -5.37004,-1.32873 -7.72401,-0.0303 l -7.61896,4.45944 -7.67149,-4.42913 15.30888,-8.83858 0,-4.42914 -7.67149,0 -23.01445,13.2874 15.37706,8.83859 z"
@@ -17301,7 +17421,10 @@
     </g>
     <g
        id="g11014"
-       transform="translate(92.340219,150.14537)">
+       transform="translate(92.340219,150.14537)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          style="fill:#cccccc;fill-opacity:1;stroke:none"
          d="m 161.16256,906.19684 c -2.30145,1.32872 -2.18581,3.16714 0,4.42913 l 22.98036,13.30708 c 2.50537,1.45077 5.46912,1.27154 7.67148,0 l 7.64421,-4.44488 L 215,928.461 l 22.81603,-13.40197 0,-4.42913 -7.67148,0 -15.34297,8.85827 -7.67149,-4.42914 7.67149,-4.42913 c 2.30145,-1.32874 2.30145,-3.10039 0.058,-4.4626 -0.033,-0.21547 -23.03836,-13.27363 -23.03836,-13.27363 -2.30145,-1.32873 -5.37004,-1.32873 -7.72401,-0.0303 l -7.61896,4.45944 -7.67149,-4.42913 15.30888,-8.83858 0,-4.42914 -7.67149,0 -23.01445,13.2874 15.37706,8.83859 z"
@@ -17361,7 +17484,10 @@
     </g>
     <g
        id="g11036"
-       transform="translate(92.340219,150.14537)">
+       transform="translate(92.340219,150.14537)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccscccccccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -17431,35 +17557,53 @@
        inkscape:connector-curvature="0"
        id="path6109"
        d="m 93.376481,928.12205 7.671479,0 0,4.42913 16.11012,9.30118 c 1.5343,0.88583 4.60289,0.88583 6.13719,0 l 70.57766,-40.74802 c 1.5343,-0.88583 1.5343,-2.65748 0,-3.54331 0,0 -69.77635,-40.32485 -69.81051,-40.30513 -1.53429,-0.88582 -6.13718,-0.88582 -7.67148,0 l -69.04336,39.86221 c -1.5343,0.88583 -1.5343,3.5433 0,4.42913 z"
-       style="fill:#ffe1ee;fill-opacity:1;stroke:none" />
+       style="fill:#ffe1ee;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#ff69a8;fill-opacity:1;stroke:none"
        d="m 139.47701,866.07279 30.61041,-17.72778 -0.0197,-4.41776 -7.67149,0 -30.66229,17.75775"
        id="path7237"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#ffe1ee;fill-opacity:1;stroke:none"
        d="m 185.43429,892.68897 30.66229,-17.75774 0,-4.40158 -7.62375,0 -30.71003,17.73019"
        id="path7235"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#ffb9d7;fill-opacity:1;stroke:none"
        d="m 170.11497,883.89947 30.66229,-17.7853 0,-4.42913 -7.67148,0 -30.68594,17.71653"
        id="path7233"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#ff91c0;fill-opacity:1;stroke:none"
        d="m 154.77199,875.01365 30.6623,-17.75775 0.0716,-4.47047 -7.74309,0.0413 -30.66229,17.75774"
        id="path7229"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <g
        id="g10749"
        style="stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
-       transform="translate(-194.9821,-16.760907)">
+       transform="translate(-194.9821,-16.760907)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="csccccscccc"
          inkscape:connector-curvature="0"
@@ -17487,7 +17631,10 @@
     </g>
     <g
        id="g11107"
-       transform="translate(-171.3636,1.9475552)">
+       transform="translate(-171.3636,1.9475552)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <text
          xml:space="preserve"
          style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
@@ -17518,11 +17665,17 @@
        d="m 272.56537,1028.456 7.67149,0 0,4.4291 16.11012,9.3012 c 1.5343,0.8858 4.60289,0.8858 6.13719,0 l 70.57766,-40.748 c 1.5343,-0.8859 1.5343,-2.65747 0,-3.54338 0,0 -69.77635,-40.32483 -69.81051,-40.30511 -1.53429,-0.88582 -6.13718,-0.88582 -7.67148,0 l -69.04337,39.86221 c -1.5343,0.88581 -1.5343,3.54328 0,4.42918 z"
        id="path11058"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccc" />
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <g
        transform="translate(-18.524268,82.523651)"
        style="stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
-       id="g11068">
+       id="g11068"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          style="fill:url(#linearGradient11096);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          d="m 257.26269,919.2071 c -1.15072,-0.66438 -1.86156,-1.56323 -1.86156,-2.33833 0,-0.7751 0.007,-1.82349 0.007,-1.82349 l 55.41825,-31.43449 c 2.30145,-1.24459 5.37004,-1.24459 7.67149,0 l 17.06762,9.3185 c 0,0 10e-4,1.06339 -0.003,1.84123 -0.005,0.77785 -0.58965,1.55845 -1.75943,2.23382 l -53.66262,30.98194 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
@@ -17550,7 +17703,10 @@
     </g>
     <g
        transform="translate(-7.2835881,92.787874)"
-       id="g11078">
+       id="g11078"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <text
          transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
          sodipodi:linespacing="125%"
@@ -17581,25 +17737,37 @@
        inkscape:connector-curvature="0"
        id="path11466"
        d="m 318.93479,965.56985 30.61041,-17.72778 -0.0197,-4.41776 -7.67149,0 -30.66229,17.75775"
-       style="fill:#ff69a8;fill-opacity:1;stroke:none" />
+       style="fill:#ff69a8;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path11468"
        d="m 349.57275,983.39653 30.66229,-17.7853 0,-4.42913 -7.67148,0 -30.68594,17.71653"
-       style="fill:#ffb9d7;fill-opacity:1;stroke:none" />
+       style="fill:#ffb9d7;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path11470"
        d="m 334.22977,974.51071 30.6623,-17.75775 0.0716,-4.47047 -7.74309,0.0413 -30.66229,17.75774"
-       style="fill:#ff91c0;fill-opacity:1;stroke:none" />
+       style="fill:#ff91c0;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path11472"
        d="m 364.65326,991.94723 30.66229,-17.75775 0,-4.40158 -7.62375,0 -30.71003,17.73019"
-       style="fill:#ffe1ee;fill-opacity:1;stroke:none" />
+       style="fill:#ffe1ee;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -17608,7 +17776,10 @@
     <g
        style="display:inline;filter:url(#filter8417-8)"
        transform="translate(43.320748,-136.00747)"
-       id="g11290">
+       id="g11290"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccccc"
          style="fill:#aeaeae;fill-opacity:1;stroke:none"
@@ -17665,7 +17836,10 @@
        y="357.29996"
        x="850.11627"
        style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          y="357.29996"
          x="850.11627"
          id="tspan11310"
@@ -17677,7 +17851,10 @@
        y="357.457"
        id="text11312"
        sodipodi:linespacing="125%"
-       transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
+       transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan11314"
          x="907.54608"
@@ -19867,7 +20044,10 @@
     </g>
     <g
        id="g6123"
-       transform="matrix(0.85686509,0,0,0.85686509,-25.458026,104.76862)">
+       transform="matrix(0.85686509,0,0,0.85686509,-25.458026,104.76862)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <use
          x="0"
          y="0"
@@ -20083,7 +20263,10 @@
     </g>
     <g
        transform="translate(-758.62185,524.1183)"
-       id="g8499">
+       id="g8499"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g8501"
          transform="translate(-7.6714829,-3.5433075)"
@@ -20141,7 +20324,10 @@
     </g>
     <g
        transform="matrix(0.85686509,0,0,0.85686509,2.0803504,120.02033)"
-       id="g6379">
+       id="g6379"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g6485"
          transform="matrix(1.1412238,0,0,1.1412238,-831.98785,360.77258)"
@@ -20557,7 +20743,10 @@
     </g>
     <g
        id="g6555"
-       transform="matrix(0.85686509,0,0,0.85686509,29.303968,135.3999)">
+       transform="matrix(0.85686509,0,0,0.85686509,29.303968,135.3999)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          style="filter:url(#filter15724)"
          transform="matrix(1.1412238,0,0,1.1412238,-828.90612,352.83285)"
@@ -20957,7 +21146,10 @@
     </g>
     <g
        transform="matrix(0.85686509,0,0,0.85686509,146.34468,201.05224)"
-       id="g6981">
+       id="g6981"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <use
          height="744.09448"
          width="1052.3622"
@@ -21109,7 +21301,10 @@
     </g>
     <g
        id="g7039"
-       transform="matrix(0.85686509,0,0,0.85686509,173.88306,216.30395)">
+       transform="matrix(0.85686509,0,0,0.85686509,173.88306,216.30395)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          style="filter:url(#filter15724)"
          transform="matrix(1.1412238,0,0,1.1412238,-831.98785,360.77258)"
@@ -21525,7 +21720,10 @@
     </g>
     <g
        transform="matrix(0.85686509,0,0,0.85686509,201.10668,231.68352)"
-       id="g7201">
+       id="g7201"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g7203"
          transform="matrix(1.1412238,0,0,1.1412238,-828.90612,352.83285)"
@@ -21932,7 +22130,10 @@
      inkscape:label="Islas Edicion">
     <g
        id="g11064"
-       transform="translate(-75.180555,40.998032)">
+       transform="translate(-75.180555,40.998032)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -21984,6 +22185,18 @@
          d="m 382.03995,723.72045 -46.64263,-26.92913 7.67149,-4.42914 54.31411,31.35827 -11.50723,6.6437 -7.67148,0 0,-4.42913 z"
          id="path10651"
          inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path7806"
+         d="m 293.81787,747.83069 -153.4297,-79.72441 1e-5,-4.42914 7.67148,0 153.4297,79.72441 z"
+         style="fill:#df8888;fill-opacity:1;stroke:none"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         style="fill:#df8888;fill-opacity:1;stroke:none"
+         d="m 464.48283,846.36415 -78.28325,-45.57086 2e-5,-4.42914 7.67147,0 78.28326,45.57086 z"
+         id="path7808"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -21995,11 +22208,17 @@
          d="m 494.8125,753.42395 -15.5,-8.8125 -7.53125,-0.0625 0,4.40625 7.75,4.46875 -7.73493,4.40084 -3.82895,-2.25001 c -2.30145,-1.32873 -4.56336,-1.65909 -6.91733,-0.36066 l -7.61896,4.45944 -7.6715,4.42914 -11.7598,6.4354 c -2.30145,1.32872 -2.69281,3.71011 -0.507,4.9721 l 3.83574,2.21457 7.67148,0.0622 0,4.36692 3.83575,2.21456 c 2.50723,1.44754 9.55784,-0.73475 11.7602,-2.00629 l 7.67148,-4.42913 7.6711,-4.42909 7.67149,-4.42913 c 2.30145,-1.32874 2.30145,-3.10039 0.058,-4.4626 -0.008,-0.0539 -4.20022,-2.35829 -4.20022,-2.35829 z"
          id="path8806"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccccccccccccsccccccc" />
+         sodipodi:nodetypes="cccccccccccccccsccccccc"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <g
          style="display:inline"
          id="g8228-4"
-         transform="translate(58.841651,-126.95061)">
+         transform="translate(58.841651,-126.95061)"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
         <g
            transform="translate(-50.310919,378.99346)"
            id="g10969-4-8"
@@ -22065,11 +22284,17 @@
          inkscape:connector-curvature="0"
          id="path7471"
          d="m 368.28513,684.71159 19.08147,11.12897 7.91853,0.14263 -0.24704,-4.16822 -27.01386,-16 -15.19861,8.98957 -3.82895,-2.25001 c -2.30145,-1.32873 -4.56336,-1.65909 -6.91733,-0.36066 l -7.61896,4.45944 -7.6715,4.42914 -11.7598,6.4354 c -2.30145,1.32872 -2.69281,3.71011 -0.507,4.9721 l 3.83574,2.21457 7.67148,0.0622 0,4.36692 3.83575,2.21456 c 2.50723,1.44754 9.55784,-0.73475 11.7602,-2.00629 l 7.67148,-4.42913 7.6711,-4.42909 7.67149,-4.42913 c 2.30145,-1.32874 2.30145,-3.10039 0.058,-4.4626 -0.008,-0.0539 -4.20022,-2.35829 -4.20022,-2.35829 z"
-         style="fill:#87de87;fill-opacity:1;stroke:none" />
+         style="fill:#87de87;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <g
          transform="translate(-60.129056,-199.97086)"
          id="g7473"
-         style="display:inline">
+         style="display:inline"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
         <g
            style="display:inline"
            id="g7475"
@@ -22134,7 +22359,10 @@
     <g
        transform="translate(-121.58719,14.496997)"
        style="display:inline"
-       id="g11064-0">
+       id="g11064-0"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -22189,7 +22417,10 @@
     </g>
     <g
        id="g15395"
-       transform="translate(247.37381,184.36301)">
+       transform="translate(247.37381,184.36301)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          style="fill:#df8888;fill-opacity:1;stroke:none"
          d="m 293.64854,693.07873 c -2.30145,1.32872 -2.30145,3.10038 0,4.42913 l 0.32456,0.21694 7.34691,4.24174 15.34297,8.85826 c 2.30145,1.32874 5.46912,1.27154 7.67148,0 l 7.67149,-4.42175 0,-4.43651 7.67148,0 15.34297,-8.82875 c 2.30145,-1.32874 2.30145,-3.10039 0.058,-4.4626 l -23.07245,-13.28346 c -2.30145,-1.32873 -5.37004,-1.32873 -7.72401,-0.0303 l -4.10916,2.05669 0,4.42913 -7.67149,0 z"
@@ -22238,7 +22469,10 @@
     </g>
     <g
        id="g6907"
-       transform="translate(4.3988407,2.377927)">
+       transform="translate(4.3988407,2.377927)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
@@ -22333,7 +22567,10 @@
     </g>
     <g
        id="g6923"
-       transform="translate(-157.22519,-99.909067)">
+       transform="translate(-157.22519,-99.909067)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          style="fill:#87aade;fill-opacity:1;stroke:none;display:inline"
          d="m 567.27466,821.80749 0,4.42913 -42.19316,24.36023 -7.59001,-0.047 0,-4.42913 42.11168,-24.31319 z"
@@ -22392,7 +22629,10 @@
     </g>
     <g
        transform="translate(90.108369,146.55002)"
-       id="g7412">
+       id="g7412"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="cccccccccccccc"
          inkscape:connector-curvature="0"
@@ -22441,7 +22681,10 @@
     </g>
     <g
        transform="translate(98.337022,146.22835)"
-       id="g7434">
+       id="g7434"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          inkscape:connector-curvature="0"
          id="path7452"
@@ -22451,7 +22694,10 @@
     </g>
     <g
        transform="translate(-386.65562,-218.88322)"
-       id="g7738">
+       id="g7738"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
@@ -22521,10 +22767,10 @@
            y="296.26752" /></text>
       <path
          style="fill:#87aade;fill-opacity:1;stroke:none;display:inline"
-         d="m 540.08532,887.29282 -10.2799,-1.26975 -35.749,-20.87591 1.58506,-3.59664 3.83574,-2.21457 36.77232,21.31319 z"
+         d="m 540.08532,887.29282 -10.2799,-1.26975 -16.5703,-9.77767 -15.34297,7.45079 -7.67148,0 0,-4.42913 16.43495,-9.48873 7.03979,-3.53293 22.55413,14.40374 z"
          id="path7772"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccc" />
+         sodipodi:nodetypes="cccccccccc" />
     </g>
   </g>
   <g
@@ -22535,7 +22781,10 @@
     <g
        style="display:inline"
        id="g8228-1"
-       transform="matrix(-1,0,0,-1,534.59915,1206.555)">
+       transform="matrix(-1,0,0,-1,534.59915,1206.555)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g8750">
         <path
@@ -22600,7 +22849,10 @@
     <g
        transform="matrix(-1,0,0,-1,454.57704,1115.4526)"
        id="g7780"
-       style="display:inline">
+       style="display:inline"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g7782">
         <path
@@ -22710,7 +22962,10 @@
     <g
        id="g11606"
        transform="matrix(0.31948518,-0.18445485,0.36890886,0.21299062,81.895262,505.18959)"
-       style="filter:url(#filter12861)">
+       style="filter:url(#filter12861)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          transform="translate(11.821502,-12.300896)"
          style="fill:url(#linearGradient12433);fill-opacity:1;stroke:#8a8a8a;stroke-width:0.09584034;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -22948,7 +23203,10 @@
     <g
        style="filter:url(#filter12861)"
        transform="matrix(0.45176462,-0.26082642,0.52165165,0.30117712,-353.1358,536.486)"
-       id="g13143">
+       id="g13143"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="ccssscc"
          inkscape:connector-curvature="0"
@@ -23188,7 +23446,8 @@
        transform="matrix(0.34960004,0,0,0.34960004,396.02184,429.22664)"
        style="filter:url(#filter146230)"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300">
+       inkscape:export-ydpi="300"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png">
       <g
          transform="matrix(0.53869414,0.3110152,-0.62202896,0.35913026,-1037.0063,-856.75117)"
          id="g25945">
@@ -23372,7 +23631,10 @@
        transform="translate(-913.84808,888.76497)" />
     <g
        transform="matrix(0.06502287,0,0,0.06502287,432.75794,359.87319)"
-       id="g125678">
+       id="g125678"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g126582"
          transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,-441.99912,390.66866)">
@@ -23554,7 +23816,10 @@
     </g>
     <g
        id="g131291"
-       transform="matrix(0.03754106,0.03251143,-0.06502272,0.05631146,-27.426354,552.17405)">
+       transform="matrix(0.03754106,0.03251143,-0.06502272,0.05631146,-27.426354,552.17405)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,-441.99912,390.66866)"
          id="g131293">
@@ -23599,7 +23864,10 @@
     </g>
     <g
        id="g10666"
-       transform="matrix(0.03754106,0.03251143,-0.06502272,0.05631146,-63.998896,554.08663)">
+       transform="matrix(0.03754106,0.03251143,-0.06502272,0.05631146,-63.998896,554.08663)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,-441.99912,390.66866)"
          id="g10668">
@@ -23644,7 +23912,10 @@
     </g>
     <g
        id="g22282"
-       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,170.02291,159.50015)">
+       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,170.02291,159.50015)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          id="g131361"
          transform="matrix(0.03754106,0.03251143,-0.06502272,0.05631146,-48.403647,486.65877)">
@@ -23701,7 +23972,10 @@
     </g>
     <g
        id="g22357"
-       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,-288.34559,-67.087757)">
+       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,-288.34559,-67.087757)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          transform="matrix(0.03754106,0.03251143,-0.06502272,0.05631146,-10.936507,486.51298)"
          id="g131431">
@@ -23759,7 +24033,10 @@
     <g
        id="g15259"
        transform="matrix(0.45176462,-0.26082642,0.52165165,0.30117712,-177.1716,635.44512)"
-       style="filter:url(#filter12861)">
+       style="filter:url(#filter12861)"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          transform="translate(11.821502,-12.300896)"
          style="fill:url(#linearGradient15351);fill-opacity:1;stroke:#8a8a8a;stroke-width:0.09584034;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -23999,10 +24276,15 @@
        id="path10813"
        d="m 187.94605,278.62103 0,7.08661 6.13718,-3.54331 z"
        style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <g
        id="g7709"
-       transform="translate(-72.033367,43.278517)">
+       transform="translate(-72.033367,43.278517)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          sodipodi:nodetypes="cccc"
          style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
