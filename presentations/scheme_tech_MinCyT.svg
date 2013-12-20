@@ -4079,15 +4079,15 @@
        inkscape:menu-tooltip="3D warped, fibered wood texture"
        inkscape:menu="Materials"
        inkscape:label="3D wood"
-       height="1.5"
+       height="3.03"
        y="-0.25"
-       width="1.5"
+       width="3"
        x="-0.25"
        color-interpolation-filters="sRGB">
       <feGaussianBlur
          id="feGaussianBlur6852"
          result="result8"
-         stdDeviation="4" />
+         stdDeviation="24 66.516050808314091" />
       <feTurbulence
          id="feTurbulence6854"
          baseFrequency="0.025 0.2"
@@ -15919,66 +15919,6 @@
        y2="601.5459" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient7680"
-       id="linearGradient14773"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
-       x1="439.43002"
-       y1="408.56979"
-       x2="450.49576"
-       y2="408.65839" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient7686"
-       id="linearGradient14775"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
-       x1="439.43002"
-       y1="408.56979"
-       x2="450.49576"
-       y2="408.65839" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient7692"
-       id="linearGradient14777"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
-       x1="439.43002"
-       y1="408.56979"
-       x2="450.49576"
-       y2="408.65839" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient7714"
-       id="linearGradient14779"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
-       x1="439.43002"
-       y1="408.56979"
-       x2="450.49576"
-       y2="408.65839" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient7708"
-       id="linearGradient14781"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
-       x1="439.43002"
-       y1="408.56979"
-       x2="450.49576"
-       y2="408.65839" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient7702"
-       id="linearGradient14783"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
-       x1="439.43002"
-       y1="408.56979"
-       x2="450.49576"
-       y2="408.65839" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient30472"
        id="linearGradient14785"
        gradientUnits="userSpaceOnUse"
@@ -16037,6 +15977,208 @@
        y1="601.6709"
        x2="278.79733"
        y2="601.5459" />
+    <filter
+       id="filter12692"
+       inkscape:menu-tooltip="3D warped, fibered wood texture"
+       inkscape:menu="Materials"
+       inkscape:label="3D wood"
+       height="1.5"
+       y="-0.25"
+       width="1.5"
+       x="-0.25"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur12694"
+         result="result8"
+         stdDeviation="56.969477611940292" />
+      <feTurbulence
+         id="feTurbulence12696"
+         baseFrequency="0.025 0.2"
+         numOctaves="3"
+         type="fractalNoise"
+         result="result7"
+         seed="22" />
+      <feComposite
+         id="feComposite12698"
+         in2="result8"
+         operator="in"
+         in="SourceGraphic"
+         result="result6" />
+      <feDisplacementMap
+         id="feDisplacementMap12700"
+         in2="result6"
+         result="result4"
+         scale="50"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in="result7" />
+      <feFlood
+         id="feFlood12702"
+         flood-color="rgb(230,211,138)"
+         flood-opacity="1"
+         in="result4"
+         result="result9" />
+      <feComposite
+         id="feComposite12704"
+         in2="result4"
+         operator="atop"
+         result="result2" />
+      <feComposite
+         id="feComposite12706"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result2"
+         result="result9" />
+      <feGaussianBlur
+         id="feGaussianBlur12708"
+         result="result0"
+         in="result9"
+         stdDeviation="8" />
+      <feSpecularLighting
+         id="feSpecularLighting12710"
+         specularExponent="15"
+         specularConstant="0.69999999"
+         surfaceScale="5"
+         lighting-color="#ffffff"
+         result="result1"
+         in="result0">
+        <feDistantLight
+           id="feDistantLight12712"
+           azimuth="235"
+           elevation="50" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite12714"
+         in2="result9"
+         operator="in"
+         result="result2"
+         in="result1" />
+      <feComposite
+         id="feComposite12716"
+         in2="result2"
+         k3="0.5"
+         k2="0.5"
+         operator="arithmetic"
+         result="result4"
+         in="result9"
+         k1="0"
+         k4="0" />
+      <feConvolveMatrix
+         id="feConvolveMatrix12718"
+         order="3 3"
+         kernelMatrix="2 0 0 0 2 0 0 0 -2 "
+         targetX="2"
+         targetY="2"
+         result="result10" />
+      <feBlend
+         id="feBlend12720"
+         in2="result10"
+         mode="multiply"
+         in="result10" />
+    </filter>
+    <filter
+       id="filter13854"
+       inkscape:label="Inner Shadow"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Adds a colorizable drop shadow inside"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur13856"
+         stdDeviation="4"
+         result="result8" />
+      <feOffset
+         id="feOffset13858"
+         dx="-38.989898989898983"
+         dy="-53.535353535353536"
+         result="result11" />
+      <feComposite
+         id="feComposite13860"
+         in2="result11"
+         result="result6"
+         in="SourceGraphic"
+         operator="in" />
+      <feFlood
+         id="feFlood13862"
+         result="result10"
+         in="result6"
+         flood-opacity="0.21526418786692758"
+         flood-color="rgb(0,0,0)" />
+      <feBlend
+         id="feBlend13864"
+         in2="result10"
+         mode="normal"
+         in="result6"
+         result="result12" />
+      <feComposite
+         id="feComposite13866"
+         in2="SourceGraphic"
+         result="result2"
+         operator="arithmetic"
+         k1="1.5555556"
+         k2="0"
+         k3="0"
+         k4="0" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7714"
+       id="linearGradient15047"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
+       x1="439.43002"
+       y1="408.56979"
+       x2="450.49576"
+       y2="408.65839" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7708"
+       id="linearGradient15049"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
+       x1="439.43002"
+       y1="408.56979"
+       x2="450.49576"
+       y2="408.65839" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7702"
+       id="linearGradient15051"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
+       x1="439.43002"
+       y1="408.56979"
+       x2="450.49576"
+       y2="408.65839" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7680"
+       id="linearGradient15053"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
+       x1="439.43002"
+       y1="408.56979"
+       x2="450.49576"
+       y2="408.65839" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7686"
+       id="linearGradient15055"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
+       x1="439.43002"
+       y1="408.56979"
+       x2="450.49576"
+       y2="408.65839" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7692"
+       id="linearGradient15057"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98069241,0,0,1.0002359,8.5755408,1.2031437)"
+       x1="439.43002"
+       y1="408.56979"
+       x2="450.49576"
+       y2="408.65839" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -16045,11 +16187,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.81296166"
-     inkscape:cx="440.35058"
-     inkscape:cy="395.35758"
+     inkscape:zoom="1.1526792"
+     inkscape:cx="495.3109"
+     inkscape:cy="440.76642"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="svg2"
      showgrid="true"
      inkscape:snap-global="true"
      objecttolerance="20"
@@ -16058,7 +16200,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:object-paths="false"
      inkscape:object-nodes="false"
@@ -17536,7 +17678,7 @@
     </g>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Outputs"
      inkscape:groupmode="layer"
      id="g10787"
@@ -17911,7 +18053,7 @@
     </g>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      transform="translate(170.07524,-118.29609)"
      id="g8317"
      inkscape:groupmode="layer"
@@ -18174,7 +18316,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Islas Gráficas"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
@@ -18350,7 +18492,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Estudios"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
@@ -18595,618 +18737,6 @@
     </g>
   </g>
   <g
-     style="display:inline"
-     transform="translate(170.07524,-118.29609)"
-     id="g7708"
-     inkscape:groupmode="layer"
-     inkscape:label="DAM"
-     sodipodi:insensitive="true">
-    <g
-       id="g23159">
-      <path
-         inkscape:connector-curvature="0"
-         id="path7806"
-         d="m 216.63732,786.82872 -149.593965,-86.36811 10e-6,-4.42914 7.67148,0 149.593965,86.36811 z"
-         style="fill:#ffea87;fill-opacity:1;stroke:none"
-         sodipodi:nodetypes="cccccc" />
-      <path
-         style="fill:#ffea87;fill-opacity:1;stroke:none"
-         d="m 335.24389,847.29328 -7.67149,4.42914 65.7401,37.63903 7.65625,-4.4375 z"
-         id="path7421"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         style="fill:#ffea87;fill-opacity:1;stroke:none"
-         d="m 310.375,837.36145 0.3125,4.625 6.14483,3.53518 7.67148,-4.42913 -6.12881,-3.54355 z"
-         id="path7808"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccc" />
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer10"
-       inkscape:label="Radio Storage"
-       style="display:inline">
-      <g
-         id="g23676">
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           style="fill:#df8888;fill-opacity:1;stroke:none"
-           d="m 505.83559,863.02674 0,4.42913 -18.70959,10.80199 -7.59001,-0.047 0,-4.42913 18.62811,-10.75495 z"
-           id="path7410"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccccc" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           inkscape:connector-curvature="0"
-           id="path7432"
-           d="m 431.93167,866.12199 -12.24704,-7.07083 -7.75296,0.047 0,4.33506 12.32851,7.11787 z"
-           style="fill:#8dc19d;fill-opacity:1;stroke:none"
-           sodipodi:nodetypes="cccccc" />
-        <g
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           transform="translate(-347.67955,381.54196)"
-           style="filter:url(#filter8486)"
-           id="g6955">
-          <path
-             sodipodi:nodetypes="cccc"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline"
-             d="m 841.00716,547.27692 0,7.08661 -6.13718,-3.54331 z"
-             id="path6957-5"
-             inkscape:connector-curvature="0" />
-          <path
-             sodipodi:nodetypes="cccc"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 867.67955,531.81856 0,7.08661 -6.13718,-3.54331 z"
-             id="path6957"
-             inkscape:connector-curvature="0" />
-          <path
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 752.87861,517.98163 0,7.08661 6.13718,-3.54331 z"
-             id="path6959"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cccc" />
-          <path
-             inkscape:connector-curvature="0"
-             id="path6961"
-             d="m 768.29659,526.79658 0,7.08661 6.13718,-3.54331 z"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             sodipodi:nodetypes="cccc" />
-          <path
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 783.63955,535.65485 0,7.08661 6.13718,-3.54331 z"
-             id="path6963"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cccc" />
-          <path
-             inkscape:connector-curvature="0"
-             id="path6965"
-             d="m 798.9287,544.54423 0,7.08661 6.13718,-3.54331 z"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             sodipodi:nodetypes="cccc" />
-          <path
-             style="fill:#d2d2d2;fill-opacity:1;stroke:none"
-             d="m 791.50858,476.14781 7.2103,0.17233 74.66008,45.84289 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.60516,4.23397 -1.75589,4.89834 l -3.96242,2.2877 0,-4.42913 -7.54481,4.35599 0,4.42914 -19.17871,11.07283 0,-4.42913 -7.67149,4.42913 0,4.48622 -7.67148,4.37205 c -1.53429,0.88582 -5.09659,0.77793 -6.63088,-0.10789 l -12.3282,-7.05551 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -7.61761,-4.46024 0.0442,-4.38688 -7.67154,-4.42913 -0.0442,4.38688 -7.67143,-4.42914 0.0442,-4.38688 -7.67148,-4.42915 -0.0442,4.38689 -7.67148,-4.42912 0.0442,-4.38688 -7.59653,-4.38583 -0.0442,4.38688 -11.58219,-6.68701 c -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
-             id="path6967"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cccsccccccccccccccccccccccccccccscc" />
-          <g
-             id="g6971"
-             transform="translate(-72.264515,32.380936)">
-            <text
-               xml:space="preserve"
-               style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-               x="972.19202"
-               y="-12.260578"
-               id="text6973"
-               sodipodi:linespacing="125%"
-               transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
-                 sodipodi:role="line"
-                 id="tspan6975"
-                 x="972.19202"
-                 y="-12.260578">STORAGE</tspan></text>
-            <text
-               transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-               sodipodi:linespacing="125%"
-               id="text6977"
-               y="-3.0855355"
-               x="952.94775"
-               style="font-size:6px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-               xml:space="preserve"><tspan
-                 y="-3.0855355"
-                 x="952.94775"
-                 id="tspan6979"
-                 sodipodi:role="line">DIGITAL ASSET MANAGER</tspan></text>
-          </g>
-          <path
-             sodipodi:nodetypes="ccccccccc"
-             inkscape:connector-curvature="0"
-             id="path6969"
-             d="m 798.89565,476.32015 73,42.08436 c 2.24757,1.35984 2.24757,7.56063 0,8.85826 l -46.77621,26.96334 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -78.18991,-45.12475 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
-             style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
-        </g>
-        <g
-           transform="translate(0,308.77582)"
-           id="g22336">
-          <path
-             style="fill:#93bbcb;fill-opacity:1;stroke:none;display:inline"
-             d="m 522.48711,622.28789 7.6875,-4.4375 -6.19618,-3.52953 -7.6875,0 0,4.4375 z"
-             id="path7327"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cccccc" />
-          <path
-             style="fill:#93bbcb;fill-opacity:1;stroke:none;display:inline"
-             d="M 675.06859,531.48332 675,535.97754 667.41918,536.09448 702,555.82215 l -139.48941,80.7091 -21.67091,-12.43677 -7.6875,4.4375 29.35841,16.84302 155.1858,-89.28052 z"
-             id="path23498"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cccccccccc" />
-        </g>
-      </g>
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer19"
-       inkscape:label="TV Storage"
-       style="display:inline">
-      <g
-         id="g23717">
-        <path
-           transform="translate(0,308.2677)"
-           sodipodi:nodetypes="ccccccccccccc"
-           inkscape:connector-curvature="0"
-           id="path15144"
-           d="m 370,450.75047 -28.61892,16.52315 -15.34297,-8.85827 3.96189,-2.2874 0,-4.28347 -7.79764,-0.0728 -19.17871,11.07283 0.1951,5.19125 7.47639,-0.76211 7.67148,-4.42914 23.01446,13.2874 36.31905,-20.96881 z"
-           style="fill:#df8888;fill-opacity:1;stroke:none" />
-        <path
-           sodipodi:nodetypes="cccccc"
-           inkscape:connector-curvature="0"
-           transform="translate(0,308.2677)"
-           id="path10655"
-           d="m 421.93167,420.76771 -40.40316,23.32677 7.63739,4.40945 40.43725,-23.30709 0,-4.42913 z"
-           style="fill:#df8888;fill-opacity:1;stroke:none" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           sodipodi:nodetypes="ccccccccccccccc"
-           style="fill:#8dc19d;fill-opacity:1;stroke:none"
-           d="m 254.06277,767.00713 -34.18896,-20.40676 3.88004,-2.24016 -0.0443,-4.40354 -7.63338,-0.022 -3.87384,2.23657 -38.38814,-22.21457 3.83574,-2.21457 0,-4.42913 -7.67149,0 -3.83574,2.21456 -7.67148,4.42914 46.0289,26.5748 41.89116,24.9048 z"
-           id="path9877"
-           inkscape:connector-curvature="0" />
-        <g
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           id="g7976"
-           style="filter:url(#filter8486)"
-           transform="translate(-525.48226,281.25834)">
-          <path
-             sodipodi:nodetypes="cccc"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 840.48226,547.26052 0,7.08661 -6.13718,-3.54331 z"
-             id="path7810"
-             inkscape:connector-curvature="0" />
-          <path
-             inkscape:connector-curvature="0"
-             id="path9875"
-             d="m 868.02589,531.22572 0,7.08661 -6.13718,-3.54331 z"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             sodipodi:nodetypes="cccc" />
-          <path
-             sodipodi:nodetypes="cccc"
-             inkscape:connector-curvature="0"
-             id="path7980"
-             d="m 752.87861,517.98163 0,7.08661 6.13718,-3.54331 z"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none" />
-          <path
-             sodipodi:nodetypes="cccc"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 768.29659,526.79658 0,7.08661 6.13718,-3.54331 z"
-             id="path7982"
-             inkscape:connector-curvature="0" />
-          <path
-             sodipodi:nodetypes="cccc"
-             inkscape:connector-curvature="0"
-             id="path7984"
-             d="m 783.63955,535.65485 0,7.08661 6.13718,-3.54331 z"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none" />
-          <path
-             sodipodi:nodetypes="cccc"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 798.9287,544.54423 0,7.08661 6.13718,-3.54331 z"
-             id="path7986"
-             inkscape:connector-curvature="0" />
-          <path
-             sodipodi:nodetypes="cccsccccccccccccccccccccccccccccscc"
-             inkscape:connector-curvature="0"
-             id="path7988"
-             d="m 791.50858,475.80368 7.2103,0.17233 74.66008,45.84289 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -3.63915,2.16018 0.0614,-4.3937 -7.73286,4.3937 0,4.42914 -19.87217,11.06397 0,-4.42914 -8.1406,4.69998 0,4.42914 -7.22221,4.57896 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -12.3282,-7.05551 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -7.61761,-4.46024 0.0442,-4.38688 -7.67154,-4.42913 -0.0442,4.38688 -7.67143,-4.42914 0.0442,-4.38688 -7.67148,-4.42915 -0.0442,4.38689 -7.67148,-4.42912 0.0442,-4.38688 -7.59653,-4.38583 -0.0442,4.38688 -11.58219,-6.68701 c -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
-             style="fill:#d2d2d2;fill-opacity:1;stroke:none" />
-          <path
-             style="fill:#e6e6e6;fill-opacity:1;stroke:none"
-             d="m 798.49411,476.19788 73,42.08436 c 2.24757,1.35984 2.24757,7.56063 0,8.85826 l -46.77621,26.96334 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -78.18991,-45.12475 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
-             id="path7990"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="ccccccccc" />
-          <g
-             transform="translate(-72.264515,32.380936)"
-             id="g6117">
-            <text
-               transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-               sodipodi:linespacing="125%"
-               id="text7992"
-               y="-12.260578"
-               x="972.19202"
-               style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-               xml:space="preserve"><tspan
-                 y="-12.260578"
-                 x="972.19202"
-                 id="tspan7994"
-                 sodipodi:role="line">STORAGE</tspan></text>
-            <text
-               xml:space="preserve"
-               style="font-size:6px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-               x="952.94775"
-               y="-3.0855355"
-               id="text7996"
-               sodipodi:linespacing="125%"
-               transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
-                 sodipodi:role="line"
-                 id="tspan7998"
-                 x="952.94775"
-                 y="-3.0855355">DIGITAL ASSET MANAGER</tspan></text>
-          </g>
-        </g>
-        <g
-           id="g22369">
-          <path
-             sodipodi:nodetypes="cccccc"
-             inkscape:connector-curvature="0"
-             id="path7244"
-             d="m 401.21866,776.42715 -7.67149,-4.42914 -44.49461,25.68898 0,4.6752 7.67149,-0.24607 z"
-             style="fill:#93bbcb;fill-opacity:1;stroke:none;display:inline" />
-          <path
-             sodipodi:nodetypes="cccccc"
-             inkscape:connector-curvature="0"
-             id="path7467"
-             d="m 445,742.35392 -40.71275,23.4433 7.67149,4.42914 40.65887,-23.47441 -7.67149,0 z"
-             style="fill:#93bbcb;fill-opacity:1;stroke:none;display:inline" />
-        </g>
-      </g>
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer12"
-       inkscape:label="Agregador de noticias"
-       style="display:inline"
-       transform="translate(170.07524,189.97161)">
-      <g
-         id="g13377"
-         transform="translate(-181.78633,116.552)">
-        <path
-           sodipodi:nodetypes="cccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
-           d="m 73.08568,380.27938 0,7.08661 -6.13718,-3.54331 z"
-           id="path7505"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path7507"
-           d="m 4.04228,358.13371 0,7.08661 6.13718,-3.54331 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
-           sodipodi:nodetypes="cccc" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path7509"
-           d="m 30.83865,373.66679 0,7.08661 6.13718,-3.54331 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
-           sodipodi:nodetypes="cccc" />
-        <path
-           style="fill:#d2d2d2;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
-           d="m 38.97406,314.14248 7.2103,0.17233 63.07516,39.17145 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -34.52809,19.92999 0.12957,-4.43308 -7.73286,4.3937 0,4.42914 -4.41421,2.61248 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -16.29881,-9.25618 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -19.12484,-11.10394 -0.0511,-4.39961 -7.67148,-4.42913 0.0511,4.3996 c 0,0 -1.79422,-0.97681 -15.39411,-8.82874 -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
-           id="path7511"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cccsccccccccccccccccscc" />
-        <path
-           sodipodi:nodetypes="cccccccccc"
-           inkscape:connector-curvature="0"
-           id="path7513"
-           d="m 34.77621,307.64338 73,42.08436 c 2.24757,1.35984 2.24757,7.56063 0,8.85826 L 61,385.54934 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -66.86869,-38.43763 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
-           style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline" />
-        <g
-           id="g7515"
-           transform="translate(-827.2077,-133.26274)"
-           style="display:inline">
-          <text
-             xml:space="preserve"
-             style="font-size:8px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-             x="987.08252"
-             y="-4.8150015"
-             id="text7517"
-             sodipodi:linespacing="125%"
-             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
-               sodipodi:role="line"
-               id="tspan7519"
-               x="987.08252"
-               y="-4.8150015">AGREGADOR DE</tspan><tspan
-               sodipodi:role="line"
-               x="987.08252"
-               y="5.1849985"
-               id="tspan7734">NOTICIAS</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-             x="102.43549"
-             y="330.26678"
-             id="text7730"
-             sodipodi:linespacing="125%"
-             transform="translate(769.65351,170.67559)"><tspan
-               sodipodi:role="line"
-               id="tspan7732"
-               x="102.43549"
-               y="330.26678" /></text>
-        </g>
-      </g>
-      <g
-         id="g22354"
-         transform="translate(-167.02548,-190.96557)">
-        <path
-           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-           d="m 77.123992,653.50391 14.93383,-8.62205 0.0886,-4.37795 -7.48943,-0.20747 -15.204533,9.18582"
-           id="path7736"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           sodipodi:nodetypes="ccccc"
-           inkscape:connector-curvature="0"
-           id="path7774"
-           d="m 46.349441,635.71138 14.933838,-8.62205 0.0886,-4.37795 -7.489438,-0.20747 -15.20453,9.18582"
-           style="fill:#bf6dbf;fill-opacity:1;stroke:none" />
-        <path
-           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-           d="m 61.849259,644.71138 14.933833,-8.62205 0.0886,-4.37795 -7.489433,-0.20747 -15.204534,9.18582"
-           id="path7776"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-      </g>
-    </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Playout"
-     style="display:inline"
-     transform="translate(170.07524,189.97161)"
-     sodipodi:insensitive="true">
-    <g
-       inkscape:groupmode="layer"
-       id="layer29"
-       inkscape:label="Radio:"
-       style="display:inline">
-      <g
-         transform="translate(-253.03405,23.803092)"
-         style="filter:url(#filter8486)"
-         id="g8779"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300">
-        <path
-           sodipodi:nodetypes="cccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           d="m 924.92167,499.14136 0,7.08661 -6.13718,-3.54331 z"
-           id="path8781"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path8783"
-           d="m 839.87827,484.99569 0,7.08661 6.13718,-3.54331 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           sodipodi:nodetypes="cccc" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path8785"
-           d="m 866.67464,500.52877 0,7.08661 6.13718,-3.54331 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           sodipodi:nodetypes="cccc" />
-        <path
-           style="fill:#d2d2d2;fill-opacity:1;stroke:none"
-           d="m 874.81005,441.00446 7.2103,0.17233 63.07516,39.17145 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -19.16081,11.56427 0.12957,-4.43308 -7.73286,4.3937 0,4.42914 -19.78149,10.9782 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -16.29881,-9.25618 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -19.12484,-11.10394 -0.0511,-4.39961 -7.67148,-4.42913 0.0511,4.3996 c 0,0 -1.79422,-0.97681 -15.39411,-8.82874 -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
-           id="path8787"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cccsccccccccccccccccscc" />
-        <path
-           sodipodi:nodetypes="cccccccccc"
-           inkscape:connector-curvature="0"
-           id="path8789"
-           d="m 870.6122,434.50536 73,42.08436 c 2.24757,1.35984 2.24757,7.56063 0,8.85826 l -46.77621,26.96334 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -66.86869,-38.43763 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
-           style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
-        <g
-           id="g8791"
-           transform="translate(6.3474685,-6.6555758)">
-          <text
-             xml:space="preserve"
-             style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-             x="957.83148"
-             y="-0.18872428"
-             id="text8793"
-             sodipodi:linespacing="125%"
-             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
-               sodipodi:role="line"
-               x="957.83148"
-               y="-0.18872428"
-               id="tspan8797">RADIO PLAYOUT</tspan></text>
-        </g>
-      </g>
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer28"
-       inkscape:label="Television:"
-       style="display:inline">
-      <g
-         id="g10670"
-         style="filter:url(#filter8486)"
-         transform="translate(-440.30659,-88.750475)"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300">
-        <path
-           inkscape:connector-curvature="0"
-           id="path10672"
-           d="m 908.92167,507.14136 0,7.08661 -6.13718,-3.54331 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           sodipodi:nodetypes="cccc" />
-        <path
-           sodipodi:nodetypes="cccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           d="m 839.30659,484.66724 0,7.08661 6.13718,-3.54331 z"
-           id="path10676"
-           inkscape:connector-curvature="0" />
-        <path
-           sodipodi:nodetypes="cccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           d="m 866.074,500.21701 0,7.08661 6.13718,-3.54331 z"
-           id="path10680"
-           inkscape:connector-curvature="0" />
-        <path
-           sodipodi:nodetypes="cccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
-           d="m 889.16941,513.45768 0,7.08661 6.13718,-3.54331 z"
-           id="path10676-1"
-           inkscape:connector-curvature="0" />
-        <path
-           sodipodi:nodetypes="cccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
-           d="m 921.3087,519.30163 0,7.08661 6.13718,-3.54331 z"
-           id="path10676-9"
-           inkscape:connector-curvature="0"
-           transform="matrix(-1,0,0,1,1848.908,-1.4566726)" />
-        <path
-           style="fill:#d2d2d2;fill-opacity:1;stroke:none"
-           d="m 434.5,352.28125 -52.1875,31.0625 0,9 c 0,0.66437 1.0766,1.74459 1.84375,2.1875 13.59989,7.85193 14.76096,8.56323 14.76096,8.56323 l -0.0625,-4.40625 7.73399,4.36295 0.0313,4.40625 19.14741,11.09571 0.0511,-4.45866 7.62035,4.45866 0,4.42914 15.34235,8.76772 0,-4.65625 7.6875,4.75 0,4.3125 12.375,7.125 c 1.53429,0.88582 4.59071,0.88582 6.125,0 l 4.4375,-2.625 0,-4.40625 7.71875,-4.40625 -0.125,4.4375 34.53125,-19.9375 c 1.15073,-0.66437 1.71175,-2.55123 1.71875,-4.4375 0.007,-1.88627 0,-9.53125 0,-9.53125 l -81.5625,-49.9375 z"
-           id="path10682"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccsscccccccccccccccccccsccc"
-           transform="translate(440.30659,88.750475)" />
-        <path
-           style="fill:#e6e6e6;fill-opacity:1;stroke:none"
-           d="m 429.3125,346.34375 11.34375,6.6875 c -2.23443,-1.29004 -5.32355,-1.29749 -7.625,0.0313 l -50.5,29.1875 c -1.5343,0.88582 -1.5343,2.67668 0,3.5625 l 85.45632,49.25068 c 1.53429,0.88582 4.59071,0.88582 6.125,0 l 46.78125,-26.96875 c 2.24757,-1.29763 1.45343,-8.04906 -0.79414,-9.4089 z"
-           transform="translate(441.28963,88.17287)"
-           id="path10684"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cccccccccc" />
-        <g
-           transform="translate(8.6282874,-6.4007614)"
-           id="g10686">
-          <text
-             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-             sodipodi:linespacing="125%"
-             id="text10688"
-             y="-0.18872428"
-             x="957.83148"
-             style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-             xml:space="preserve"><tspan
-               y="-0.18872428"
-               x="957.83148"
-               id="tspan10690"
-               sodipodi:role="line">VIDEO PLAYOUT</tspan></text>
-        </g>
-      </g>
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer30"
-       inkscape:label="Prensa: - Plataforma Web"
-       style="display:inline">
-      <g
-         id="g23649">
-        <g
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           id="g10399"
-           transform="translate(-669.37647,-230.19128)"
-           style="filter:url(#filter8486)">
-          <text
-             xml:space="preserve"
-             style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-             x="954.08844"
-             y="1.2979422"
-             id="text10401"
-             sodipodi:linespacing="125%"
-             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
-               sodipodi:role="line"
-               id="tspan10403"
-               x="954.08844"
-               y="1.2979422">PLATAFORMA WEB</tspan></text>
-        </g>
-        <g
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           id="g10807"
-           style="filter:url(#filter8486)"
-           transform="translate(-678.72859,-221.90774)">
-          <path
-             inkscape:connector-curvature="0"
-             id="path10809"
-             d="m 908.92167,507.14136 0,7.08661 -6.13718,-3.54331 z"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             sodipodi:nodetypes="cccc" />
-          <path
-             sodipodi:nodetypes="cccc"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 839.87827,484.99569 0,7.08661 6.13718,-3.54331 z"
-             id="path10811"
-             inkscape:connector-curvature="0" />
-          <path
-             inkscape:export-ydpi="300"
-             inkscape:export-xdpi="300"
-             inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-             sodipodi:nodetypes="cccc"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486-3)"
-             d="m 866.71972,500.37519 0,7.08661 6.13718,-3.54331 z"
-             id="path10813"
-             inkscape:connector-curvature="0" />
-          <path
-             sodipodi:nodetypes="cccsccccccccccccccccscc"
-             inkscape:connector-curvature="0"
-             id="path10815"
-             d="m 874.81005,441.00446 7.2103,0.17233 63.07516,39.17145 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -34.52809,19.92999 0.12957,-4.43308 -7.73286,4.3937 0,4.42914 -4.41421,2.61248 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -16.29881,-9.25618 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -19.12484,-11.10394 -0.0511,-4.39961 -7.67148,-4.42913 0.0511,4.3996 c 0,0 -1.79422,-0.97681 -15.39411,-8.82874 -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
-             style="fill:#d2d2d2;fill-opacity:1;stroke:none" />
-          <path
-             style="fill:#e6e6e6;fill-opacity:1;stroke:none"
-             d="m 870.6122,434.50536 73,42.08436 c 2.24757,1.35984 2.24757,7.56063 0,8.85826 l -46.77621,26.96334 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -66.86869,-38.43763 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
-             id="path10817"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cccccccccc" />
-          <g
-             transform="translate(8.6282874,-6.4007614)"
-             id="g10819">
-            <text
-               transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-               sodipodi:linespacing="125%"
-               id="text10821"
-               y="-0.60926378"
-               x="953.2511"
-               style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-               xml:space="preserve"><tspan
-                 y="-0.60926378"
-                 x="953.2511"
-                 id="tspan10823"
-                 sodipodi:role="line">PLATAFORMA WEB</tspan></text>
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
      transform="translate(170.07524,-118.29609)"
      id="g7082"
      inkscape:groupmode="layer"
@@ -19348,187 +18878,6 @@
              x="1014.8079"
              y="697.85388"
              id="tspan11034">PRODUCCION</tspan></text>
-      </g>
-    </g>
-  </g>
-  <g
-     inkscape:label="Vivo"
-     inkscape:groupmode="layer"
-     id="g6061"
-     transform="translate(170.07524,-118.29609)"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <g
-       inkscape:groupmode="layer"
-       id="layer24"
-       inkscape:label="Television#"
-       sodipodi:insensitive="true">
-      <g
-         id="g23477"
-         transform="translate(-1.3230301,-0.53863285)">
-        <path
-           sodipodi:nodetypes="cccccccccccccccccc"
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           inkscape:connector-curvature="0"
-           id="path6063"
-           d="m 253.17946,884.06695 -42.21329,24.35773 -4.46875,-2.59375 c -1.53429,-0.88582 -4.75253,-0.96087 -6.28683,-0.075 l -70.5625,40.75 c -1.5343,0.88583 -1.40372,2.72047 0.13058,3.6063 l 16,9.25 7.65625,0 0,4.40625 46.78125,27.03125 c 1.5343,0.88583 4.62195,0.88583 6.15625,0 l 70.5625,-40.75 c 1.5343,-0.88583 1.5343,-2.64542 0,-3.53125 l -14.5625,-8.4375 -14.59375,-8.40625 -29.125,-16.8125 42.19727,-24.36614 z"
-           style="fill:#cdddff;fill-opacity:1;stroke:none" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           style="fill:url(#linearGradient10994);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
-           d="m 145.87446,950.583 c -1.15072,-0.66438 -1.86156,-1.56323 -1.86156,-2.33833 0,-0.7751 0.007,-1.82349 0.007,-1.82349 l 55.41825,-31.43449 c 2.30145,-1.24459 5.37004,-1.24459 7.67149,0 l 17.06762,9.3185 c 0,0 0.001,1.06339 -0.003,1.84123 -0.005,0.77785 -0.58965,1.55845 -1.75943,2.23382 l -53.66262,30.98194 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
-           id="path10770"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="csccccscccc" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           sodipodi:nodetypes="ccccccccc"
-           inkscape:connector-curvature="0"
-           id="path10772"
-           d="m 145.74321,948.72891 c -2.30144,-1.32875 -2.30144,-3.1004 0,-4.42914 l 53.69494,-31.00058 c 2.30145,-1.32874 5.37004,-1.32874 7.67149,0 l 15.34297,8.85826 c 2.30144,1.32874 2.30144,3.1004 0,4.42914 l -53.69494,31.00059 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
-           style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <text
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
-           sodipodi:linespacing="125%"
-           id="text11091"
-           y="911.48041"
-           x="-861.04474"
-           style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
-           xml:space="preserve"><tspan
-             y="911.48041"
-             x="-861.04474"
-             id="tspan11093"
-             sodipodi:role="line">VIVO ADQUIRIDO</tspan></text>
-        <g
-           id="g12559">
-          <path
-             style="fill:url(#linearGradient10990);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
-             d="m 176.40998,968.18892 c -1.15072,-0.66438 -1.86156,-1.56323 -1.86156,-2.33833 0,-0.7751 0.007,-1.82349 0.007,-1.82349 l 55.41825,-31.43449 c 2.30145,-1.24459 5.37004,-1.24459 7.67149,0 l 24.90998,13.84644 c 0,0 0.001,1.06339 -0.003,1.84123 -0.005,0.77785 -0.58965,1.55845 -1.75943,2.23382 l -53.66262,30.98194 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
-             id="path10774"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="csccccscccc"
-             inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-             inkscape:export-xdpi="300"
-             inkscape:export-ydpi="300" />
-          <path
-             sodipodi:nodetypes="ccccccccc"
-             inkscape:connector-curvature="0"
-             id="path10776"
-             d="m 176.27873,966.33483 c -2.30144,-1.32875 -2.30144,-3.1004 0,-4.42914 l 53.69494,-31.00058 c 2.30145,-1.32874 5.37004,-1.32874 7.67149,0 l 23.18533,13.3862 c 2.30144,1.32874 2.30144,3.1004 0,4.42914 l -53.69494,31.00059 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
-             style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-             inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-             inkscape:export-xdpi="300"
-             inkscape:export-ydpi="300" />
-          <text
-             transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
-             sodipodi:linespacing="125%"
-             id="text11095"
-             y="949.26477"
-             x="-859.05402"
-             style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
-             xml:space="preserve"
-             inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-             inkscape:export-xdpi="300"
-             inkscape:export-ydpi="300"><tspan
-               y="949.26477"
-               x="-859.05402"
-               id="tspan11097"
-               sodipodi:role="line">VIVO PROPIO</tspan></text>
-        </g>
-      </g>
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer25"
-       inkscape:label="Radio#"
-       sodipodi:insensitive="true">
-      <g
-         id="g23492"
-         transform="translate(2.2310569,6.5535097)">
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           sodipodi:nodetypes="cccccccccccccccccc"
-           inkscape:connector-curvature="0"
-           id="path11480"
-           d="m 437.6937,980.99194 -46.16598,26.63986 -4.46875,-2.5937 c -1.53429,-0.8859 -4.62195,-0.8859 -6.15625,0 l -70.5625,40.75 c -1.5343,0.8858 -1.5343,2.6454 0,3.5312 l 16,9.25 7.65625,0 0,4.4063 46.78125,27.0312 c 1.5343,0.8858 4.62195,0.8858 6.15625,0 l 70.56248,-40.75 c 1.5343,-0.8858 1.5343,-2.6454 0,-3.5312 l -14.5625,-8.4375 -14.5937,-8.4063 -29.12503,-16.8125 46.03302,-26.58071 z"
-           style="fill:#cdddff;fill-opacity:1;stroke:none" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           sodipodi:nodetypes="csccccscccc"
-           inkscape:connector-curvature="0"
-           id="path10998"
-           d="m 326.42305,1049.7618 c -1.15072,-0.6644 -1.86156,-1.5632 -1.86156,-2.3383 0,-0.7751 0.007,-1.8235 0.007,-1.8235 l 55.41825,-31.4345 c 2.30145,-1.2446 5.37004,-1.2446 7.67149,0 l 17.06762,9.3185 c 0,0 0.001,1.0634 -0.003,1.8412 -0.005,0.7779 -0.58965,1.5585 -1.75943,2.2338 l -53.66262,30.982 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
-           style="fill:url(#linearGradient11088);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           d="m 326.2918,1047.9077 c -2.30144,-1.3287 -2.30144,-3.1004 0,-4.4291 l 53.69494,-31.0006 c 2.30145,-1.3288 5.37004,-1.3288 7.67149,0 l 15.34297,8.8582 c 2.30144,1.3288 2.30144,3.1004 0,4.4292 l -53.69494,31.0006 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
-           id="path11000"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccccccc" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           style="fill:url(#linearGradient11090);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
-           d="m 356.97228,1067.3992 c -1.15072,-0.6643 -1.86156,-1.5632 -1.86156,-2.3383 0,-0.7751 0.007,-1.8235 0.007,-1.8235 l 55.41825,-31.4345 c 2.30145,-1.2446 5.37008,-1.2446 7.67148,0 l 24.91,13.8465 c 0,0 10e-4,1.0634 0,1.8412 0,0.7779 -0.5897,1.5585 -1.7594,2.2338 l -53.66266,30.982 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,0 z"
-           id="path11002"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="csccccscccc" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           sodipodi:nodetypes="ccccccccc"
-           inkscape:connector-curvature="0"
-           id="path11004"
-           d="m 356.84103,1065.5452 c -2.30144,-1.3288 -2.30144,-3.1004 0,-4.4292 l 53.69494,-31.0006 c 2.30145,-1.3287 5.37008,-1.3287 7.67148,0 l 23.1853,13.3862 c 2.3015,1.3288 2.3015,3.1004 0,4.4292 l -53.6949,31.0006 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
-           style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <text
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           xml:space="preserve"
-           style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
-           x="-855.98328"
-           y="1087.646"
-           id="text11006"
-           sodipodi:linespacing="125%"
-           transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"><tspan
-             sodipodi:role="line"
-             id="tspan11008"
-             x="-855.98328"
-             y="1087.646">VIVO ADQUIRIDO</tspan></text>
-        <text
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
-           sodipodi:linespacing="125%"
-           id="text11010"
-           y="1125.9296"
-           x="-855.98315"
-           style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
-           xml:space="preserve"><tspan
-             y="1125.9296"
-             x="-855.98315"
-             id="tspan11012"
-             sodipodi:role="line">VIVO PROPIO</tspan></text>
       </g>
     </g>
   </g>
@@ -19780,10 +19129,1166 @@
     </g>
   </g>
   <g
+     inkscape:label="Vivo"
+     inkscape:groupmode="layer"
+     id="g6061"
+     transform="translate(170.07524,-118.29609)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer24"
+       inkscape:label="Television#"
+       sodipodi:insensitive="true">
+      <g
+         id="g23477"
+         transform="translate(-1.3230301,-0.53863285)">
+        <path
+           sodipodi:nodetypes="cccccccccccccccccc"
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           inkscape:connector-curvature="0"
+           id="path6063"
+           d="m 253.17946,884.06695 -42.21329,24.35773 -4.46875,-2.59375 c -1.53429,-0.88582 -4.75253,-0.96087 -6.28683,-0.075 l -70.5625,40.75 c -1.5343,0.88583 -1.40372,2.72047 0.13058,3.6063 l 16,9.25 7.65625,0 0,4.40625 46.78125,27.03125 c 1.5343,0.88583 4.62195,0.88583 6.15625,0 l 70.5625,-40.75 c 1.5343,-0.88583 1.5343,-2.64542 0,-3.53125 l -14.5625,-8.4375 -14.59375,-8.40625 -29.125,-16.8125 42.19727,-24.36614 z"
+           style="fill:#cdddff;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           style="fill:url(#linearGradient10994);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
+           d="m 145.87446,950.583 c -1.15072,-0.66438 -1.86156,-1.56323 -1.86156,-2.33833 0,-0.7751 0.007,-1.82349 0.007,-1.82349 l 55.41825,-31.43449 c 2.30145,-1.24459 5.37004,-1.24459 7.67149,0 l 17.06762,9.3185 c 0,0 0.001,1.06339 -0.003,1.84123 -0.005,0.77785 -0.58965,1.55845 -1.75943,2.23382 l -53.66262,30.98194 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
+           id="path10770"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csccccscccc" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           sodipodi:nodetypes="ccccccccc"
+           inkscape:connector-curvature="0"
+           id="path10772"
+           d="m 145.74321,948.72891 c -2.30144,-1.32875 -2.30144,-3.1004 0,-4.42914 l 53.69494,-31.00058 c 2.30145,-1.32874 5.37004,-1.32874 7.67149,0 l 15.34297,8.85826 c 2.30144,1.32874 2.30144,3.1004 0,4.42914 l -53.69494,31.00059 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <text
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
+           sodipodi:linespacing="125%"
+           id="text11091"
+           y="911.48041"
+           x="-861.04474"
+           style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="911.48041"
+             x="-861.04474"
+             id="tspan11093"
+             sodipodi:role="line">VIVO ADQUIRIDO</tspan></text>
+        <g
+           id="g12559">
+          <path
+             style="fill:url(#linearGradient10990);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
+             d="m 176.40998,968.18892 c -1.15072,-0.66438 -1.86156,-1.56323 -1.86156,-2.33833 0,-0.7751 0.007,-1.82349 0.007,-1.82349 l 55.41825,-31.43449 c 2.30145,-1.24459 5.37004,-1.24459 7.67149,0 l 24.90998,13.84644 c 0,0 0.001,1.06339 -0.003,1.84123 -0.005,0.77785 -0.58965,1.55845 -1.75943,2.23382 l -53.66262,30.98194 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
+             id="path10774"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="csccccscccc"
+             inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300" />
+          <path
+             sodipodi:nodetypes="ccccccccc"
+             inkscape:connector-curvature="0"
+             id="path10776"
+             d="m 176.27873,966.33483 c -2.30144,-1.32875 -2.30144,-3.1004 0,-4.42914 l 53.69494,-31.00058 c 2.30145,-1.32874 5.37004,-1.32874 7.67149,0 l 23.18533,13.3862 c 2.30144,1.32874 2.30144,3.1004 0,4.42914 l -53.69494,31.00059 c -2.29225,1.32343 -5.36084,1.32343 -7.66229,-0.005 z"
+             style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300" />
+          <text
+             transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
+             sodipodi:linespacing="125%"
+             id="text11095"
+             y="949.26477"
+             x="-859.05402"
+             style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"
+             inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+             inkscape:export-xdpi="300"
+             inkscape:export-ydpi="300"><tspan
+               y="949.26477"
+               x="-859.05402"
+               id="tspan11097"
+               sodipodi:role="line">VIVO PROPIO</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer25"
+       inkscape:label="Radio#"
+       sodipodi:insensitive="true">
+      <g
+         id="g23492"
+         transform="translate(2.2310569,6.5535097)">
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           sodipodi:nodetypes="cccccccccccccccccc"
+           inkscape:connector-curvature="0"
+           id="path11480"
+           d="m 437.6937,980.99194 -46.16598,26.63986 -4.46875,-2.5937 c -1.53429,-0.8859 -4.62195,-0.8859 -6.15625,0 l -70.5625,40.75 c -1.5343,0.8858 -1.5343,2.6454 0,3.5312 l 16,9.25 7.65625,0 0,4.4063 46.78125,27.0312 c 1.5343,0.8858 4.62195,0.8858 6.15625,0 l 70.56248,-40.75 c 1.5343,-0.8858 1.5343,-2.6454 0,-3.5312 l -14.5625,-8.4375 -14.5937,-8.4063 -29.12503,-16.8125 46.03302,-26.58071 z"
+           style="fill:#cdddff;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           sodipodi:nodetypes="csccccscccc"
+           inkscape:connector-curvature="0"
+           id="path10998"
+           d="m 326.42305,1049.7618 c -1.15072,-0.6644 -1.86156,-1.5632 -1.86156,-2.3383 0,-0.7751 0.007,-1.8235 0.007,-1.8235 l 55.41825,-31.4345 c 2.30145,-1.2446 5.37004,-1.2446 7.67149,0 l 17.06762,9.3185 c 0,0 0.001,1.0634 -0.003,1.8412 -0.005,0.7779 -0.58965,1.5585 -1.75943,2.2338 l -53.66262,30.982 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
+           style="fill:url(#linearGradient11088);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 326.2918,1047.9077 c -2.30144,-1.3287 -2.30144,-3.1004 0,-4.4291 l 53.69494,-31.0006 c 2.30145,-1.3288 5.37004,-1.3288 7.67149,0 l 15.34297,8.8582 c 2.30144,1.3288 2.30144,3.1004 0,4.4292 l -53.69494,31.0006 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
+           id="path11000"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccccc" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           style="fill:url(#linearGradient11090);fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7142)"
+           d="m 356.97228,1067.3992 c -1.15072,-0.6643 -1.86156,-1.5632 -1.86156,-2.3383 0,-0.7751 0.007,-1.8235 0.007,-1.8235 l 55.41825,-31.4345 c 2.30145,-1.2446 5.37008,-1.2446 7.67148,0 l 24.91,13.8465 c 0,0 10e-4,1.0634 0,1.8412 0,0.7779 -0.5897,1.5585 -1.7594,2.2338 l -53.66266,30.982 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,0 z"
+           id="path11002"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csccccscccc" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           sodipodi:nodetypes="ccccccccc"
+           inkscape:connector-curvature="0"
+           id="path11004"
+           d="m 356.84103,1065.5452 c -2.30144,-1.3288 -2.30144,-3.1004 0,-4.4292 l 53.69494,-31.0006 c 2.30145,-1.3287 5.37008,-1.3287 7.67148,0 l 23.1853,13.3862 c 2.3015,1.3288 2.3015,3.1004 0,4.4292 l -53.6949,31.0006 c -2.29225,1.3234 -5.36084,1.3234 -7.66229,-0.01 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#a5a5a5;stroke-width:0.05;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <text
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           xml:space="preserve"
+           style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
+           x="-855.98328"
+           y="1087.646"
+           id="text11006"
+           sodipodi:linespacing="125%"
+           transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"><tspan
+             sodipodi:role="line"
+             id="tspan11008"
+             x="-855.98328"
+             y="1087.646">VIVO ADQUIRIDO</tspan></text>
+        <text
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,0,0)"
+           sodipodi:linespacing="125%"
+           id="text11010"
+           y="1125.9296"
+           x="-855.98315"
+           style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="1125.9296"
+             x="-855.98315"
+             id="tspan11012"
+             sodipodi:role="line">VIVO PROPIO</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer17"
+     inkscape:label="Ingesta"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer7"
+       inkscape:label="Radio"
+       style="display:inline"
+       transform="translate(170.07524,189.97161)"
+       sodipodi:insensitive="true">
+      <g
+         id="g22338"
+         transform="translate(-5.1383592,-297.69405)">
+        <path
+           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+           d="m 391.24577,923.88971 19.17871,-11.07283 10e-6,-4.42914 -7.67148,0 -19.17872,11.07284 z"
+           id="path7402"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+           d="m 437.27468,950.46451 19.17871,-11.07283 0,-4.42913 -7.67148,0 -19.17871,11.07283 z"
+           id="path7404"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+           d="m 421.98967,941.57278 19.12075,-11.03937 0,-4.42913 -7.67148,0 -19.17871,11.07283 z"
+           id="path7406"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+           d="m 406.58874,932.74798 19.17871,-11.07284 0,-4.42913 -7.70433,-0.019 -19.14586,11.0918 z"
+           id="path7408"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+      </g>
+      <path
+         style="fill:#bf6dbf;fill-opacity:1;stroke:none;display:inline"
+         d="m 466.658,672.70157 138.08673,-79.72441 -11.50722,-6.6437 -7.67149,0 0,4.42913 3.83574,2.21457 -19.17871,11.07283 -49.70168,-28.32819 3.64653,-2.16535 0,-4.42914 -7.48226,-0.10925 -11.69645,6.75295 57.56238,32.70812 -61.37188,35.43307 -7.67149,-4.42914 -7.67148,0 0,4.42914 7.67148,4.42913 -34.52168,19.9311 z"
+         id="path10996"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccccccccc"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <g
+         style="display:inline;filter:url(#filter8417-8)"
+         transform="translate(45.489833,-129.52365)"
+         id="g11290"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           sodipodi:nodetypes="ccccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 348.28906,795.58151 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           id="path11292"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path11294"
+           d="m 332.94609,786.72324 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path11296"
+           d="m 302.26015,769.00671 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 317.60312,777.86498 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           id="path11298"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path11300"
+           d="m 382.81074,815.51261 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#d2d2d2;fill-opacity:1;stroke:none"
+           d="m 290.88875,762.36119 11.3714,6.64552 0,-2.65748 c 0,-1.77166 0,-1.77166 1.5343,-0.88583 l 4.60288,2.65748 c 1.5343,0.88583 1.5343,0.88583 1.5343,2.65748 l 1e-5,2.65748 7.67148,4.42914 1e-5,-2.65749 c 0,-1.77165 0,-1.77165 1.5343,-0.88582 l 4.60288,2.65748 c 1.5343,0.88583 1.5343,0.88583 1.5343,2.65748 l 0,2.65748 7.67148,4.42913 0,-2.65748 c 0,-1.77165 0,-1.77165 1.5343,-0.88582 l 4.60289,2.65748 c 1.5343,0.88582 1.5343,0.88582 1.5343,2.65748 l 0,2.65748 7.67148,4.42913 0,-2.65748 c 0,-1.77165 0,-1.77165 1.5343,-0.88583 l 4.60289,2.65749 c 1.5343,0.88582 1.5343,0.88582 1.5343,2.65748 l 0,2.65748 3.83574,2.21456 10.54829,6.09006 12.46616,7.19734 0,-3.5433 c 0,-0.29528 0.51243,-0.59227 0.76715,-0.44292 l 3.0686,1.79922 3.06859,1.74409 c 0.42648,0.2424 0.76715,0.76535 0.76715,1.25591 l 0,3.61614 15.37634,8.99281 c 2.29074,1.24564 5.41057,1.10846 7.59767,0.005 6.43536,-3.71977 12.87073,-7.43954 19.30609,-11.15931 1.1277,-0.70668 1.67675,-1.49108 1.6601,-2.24958 -0.0166,-0.75849 0.0278,-8.83053 0.0278,-8.83053 l -57.41986,-25.67119 -55.58893,-32.06213 -7.69929,0.0741 -24.65865,2.22153 c 0,0 0.003,8.09552 1.3e-4,8.86576 -0.003,0.77023 0.5946,1.55774 1.80525,2.23298 l -7e-5,0 z"
+           id="path11302"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccccccccccccccccccccccccsscssccccscccccsccc" />
+        <path
+           style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+           d="m 290.85409,753.60657 72.77794,41.97493 42.29564,24.56387 c 2.26928,1.07996 5.29857,1.1582 7.5333,-0.0764 6.402,-3.72249 12.80401,-7.44498 19.20601,-11.16747 2.30346,-1.36001 2.22317,-3.10003 -0.0334,-4.28731 l -42.22654,-24.63296 -72.80391,-41.97845 c -2.30145,-1.32874 -5.37004,-1.32874 -7.67149,0 l -19.00613,10.96737 c -2.442,1.44184 -2.46581,3.22913 -0.0714,4.63642 z"
+           id="path11304"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccccc" />
+        <path
+           sodipodi:nodetypes="ccccccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline"
+           d="m 367.46778,806.65435 0.76715,0.44291 0,-8.85826 26.85019,-15.50197 -0.76715,-0.44292 -26.85019,15.50197 z"
+           id="path11306"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+         sodipodi:linespacing="125%"
+         id="text11308"
+         y="361.83057"
+         x="857.85242"
+         style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           y="361.83057"
+           x="857.85242"
+           id="tspan11310"
+           sodipodi:role="line">INGESTA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+         x="915.28223"
+         y="361.98761"
+         id="text11312"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan11314"
+           x="915.28223"
+           y="361.98761">FFMPEG</tspan></text>
+    </g>
+    <g
+       inkscape:label="Television"
+       inkscape:groupmode="layer"
+       id="g146176"
+       transform="translate(170.07524,-118.29609)"
+       style="display:inline">
+      <path
+         sodipodi:nodetypes="cccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path146178"
+         d="m 432.13632,779.44368 -3.83574,2.21456 -53.70039,-31.00393 -7.67543,-0.002 0.004,4.43141 53.7004,31.00394 -72.82781,42.05392 -7.66097,-4.4352 -7.682,0.006 0,4.42913 7.62012,4.45177 -65.20756,37.64785 7.67149,4.42913 145.75821,-84.15344 15.34297,8.85824 7.67148,-4.42914 -15.34296,-8.85826 3.83574,-2.21454 0,-4.42913 z"
+         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+         d="m 201.92476,828.20284 23.08147,-13.32609 0,-4.42914 -7.67148,0 -23.01446,13.2874 z"
+         id="path146182"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+         d="m 248.02069,854.73895 23.01445,-13.2874 0,-4.42913 -7.67148,0 -23.01446,13.2874 z"
+         id="path146184"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+         d="m 232.67772,845.88068 23.01445,-13.2874 0,-4.44685 -7.67148,0 -23.01446,13.30512 z"
+         id="path146186"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
+         d="m 217.33475,837.02242 23.01445,-13.28741 0,-4.42913 -7.67148,0 -23.01446,13.2874 z"
+         id="path146188"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <g
+         style="fill:#bf6dbf;fill-opacity:1"
+         transform="translate(-3.749006,38.186489)"
+         id="g6895" />
+      <g
+         id="g146190"
+         transform="translate(-138.6258,72.444835)"
+         style="filter:url(#filter8417)"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           inkscape:connector-curvature="0"
+           id="path146192"
+           d="m 348.28906,795.58151 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 332.94609,786.72324 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           id="path146194"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 302.26015,769.00671 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           id="path146196"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path146198"
+           d="m 317.60312,777.86498 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 382.81074,815.51261 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+           id="path146200"
+           inkscape:connector-curvature="0" />
+        <path
+           sodipodi:nodetypes="ccccccccccccccccccccccccccccsscssccccscccccsccc"
+           inkscape:connector-curvature="0"
+           id="path146202"
+           d="m 290.88875,762.36119 11.3714,6.64552 0,-2.65748 c 0,-1.77166 0,-1.77166 1.5343,-0.88583 l 4.60288,2.65748 c 1.5343,0.88583 1.5343,0.88583 1.5343,2.65748 l 1e-5,2.65748 7.67148,4.42914 1e-5,-2.65749 c 0,-1.77165 0,-1.77165 1.5343,-0.88582 l 4.60288,2.65748 c 1.5343,0.88583 1.5343,0.88583 1.5343,2.65748 l 0,2.65748 7.67148,4.42913 0,-2.65748 c 0,-1.77165 0,-1.77165 1.5343,-0.88582 l 4.60289,2.65748 c 1.5343,0.88582 1.5343,0.88582 1.5343,2.65748 l 0,2.65748 7.67148,4.42913 0,-2.65748 c 0,-1.77165 0,-1.77165 1.5343,-0.88583 l 4.60289,2.65749 c 1.5343,0.88582 1.5343,0.88582 1.5343,2.65748 l 0,2.65748 3.83574,2.21456 10.54829,6.09006 12.46616,7.19734 0,-3.5433 c 0,-0.29528 0.51243,-0.59227 0.76715,-0.44292 l 3.0686,1.79922 3.06859,1.74409 c 0.42648,0.2424 0.76715,0.76535 0.76715,1.25591 l 0,3.61614 15.37634,8.99281 c 2.29074,1.24564 5.41057,1.10846 7.59767,0.005 6.43536,-3.71977 12.87073,-7.43954 19.30609,-11.15931 1.1277,-0.70668 1.67675,-1.49108 1.6601,-2.24958 -0.0166,-0.75849 0.0278,-8.83053 0.0278,-8.83053 l -57.41986,-25.67119 -55.58893,-32.06213 -7.69929,0.0741 -24.65865,2.22153 c 0,0 0.003,8.09552 1.3e-4,8.86576 -0.003,0.77023 0.5946,1.55774 1.80525,2.23298 l -7e-5,0 z"
+           style="fill:#d2d2d2;fill-opacity:1;stroke:none" />
+        <path
+           sodipodi:nodetypes="cccccccccccc"
+           inkscape:connector-curvature="0"
+           id="path146204"
+           d="m 290.85409,753.60657 72.77794,41.97493 42.29564,24.56387 c 2.26928,1.07996 5.29857,1.1582 7.5333,-0.0764 6.402,-3.72249 12.80401,-7.44498 19.20601,-11.16747 2.30346,-1.36001 2.22317,-3.10003 -0.0334,-4.28731 l -42.22654,-24.63296 -72.80392,-41.97845 c -2.30144,-1.32874 -5.37004,-1.32874 -7.67148,0 l -19.00613,10.96737 c -2.442,1.44184 -2.46581,3.22913 -0.0714,4.63642 z"
+           style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path146206"
+           d="m 367.46777,806.65435 0.76715,0.44291 0,-8.85826 26.8502,-15.50197 -0.76715,-0.44292 -26.8502,15.50197 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline"
+           sodipodi:nodetypes="ccccccc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+         x="955.33667"
+         y="627.74939"
+         id="text146208"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan146210"
+           x="955.33667"
+           y="627.74939">INGESTA</tspan></text>
+      <text
+         transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+         sodipodi:linespacing="125%"
+         id="text146212"
+         y="627.90643"
+         x="1012.7664"
+         style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           y="627.90643"
+           x="1012.7664"
+           id="tspan146214"
+           sodipodi:role="line">FFMPEG</tspan></text>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer18"
+       inkscape:label="Prensa - Normalizacion"
+       style="display:inline">
+      <g
+         id="g15036"
+         transform="translate(154.93692,-115.26392)">
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           sodipodi:nodetypes="cccccc"
+           style="fill:#bf6dbf;fill-opacity:1;stroke:none;display:inline"
+           d="m 36.850199,694.47254 0,-4.42914 -7.671484,0 -23.014455,13.2874 7.671485,4.42914 z"
+           id="path9877-2"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           sodipodi:nodetypes="cccccc"
+           style="fill:#8dc19d;fill-opacity:1;stroke:none;display:inline"
+           d="m -9.1787098,681.18513 0,4.42914 7.6714849,0 19.1516399,-11.05721 -7.644413,-4.44476 z"
+           id="path9877-2-3"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g14983"
+         transform="translate(181.62445,-128.89149)">
+        <g
+           id="g7812"
+           transform="translate(-380.51865,-48.814432)"
+           style="filter:url(#filter8417)"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300">
+          <path
+             inkscape:connector-curvature="0"
+             id="path7814"
+             d="m 339.76564,789.40905 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             sodipodi:nodetypes="ccccc" />
+          <path
+             sodipodi:nodetypes="ccccc"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             d="m 324.42267,780.55078 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+             id="path7816"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             d="m 293.73673,762.83425 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+             id="path7818"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path7820"
+             d="m 309.0797,771.69252 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             sodipodi:nodetypes="ccccc" />
+          <path
+             sodipodi:nodetypes="cccscccccscc"
+             inkscape:connector-curvature="0"
+             id="path7824"
+             d="m 356.23345,798.98631 c 2.22763,1.33374 5.29622,1.33374 7.59767,0.005 0,0 12.87073,-7.43954 19.30609,-11.15931 1.1277,-0.70668 1.67675,-1.49108 1.6601,-2.24958 -0.0166,-0.75849 0.0278,-8.83053 0.0278,-8.83053 l -16.31816,-1.8954 -63.38779,-36.40478 -7.69929,0.0741 -15.81269,7.26915 c 0,0 0.003,8.09552 1.3e-4,8.86576 -0.003,0.77023 0.6154,1.64309 1.67322,2.25382 19.94218,11.51787 51.64523,29.89849 72.95292,42.07177 z"
+             style="fill:#d2d2d2;fill-opacity:1;stroke:none" />
+          <path
+             sodipodi:nodetypes="ccccccccc"
+             inkscape:connector-curvature="0"
+             id="path7826"
+             d="m 356.15963,790.13304 c 2.30145,1.32874 5.37004,1.32874 7.67149,0 l 19.17871,-11.07283 c 2.30145,-1.32874 2.30145,-3.1004 -0.006,-4.38195 l -72.8731,-42.12396 c -2.30155,-1.32874 -5.37014,-1.32874 -7.67149,0 l -19.17871,11.07284 c -2.30155,1.32874 -2.30155,3.10039 0,4.42913 24.293,14.02559 48.5861,28.05118 72.8791,42.07677 z"
+             style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+           x="651.24591"
+           y="643.55542"
+           id="text7830"
+           sodipodi:linespacing="125%"
+           transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             sodipodi:role="line"
+             id="tspan7832"
+             x="651.24591"
+             y="643.55542">NORMALIZACION</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g
+     style="display:inline"
+     transform="translate(170.07524,-118.29609)"
+     id="g7708"
+     inkscape:groupmode="layer"
+     inkscape:label="DAM"
+     sodipodi:insensitive="true">
+    <g
+       id="g23159">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7806"
+         d="m 201.88948,783.81374 -141.820174,-81.8705 0,-4.43854 7.651774,0.0114 141.94218,81.92758 0,4.42913 z"
+         style="fill:#ffea87;fill-opacity:1;stroke:none"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         style="fill:#ffea87;fill-opacity:1;stroke:none"
+         d="m 330.10557,848.98108 -7.67148,4.42913 63.71765,36.73622 7.67148,0 -0.0443,-4.40354 z"
+         id="path7421"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:#ffea87;fill-opacity:1;stroke:none"
+         d="m 305.55682,839.23698 0,4.42914 6.13719,3.5433 7.67149,-4.42913 -6.13719,-3.54331 z"
+         id="path7808"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer10"
+       inkscape:label="Radio Storage"
+       style="display:inline"
+       sodipodi:insensitive="true">
+      <g
+         id="g23676">
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           style="fill:#df8888;fill-opacity:1;stroke:none"
+           d="m 505.83559,863.02674 0,4.42913 -18.70959,10.80199 -7.59001,-0.047 0,-4.42913 18.62811,-10.75495 z"
+           id="path7410"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           inkscape:connector-curvature="0"
+           id="path7432"
+           d="m 431.93167,866.12199 -12.24704,-7.07083 -7.75296,0.047 0,4.33506 12.32851,7.11787 z"
+           style="fill:#8dc19d;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="cccccc" />
+        <g
+           transform="translate(0,308.77582)"
+           id="g22336">
+          <path
+             style="fill:#93bbcb;fill-opacity:1;stroke:none;display:inline"
+             d="m 522.48711,622.28789 7.6875,-4.4375 -6.19618,-3.52953 -7.6875,0 0,4.4375 z"
+             id="path7327"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccc" />
+          <path
+             style="fill:#93bbcb;fill-opacity:1;stroke:none;display:inline"
+             d="M 675.06859,531.48332 675,535.97754 667.41918,536.09448 702,555.82215 l -139.48941,80.7091 -21.67091,-12.43677 -7.6875,4.4375 29.35841,16.84302 155.1858,-89.28052 z"
+             id="path23498"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccc" />
+        </g>
+      </g>
+      <g
+         transform="translate(-351.50324,392.06603)"
+         style="filter:url(#filter8486)"
+         id="g13868"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           inkscape:connector-curvature="0"
+           id="path13870"
+           d="m 841.17569,546.38356 0,7.08661 -6.13718,-3.54331 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="cccc" />
+        <path
+           sodipodi:nodetypes="cccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 868.02589,530.88159 0,7.08661 -6.13718,-3.54331 z"
+           id="path13872"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 752.87861,517.98163 0,7.08661 6.13718,-3.54331 z"
+           id="path13874"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path13876"
+           d="m 768.29659,526.45246 0,7.08661 6.13718,-3.54331 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 783.63956,535.31072 0,7.08661 6.13718,-3.54331 z"
+           id="path13878"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path13880"
+           d="m 798.98253,544.16899 0,7.08661 6.13718,-3.54331 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#d2d2d2;fill-opacity:1;stroke:none"
+           d="m 791.50858,475.80368 7.2103,0.17233 78.49389,46.83274 c 0,0 0.0256,6.18657 0.0189,8.07284 -0.007,1.88627 -0.38357,1.99311 -1.5343,2.65748 l -7.67148,4.42913 0.0614,-4.3937 -7.73286,4.3937 0,4.42914 -19.17874,11.07283 0,-4.42914 -7.67148,4.42914 0,4.42913 -8.38476,4.84095 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -12.3282,-7.05551 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -7.61761,-4.46024 0.0442,-4.38688 -7.67154,-4.42913 -0.0442,4.38688 -7.67143,-4.42914 0.0442,-4.38688 -7.67148,-4.42915 -0.0442,4.38689 -7.67148,-4.42912 0.0442,-4.38688 -7.59653,-4.38583 -0.0442,4.38688 -11.58219,-6.68701 c -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
+           id="path13882"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccsccccccccccccccccccccccccccccscc" />
+        <path
+           sodipodi:nodetypes="cccccccccc"
+           inkscape:connector-curvature="0"
+           id="path13884"
+           d="m 798.91551,475.92164 76.78186,44.33002 c 2.24757,1.35984 2.24757,3.13151 0,4.42914 l -50.55807,29.1468 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -78.18991,-45.12475 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
+           style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+        <g
+           id="g13886"
+           transform="translate(-72.264515,32.380936)">
+          <text
+             xml:space="preserve"
+             style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+             x="972.19202"
+             y="-12.260578"
+             id="text13888"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan13890"
+               x="972.19202"
+               y="-12.260578">STORAGE</tspan></text>
+          <text
+             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+             sodipodi:linespacing="125%"
+             id="text13892"
+             y="-3.0855355"
+             x="952.94775"
+             style="font-size:6px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               y="-3.0855355"
+               x="952.94775"
+               id="tspan13894"
+               sodipodi:role="line">DIGITAL ASSET MANAGER</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer19"
+       inkscape:label="TV Storage"
+       style="display:inline"
+       sodipodi:insensitive="true">
+      <g
+         id="g23717"
+         transform="translate(-6.29125,2.2647431)">
+        <path
+           transform="translate(0,308.2677)"
+           sodipodi:nodetypes="ccccccccccccc"
+           inkscape:connector-curvature="0"
+           id="path15144"
+           d="m 370,450.75047 -28.61892,16.52315 -15.34297,-8.85827 3.96189,-2.2874 0,-4.28347 -7.79764,-0.0728 -19.17871,11.07283 0.1951,5.19125 7.47639,-0.76211 7.67148,-4.42914 23.01446,13.2874 36.31905,-20.96881 z"
+           style="fill:#df8888;fill-opacity:1;stroke:none" />
+        <path
+           sodipodi:nodetypes="cccccc"
+           inkscape:connector-curvature="0"
+           transform="translate(0,308.2677)"
+           id="path10655"
+           d="m 421.93167,420.76771 -40.40316,23.32677 7.63739,4.40945 40.43725,-23.30709 0,-4.42913 z"
+           style="fill:#df8888;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           sodipodi:nodetypes="ccccccccccccccc"
+           style="fill:#8dc19d;fill-opacity:1;stroke:none"
+           d="m 254.06277,767.00713 -34.18896,-20.40676 3.88004,-2.24016 -0.0443,-4.40354 -7.63338,-0.022 -3.87384,2.23657 -38.38814,-22.21457 3.83574,-2.21457 0,-4.42913 -7.67149,0 -3.83574,2.21456 -7.67148,4.42914 46.0289,26.5748 41.89116,24.9048 z"
+           id="path9877"
+           inkscape:connector-curvature="0" />
+        <g
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           id="g7976"
+           style="filter:url(#filter8486)"
+           transform="translate(-525.48226,281.25834)">
+          <path
+             sodipodi:nodetypes="cccc"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             d="m 841.17569,546.38356 0,7.08661 -6.13718,-3.54331 z"
+             id="path7810"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path9875"
+             d="m 868.02589,530.88159 0,7.08661 -6.13718,-3.54331 z"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             sodipodi:nodetypes="cccc" />
+          <path
+             sodipodi:nodetypes="cccc"
+             inkscape:connector-curvature="0"
+             id="path7980"
+             d="m 752.87861,517.98163 0,7.08661 6.13718,-3.54331 z"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none" />
+          <path
+             sodipodi:nodetypes="cccc"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             d="m 768.29659,526.45246 0,7.08661 6.13718,-3.54331 z"
+             id="path7982"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cccc"
+             inkscape:connector-curvature="0"
+             id="path7984"
+             d="m 783.63956,535.31072 0,7.08661 6.13718,-3.54331 z"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none" />
+          <path
+             sodipodi:nodetypes="cccc"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             d="m 798.98253,544.16899 0,7.08661 6.13718,-3.54331 z"
+             id="path7986"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cccsccccccccccccccccccccccccccccscc"
+             inkscape:connector-curvature="0"
+             id="path7988"
+             d="m 791.50858,475.80368 7.2103,0.17233 78.49389,46.83274 c 0,0 0.0256,6.18657 0.0189,8.07284 -0.007,1.88627 -0.38357,1.99311 -1.5343,2.65748 l -7.67148,4.42913 0.0614,-4.3937 -7.73286,4.3937 0,4.42914 -19.17874,11.07283 0,-4.42914 -7.67148,4.42914 0,4.42913 -8.38476,4.84095 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -12.3282,-7.05551 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -7.61761,-4.46024 0.0442,-4.38688 -7.67154,-4.42913 -0.0442,4.38688 -7.67143,-4.42914 0.0442,-4.38688 -7.67148,-4.42915 -0.0442,4.38689 -7.67148,-4.42912 0.0442,-4.38688 -7.59653,-4.38583 -0.0442,4.38688 -11.58219,-6.68701 c -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
+             style="fill:#d2d2d2;fill-opacity:1;stroke:none" />
+          <path
+             style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+             d="m 798.91551,475.92164 76.78186,44.33002 c 2.24757,1.35984 2.24757,3.13151 0,4.42914 l -50.55807,29.1468 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -78.18991,-45.12475 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
+             id="path7990"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccc" />
+          <g
+             transform="translate(-72.264515,32.380936)"
+             id="g6117">
+            <text
+               transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+               sodipodi:linespacing="125%"
+               id="text7992"
+               y="-12.260578"
+               x="972.19202"
+               style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+               xml:space="preserve"><tspan
+                 y="-12.260578"
+                 x="972.19202"
+                 id="tspan7994"
+                 sodipodi:role="line">STORAGE</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:6px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+               x="952.94775"
+               y="-3.0855355"
+               id="text7996"
+               sodipodi:linespacing="125%"
+               transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
+                 sodipodi:role="line"
+                 id="tspan7998"
+                 x="952.94775"
+                 y="-3.0855355">DIGITAL ASSET MANAGER</tspan></text>
+          </g>
+        </g>
+        <g
+           id="g22369">
+          <path
+             sodipodi:nodetypes="cccccc"
+             inkscape:connector-curvature="0"
+             id="path7244"
+             d="m 401.21866,776.42715 -7.67149,-4.42914 -44.49461,25.68898 0,4.6752 7.67149,-0.24607 z"
+             style="fill:#93bbcb;fill-opacity:1;stroke:none;display:inline" />
+          <path
+             sodipodi:nodetypes="cccccc"
+             inkscape:connector-curvature="0"
+             id="path7467"
+             d="m 445,742.35392 -40.71275,23.4433 7.67149,4.42914 40.65887,-23.47441 -7.67149,0 z"
+             style="fill:#93bbcb;fill-opacity:1;stroke:none;display:inline" />
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer12"
+       inkscape:label="Agregador de noticias"
+       style="display:inline"
+       transform="translate(170.07524,189.97161)">
+      <g
+         id="g13377"
+         transform="translate(-183.09164,120.16709)">
+        <path
+           sodipodi:nodetypes="cccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
+           d="m 76.94116,378.0762 0,7.08661 -6.13718,-3.54331 z"
+           id="path7505"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path7507"
+           d="m 4.04228,358.13371 0,7.08661 6.13718,-3.54331 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
+           sodipodi:nodetypes="cccc" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path7509"
+           d="m 30.83865,373.66679 0,7.08661 6.13718,-3.54331 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#d2d2d2;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
+           d="m 38.97406,314.14248 7.2103,0.17233 63.07516,39.17145 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -30.60444,17.68743 0,-4.45189 -7.691196,4.44051 0,4.42914 -8.249954,4.82704 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -16.29881,-9.25618 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -19.12484,-11.10394 -0.0511,-4.39961 -7.67148,-4.42913 0.0511,4.3996 c 0,0 -1.79422,-0.97681 -15.39411,-8.82874 -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
+           id="path7511"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccsccccccccccccccccscc" />
+        <path
+           sodipodi:nodetypes="cccccccccc"
+           inkscape:connector-curvature="0"
+           id="path7513"
+           d="m 34.77621,307.64338 73,42.08436 c 2.24757,1.35984 2.24757,7.56063 0,8.85826 L 61,385.54934 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -66.86869,-38.43763 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
+           style="fill:#e6e6e6;fill-opacity:1;stroke:none;display:inline" />
+        <g
+           id="g7515"
+           transform="translate(-827.2077,-133.26274)"
+           style="display:inline">
+          <text
+             xml:space="preserve"
+             style="font-size:8px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+             x="987.08252"
+             y="-4.8150015"
+             id="text7517"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan7519"
+               x="987.08252"
+               y="-4.8150015">AGREGADOR DE</tspan><tspan
+               sodipodi:role="line"
+               x="987.08252"
+               y="5.1849985"
+               id="tspan7734">NOTICIAS</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             x="102.43549"
+             y="330.26678"
+             id="text7730"
+             sodipodi:linespacing="125%"
+             transform="translate(769.65351,170.67559)"><tspan
+               sodipodi:role="line"
+               id="tspan7732"
+               x="102.43549"
+               y="330.26678" /></text>
+        </g>
+      </g>
+      <g
+         id="g22354"
+         transform="translate(-167.02548,-190.96557)"
+         style="fill:#df8888;fill-opacity:1">
+        <path
+           style="fill:#df8888;fill-opacity:1;stroke:none"
+           d="m 77.123992,653.50391 14.93383,-8.62205 0.0886,-4.37795 -7.48943,-0.20747 -15.204533,9.18582"
+           id="path7736"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path7774"
+           d="m 46.349441,635.71138 14.933838,-8.62205 0.0886,-4.37795 -7.489438,-0.20747 -15.20453,9.18582"
+           style="fill:#df8888;fill-opacity:1;stroke:none" />
+        <path
+           style="fill:#df8888;fill-opacity:1;stroke:none"
+           d="m 61.849259,644.71138 14.933833,-8.62205 0.0886,-4.37795 -7.489433,-0.20747 -15.204534,9.18582"
+           id="path7776"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Playout"
+     style="display:none"
+     transform="translate(170.07524,189.97161)"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer29"
+       inkscape:label="Radio:"
+       style="display:inline">
+      <g
+         transform="translate(-253.03405,23.803092)"
+         style="filter:url(#filter8486)"
+         id="g8779"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           sodipodi:nodetypes="cccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 924.92167,499.14136 0,7.08661 -6.13718,-3.54331 z"
+           id="path8781"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8783"
+           d="m 839.87827,484.99569 0,7.08661 6.13718,-3.54331 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="cccc" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8785"
+           d="m 866.67464,500.52877 0,7.08661 6.13718,-3.54331 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#d2d2d2;fill-opacity:1;stroke:none"
+           d="m 874.81005,441.00446 7.2103,0.17233 63.07516,39.17145 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -19.16081,11.56427 0.12957,-4.43308 -7.73286,4.3937 0,4.42914 -19.78149,10.9782 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -16.29881,-9.25618 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -19.12484,-11.10394 -0.0511,-4.39961 -7.67148,-4.42913 0.0511,4.3996 c 0,0 -1.79422,-0.97681 -15.39411,-8.82874 -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
+           id="path8787"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccsccccccccccccccccscc" />
+        <path
+           sodipodi:nodetypes="cccccccccc"
+           inkscape:connector-curvature="0"
+           id="path8789"
+           d="m 870.6122,434.50536 73,42.08436 c 2.24757,1.35984 2.24757,7.56063 0,8.85826 l -46.77621,26.96334 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -66.86869,-38.43763 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
+           style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
+        <g
+           id="g8791"
+           transform="translate(6.3474685,-6.6555758)">
+          <text
+             xml:space="preserve"
+             style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+             x="957.83148"
+             y="-0.18872428"
+             id="text8793"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
+               sodipodi:role="line"
+               x="957.83148"
+               y="-0.18872428"
+               id="tspan8797">RADIO PLAYOUT</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer28"
+       inkscape:label="Television:"
+       style="display:inline">
+      <g
+         id="g10670"
+         style="filter:url(#filter8486)"
+         transform="translate(-440.30659,-88.750475)"
+         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <path
+           inkscape:connector-curvature="0"
+           id="path10672"
+           d="m 908.92167,507.14136 0,7.08661 -6.13718,-3.54331 z"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           sodipodi:nodetypes="cccc" />
+        <path
+           sodipodi:nodetypes="cccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 839.30659,484.66724 0,7.08661 6.13718,-3.54331 z"
+           id="path10676"
+           inkscape:connector-curvature="0" />
+        <path
+           sodipodi:nodetypes="cccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none"
+           d="m 866.074,500.21701 0,7.08661 6.13718,-3.54331 z"
+           id="path10680"
+           inkscape:connector-curvature="0" />
+        <path
+           sodipodi:nodetypes="cccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
+           d="m 889.16941,513.45768 0,7.08661 6.13718,-3.54331 z"
+           id="path10676-1"
+           inkscape:connector-curvature="0" />
+        <path
+           sodipodi:nodetypes="cccc"
+           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486)"
+           d="m 921.3087,519.30163 0,7.08661 6.13718,-3.54331 z"
+           id="path10676-9"
+           inkscape:connector-curvature="0"
+           transform="matrix(-1,0,0,1,1848.908,-1.4566726)" />
+        <path
+           style="fill:#d2d2d2;fill-opacity:1;stroke:none"
+           d="m 434.5,352.28125 -52.1875,31.0625 0,9 c 0,0.66437 1.0766,1.74459 1.84375,2.1875 13.59989,7.85193 14.76096,8.56323 14.76096,8.56323 l -0.0625,-4.40625 7.73399,4.36295 0.0313,4.40625 19.14741,11.09571 0.0511,-4.45866 7.62035,4.45866 0,4.42914 15.34235,8.76772 0,-4.65625 7.6875,4.75 0,4.3125 12.375,7.125 c 1.53429,0.88582 4.59071,0.88582 6.125,0 l 4.4375,-2.625 0,-4.40625 7.71875,-4.40625 -0.125,4.4375 34.53125,-19.9375 c 1.15073,-0.66437 1.71175,-2.55123 1.71875,-4.4375 0.007,-1.88627 0,-9.53125 0,-9.53125 l -81.5625,-49.9375 z"
+           id="path10682"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccsscccccccccccccccccccsccc"
+           transform="translate(440.30659,88.750475)" />
+        <path
+           style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+           d="m 429.3125,346.34375 11.34375,6.6875 c -2.23443,-1.29004 -5.32355,-1.29749 -7.625,0.0313 l -50.5,29.1875 c -1.5343,0.88582 -1.5343,2.67668 0,3.5625 l 85.45632,49.25068 c 1.53429,0.88582 4.59071,0.88582 6.125,0 l 46.78125,-26.96875 c 2.24757,-1.29763 1.45343,-8.04906 -0.79414,-9.4089 z"
+           transform="translate(441.28963,88.17287)"
+           id="path10684"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
+        <g
+           transform="translate(8.6282874,-6.4007614)"
+           id="g10686">
+          <text
+             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+             sodipodi:linespacing="125%"
+             id="text10688"
+             y="-0.18872428"
+             x="957.83148"
+             style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               y="-0.18872428"
+               x="957.83148"
+               id="tspan10690"
+               sodipodi:role="line">VIDEO PLAYOUT</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer30"
+       inkscape:label="Prensa: - Plataforma Web"
+       style="display:inline">
+      <g
+         id="g23649">
+        <g
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           id="g10399"
+           transform="translate(-669.37647,-230.19128)"
+           style="filter:url(#filter8486)">
+          <text
+             xml:space="preserve"
+             style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+             x="954.08844"
+             y="1.2979422"
+             id="text10401"
+             sodipodi:linespacing="125%"
+             transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"><tspan
+               sodipodi:role="line"
+               id="tspan10403"
+               x="954.08844"
+               y="1.2979422">PLATAFORMA WEB</tspan></text>
+        </g>
+        <g
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+           id="g10807"
+           style="filter:url(#filter8486)"
+           transform="translate(-678.72859,-221.90774)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path10809"
+             d="m 908.92167,507.14136 0,7.08661 -6.13718,-3.54331 z"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             sodipodi:nodetypes="cccc" />
+          <path
+             sodipodi:nodetypes="cccc"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none"
+             d="m 839.87827,484.99569 0,7.08661 6.13718,-3.54331 z"
+             id="path10811"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:export-ydpi="300"
+             inkscape:export-xdpi="300"
+             inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
+             sodipodi:nodetypes="cccc"
+             style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8486-3)"
+             d="m 866.71972,500.37519 0,7.08661 6.13718,-3.54331 z"
+             id="path10813"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cccsccccccccccccccccscc"
+             inkscape:connector-curvature="0"
+             id="path10815"
+             d="m 874.81005,441.00446 7.2103,0.17233 63.07516,39.17145 c 0,0 0.0256,7.66983 0.0189,9.5561 -0.007,1.88627 -0.58209,3.76865 -1.73282,4.43302 l -34.52809,19.92999 0.12957,-4.43308 -7.73286,4.3937 0,4.42914 -4.41421,2.61248 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -16.29881,-9.25618 0.0442,-4.43108 -7.72536,-4.39803 -0.0442,4.43108 -19.12484,-11.10394 -0.0511,-4.39961 -7.67148,-4.42913 0.0511,4.3996 c 0,0 -1.79422,-0.97681 -15.39411,-8.82874 -0.76715,-0.44291 -1.85784,-1.50502 -1.85784,-2.16939 0,-0.66437 0.007,-9.01036 0.007,-9.01036 z"
+             style="fill:#d2d2d2;fill-opacity:1;stroke:none" />
+          <path
+             style="fill:#e6e6e6;fill-opacity:1;stroke:none"
+             d="m 870.6122,434.50536 73,42.08436 c 2.24757,1.35984 2.24757,7.56063 0,8.85826 l -46.77621,26.96334 c -1.53429,0.88582 -4.60289,0.88582 -6.13718,0 l -66.86869,-38.43763 c -1.5343,-0.88582 -1.5343,-2.65748 0,-3.5433 l 50.49883,-29.19922 c 2.30145,-1.32874 5.37004,-1.32874 7.60447,-0.0387 z"
+             id="path10817"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccc" />
+          <g
+             transform="translate(8.6282874,-6.4007614)"
+             id="g10819">
+            <text
+               transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
+               sodipodi:linespacing="125%"
+               id="text10821"
+               y="-0.60926378"
+               x="953.2511"
+               style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
+               xml:space="preserve"><tspan
+                 y="-0.60926378"
+                 x="953.2511"
+                 id="tspan10823"
+                 sodipodi:role="line">PLATAFORMA WEB</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
      inkscape:groupmode="layer"
      id="layer16"
      inkscape:label="Feeds Prensa"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
@@ -19931,377 +20436,10 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer17"
-     inkscape:label="Ingesta"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <g
-       inkscape:groupmode="layer"
-       id="layer7"
-       inkscape:label="Radio"
-       style="display:inline"
-       transform="translate(170.07524,189.97161)">
-      <g
-         style="display:inline;filter:url(#filter8417-8)"
-         transform="translate(43.320748,-136.00747)"
-         id="g11290"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300">
-        <path
-           sodipodi:nodetypes="ccccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           d="m 348.28906,795.58151 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           id="path11292"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path11294"
-           d="m 332.94609,786.72324 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           sodipodi:nodetypes="ccccc"
-           inkscape:connector-curvature="0"
-           id="path11296"
-           d="m 302.26015,769.00671 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none" />
-        <path
-           sodipodi:nodetypes="ccccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           d="m 317.60312,777.86498 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           id="path11298"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path11300"
-           d="m 382.81074,815.51261 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           style="fill:#d2d2d2;fill-opacity:1;stroke:none"
-           d="m 290.88875,762.36119 11.3714,6.64552 0,-2.65748 c 0,-1.77166 0,-1.77166 1.5343,-0.88583 l 4.60288,2.65748 c 1.5343,0.88583 1.5343,0.88583 1.5343,2.65748 l 1e-5,2.65748 7.67148,4.42914 1e-5,-2.65749 c 0,-1.77165 0,-1.77165 1.5343,-0.88582 l 4.60288,2.65748 c 1.5343,0.88583 1.5343,0.88583 1.5343,2.65748 l 0,2.65748 7.67148,4.42913 0,-2.65748 c 0,-1.77165 0,-1.77165 1.5343,-0.88582 l 4.60289,2.65748 c 1.5343,0.88582 1.5343,0.88582 1.5343,2.65748 l 0,2.65748 7.67148,4.42913 0,-2.65748 c 0,-1.77165 0,-1.77165 1.5343,-0.88583 l 4.60289,2.65749 c 1.5343,0.88582 1.5343,0.88582 1.5343,2.65748 l 0,2.65748 3.83574,2.21456 10.54829,6.09006 12.46616,7.19734 0,-3.5433 c 0,-0.29528 0.51243,-0.59227 0.76715,-0.44292 l 3.0686,1.79922 3.06859,1.74409 c 0.42648,0.2424 0.76715,0.76535 0.76715,1.25591 l 0,3.61614 15.37634,8.99281 c 2.29074,1.24564 5.41057,1.10846 7.59767,0.005 6.43536,-3.71977 12.87073,-7.43954 19.30609,-11.15931 1.1277,-0.70668 1.67675,-1.49108 1.6601,-2.24958 -0.0166,-0.75849 0.0278,-8.83053 0.0278,-8.83053 l -57.41986,-25.67119 -55.58893,-32.06213 -7.69929,0.0741 -24.65865,2.22153 c 0,0 0.003,8.09552 1.3e-4,8.86576 -0.003,0.77023 0.5946,1.55774 1.80525,2.23298 l -7e-5,0 z"
-           id="path11302"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccccccccccccccccccccccccccsscssccccscccccsccc" />
-        <path
-           style="fill:#e6e6e6;fill-opacity:1;stroke:none"
-           d="m 290.85409,753.60657 72.77794,41.97493 42.29564,24.56387 c 2.26928,1.07996 5.29857,1.1582 7.5333,-0.0764 6.402,-3.72249 12.80401,-7.44498 19.20601,-11.16747 2.30346,-1.36001 2.22317,-3.10003 -0.0334,-4.28731 L 390.40704,779.98123 317.56,737.86811 l -7.56667,0.21093 -19.06782,10.89111 c -2.442,1.44184 -2.46581,3.22913 -0.0714,4.63642 z"
-           id="path11304"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cccccccccccc" />
-        <path
-           sodipodi:nodetypes="ccccccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8417-8)"
-           d="m 367.69536,806.22866 0.76715,0.55708 0,-8.85826 26.40004,-15.28969 -0.76715,-0.44292 -26.40004,15.28969 z"
-           id="path11306"
-           inkscape:connector-curvature="0" />
-      </g>
-      <text
-         transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-         sodipodi:linespacing="125%"
-         id="text11308"
-         y="357.29996"
-         x="850.11627"
-         style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-         xml:space="preserve"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300"><tspan
-           y="357.29996"
-           x="850.11627"
-           id="tspan11310"
-           sodipodi:role="line">INGESTA</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-         x="907.54608"
-         y="357.457"
-         id="text11312"
-         sodipodi:linespacing="125%"
-         transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300"><tspan
-           sodipodi:role="line"
-           id="tspan11314"
-           x="907.54608"
-           y="357.457">FFMPEG</tspan></text>
-      <path
-         style="fill:#bf6dbf;fill-opacity:1;stroke:none;display:inline"
-         d="m 467.98682,663.85968 134.22474,-76.99945 -11.50723,-6.6437 -7.67149,0 0,4.42913 3.61298,2.51908 -19.17872,11.07284 -49.45266,-29.1431 3.64653,-2.16535 0,-4.42914 -7.48226,-0.10925 -11.69645,6.75295 57.31335,33.52302 -55.39456,31.64037 -7.0996,-4.10335 -7.86071,-0.10925 -0.13929,4.34871 7.42812,4.29302 -41.85536,24.05542"
-         id="path10996"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccccccccccccc"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300" />
-      <g
-         id="g22338"
-         transform="translate(5.2187462,-309.64561)">
-        <path
-           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-           d="m 379.83378,930.53328 30.61041,-17.72778 -0.0197,-4.41776 -7.67149,0 -30.66229,17.75775"
-           id="path7402"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-           d="m 425.79106,957.14946 30.66229,-17.71355 0,-4.40158 -7.62375,-0.0442 -30.71003,17.73019"
-           id="path7404"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-           d="m 410.47174,948.35996 30.66229,-17.7853 0,-4.42913 -7.67148,0 -30.68594,17.71653"
-           id="path7406"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-           d="m 395.12876,939.47414 30.6623,-17.75775 0.0716,-4.47047 -7.74309,0.0413 -30.66229,17.75774"
-           id="path7408"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-      </g>
-    </g>
-    <g
-       inkscape:label="Television"
-       inkscape:groupmode="layer"
-       id="g146176"
-       transform="translate(170.07524,-118.29609)"
-       style="display:inline">
-      <path
-         sodipodi:nodetypes="cccccccccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path146178"
-         d="m 433.42506,779.96897 -3.82191,2.21604 -53.70039,-31.00393 -7.67149,0 0,4.42913 53.7004,31.00394 -68.41355,39.33198 -7.6875,-4.4375 -7.65625,0 0,4.4375 7.65625,4.4375 -65.15625,37.625 -0.67437,4.97894 9.61187,-1.29144 40.875,-23.59375 7.6875,-4.4375 90.62276,-52.05123 0,-4.4375 7.65625,0 4.64316,-2.77805 0,-4.42913 z"
-         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300" />
-      <path
-         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-         d="m 200.14621,830.34077 30.61041,-17.72778 -0.0197,-4.41776 -7.67149,0 -30.66229,17.75775"
-         id="path146182"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-         d="m 246.10349,856.95695 30.66229,-17.71355 0,-4.40158 -7.62375,-0.0442 -30.71003,17.73019"
-         id="path146184"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-         d="m 230.78417,848.16745 30.66229,-17.7853 0,-4.42913 -7.67148,0 -30.68594,17.71653"
-         id="path146186"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-         d="m 215.44119,839.28163 30.6623,-17.75775 0.0716,-4.47047 -7.74309,0.0413 -30.66229,17.75774"
-         id="path146188"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <g
-         style="fill:#bf6dbf;fill-opacity:1"
-         transform="translate(-3.749006,38.186489)"
-         id="g6895" />
-      <g
-         id="g146190"
-         transform="translate(-136.00457,72.74723)"
-         style="filter:url(#filter8417)"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300">
-        <path
-           inkscape:connector-curvature="0"
-           id="path146192"
-           d="m 348.28906,795.58151 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           sodipodi:nodetypes="ccccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           d="m 332.94609,786.72324 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           id="path146194"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           d="m 302.26015,769.00671 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           id="path146196"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path146198"
-           d="m 317.60312,777.86498 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           sodipodi:nodetypes="ccccc"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none"
-           d="m 382.81074,815.51261 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-           id="path146200"
-           inkscape:connector-curvature="0" />
-        <path
-           sodipodi:nodetypes="ccccccccccccccccccccccccccccsscssccccscccccsccc"
-           inkscape:connector-curvature="0"
-           id="path146202"
-           d="m 290.88875,762.36119 11.3714,6.64552 0,-2.65748 c 0,-1.77166 0,-1.77166 1.5343,-0.88583 l 4.60288,2.65748 c 1.5343,0.88583 1.5343,0.88583 1.5343,2.65748 l 1e-5,2.65748 7.67148,4.42914 1e-5,-2.65749 c 0,-1.77165 0,-1.77165 1.5343,-0.88582 l 4.60288,2.65748 c 1.5343,0.88583 1.5343,0.88583 1.5343,2.65748 l 0,2.65748 7.67148,4.42913 0,-2.65748 c 0,-1.77165 0,-1.77165 1.5343,-0.88582 l 4.60289,2.65748 c 1.5343,0.88582 1.5343,0.88582 1.5343,2.65748 l 0,2.65748 7.67148,4.42913 0,-2.65748 c 0,-1.77165 0,-1.77165 1.5343,-0.88583 l 4.60289,2.65749 c 1.5343,0.88582 1.5343,0.88582 1.5343,2.65748 l 0,2.65748 3.83574,2.21456 10.54829,6.09006 12.46616,7.19734 0,-3.5433 c 0,-0.29528 0.51243,-0.59227 0.76715,-0.44292 l 3.0686,1.79922 3.06859,1.74409 c 0.42648,0.2424 0.76715,0.76535 0.76715,1.25591 l 0,3.61614 15.37634,8.99281 c 2.29074,1.24564 5.41057,1.10846 7.59767,0.005 6.43536,-3.71977 12.87073,-7.43954 19.30609,-11.15931 1.1277,-0.70668 1.67675,-1.49108 1.6601,-2.24958 -0.0166,-0.75849 0.0278,-8.83053 0.0278,-8.83053 l -57.41986,-25.67119 -55.58893,-32.06213 -7.69929,0.0741 -24.65865,2.22153 c 0,0 0.003,8.09552 1.3e-4,8.86576 -0.003,0.77023 0.5946,1.55774 1.80525,2.23298 l -7e-5,0 z"
-           style="fill:#d2d2d2;fill-opacity:1;stroke:none" />
-        <path
-           sodipodi:nodetypes="cccccccccccc"
-           inkscape:connector-curvature="0"
-           id="path146204"
-           d="m 290.85409,753.60657 72.77794,41.97493 42.29564,24.56387 c 2.26928,1.07996 5.29857,1.1582 7.5333,-0.0764 6.402,-3.72249 12.80401,-7.44498 19.20601,-11.16747 2.30346,-1.36001 2.22317,-3.10003 -0.0334,-4.28731 L 390.40704,779.98123 317.56,737.86811 l -7.56667,0.21093 -19.06782,10.89111 c -2.442,1.44184 -2.46581,3.22913 -0.0714,4.63642 z"
-           style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path146206"
-           d="m 367.69536,806.22866 0.76715,0.55708 0,-8.85826 26.40004,-15.28969 -0.76715,-0.44292 -26.40004,15.28969 z"
-           style="fill:#aeaeae;fill-opacity:1;stroke:none;display:inline;filter:url(#filter8417)"
-           sodipodi:nodetypes="ccccccc" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-         x="955.33667"
-         y="627.74939"
-         id="text146208"
-         sodipodi:linespacing="125%"
-         transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300"><tspan
-           sodipodi:role="line"
-           id="tspan146210"
-           x="955.33667"
-           y="627.74939">INGESTA</tspan></text>
-      <text
-         transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-         sodipodi:linespacing="125%"
-         id="text146212"
-         y="627.90643"
-         x="1012.7664"
-         style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300"><tspan
-           y="627.90643"
-           x="1012.7664"
-           id="tspan146214"
-           sodipodi:role="line">FFMPEG</tspan></text>
-      <path
-         style="fill:#bf6dbf;fill-opacity:1;stroke:none"
-         d="m 446.9469,793.48078 -7.6875,-4.4375 -7.65625,0 0,4.4375 7.65625,4.4375 7.6875,4.4375 0,-4.4375 7.65625,0 z"
-         id="path15479"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300" />
-    </g>
-    <g
-       inkscape:groupmode="layer"
-       id="layer18"
-       inkscape:label="Prensa - Normalizacion"
-       style="display:inline">
-      <g
-         id="g14983"
-         transform="translate(178.97523,-124.2371)">
-        <g
-           id="g7812"
-           transform="translate(-358.68259,-52.109422)"
-           style="filter:url(#filter8417)"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           inkscape:export-xdpi="300"
-           inkscape:export-ydpi="300">
-          <path
-             inkscape:connector-curvature="0"
-             id="path7814"
-             d="m 339.76564,789.40905 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             sodipodi:nodetypes="ccccc" />
-          <path
-             sodipodi:nodetypes="ccccc"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 324.42267,780.55078 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-             id="path7816"
-             inkscape:connector-curvature="0" />
-          <path
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             d="m 293.73673,762.83425 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-             id="path7818"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="ccccc" />
-          <path
-             inkscape:connector-curvature="0"
-             id="path7820"
-             d="m 309.0797,771.69252 4.60289,-2.65748 0,-1.77165 -4.60289,-2.65748 z"
-             style="fill:#aeaeae;fill-opacity:1;stroke:none"
-             sodipodi:nodetypes="ccccc" />
-          <path
-             sodipodi:nodetypes="cccccscccccsczc"
-             inkscape:connector-curvature="0"
-             id="path7824"
-             d="m 282.36533,756.18873 68.90754,39.86402 4.96058,2.93356 c 0,0 5.41057,1.10846 7.59767,0.005 6.43536,-3.71977 12.87073,-7.43954 19.30609,-11.15931 1.1277,-0.70668 1.67675,-1.49108 1.6601,-2.24958 -0.0166,-0.75849 0.0278,-8.83053 0.0278,-8.83053 l -16.31816,-1.8954 -55.58893,-32.06213 -7.69929,0.0741 -24.65865,2.22153 c 0,0 0.003,8.09552 1.3e-4,8.86576 -0.003,0.77023 0.5946,1.55774 1.80525,2.23298 0,0 -5e-5,0 -7e-5,0 -2e-5,0 -6e-5,0 -6e-5,0 z"
-             style="fill:#d2d2d2;fill-opacity:1;stroke:none" />
-          <path
-             sodipodi:nodetypes="cccccccccccc"
-             inkscape:connector-curvature="0"
-             id="path7826"
-             d="m 282.33067,747.43411 72.77794,41.97493 0.83503,0.57727 c 2.26928,1.07996 5.29857,1.1582 7.5333,-0.0764 6.402,-3.72249 12.80401,-7.44498 19.20601,-11.16747 2.30346,-1.36001 2.22317,-3.10003 -0.0334,-4.28731 l -0.76593,-0.64636 -72.84704,-42.11312 -7.56667,0.21093 -19.06782,10.89111 c -2.442,1.44184 -2.46581,3.22913 -0.0714,4.63642 z"
-             style="fill:#e6e6e6;fill-opacity:1;stroke:none" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-size:8px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;opacity:0.8;fill:#afafaf;fill-opacity:1;stroke:none;font-family:Sans"
-           x="661.09607"
-           y="627.52747"
-           id="text7830"
-           sodipodi:linespacing="125%"
-           transform="matrix(0.8660254,0.5,-0.99999767,0.57735161,0,0)"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           inkscape:export-xdpi="300"
-           inkscape:export-ydpi="300"><tspan
-             sodipodi:role="line"
-             id="tspan7832"
-             x="661.09607"
-             y="627.52747">NORMALIZACION</tspan></text>
-      </g>
-      <g
-         id="g15036"
-         transform="translate(172.20984,-123.00703)">
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           sodipodi:nodetypes="cccccccc"
-           style="fill:#8dc19d;fill-opacity:1;stroke:none;display:inline"
-           d="m 30.685947,698.03147 3.83574,-2.21457 0,-4.42913 -7.67149,0 -3.83574,2.21456 -24.82151,14.33072 7.671477,4.42913 z"
-           id="path9877-2"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
-           sodipodi:nodetypes="cccccccc"
-           style="fill:#8dc19d;fill-opacity:1;stroke:none;display:inline"
-           d="m -15.367189,684.78624 -6.904447,3.94413 0.02433,4.42906 7.671374,-0.0421 6.9044471,-3.94412 L 17.644415,674.55706 10,670.1123 z"
-           id="path9877-2-3"
-           inkscape:connector-curvature="0" />
-      </g>
-    </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="Automatizacion de Camaras"
      sodipodi:insensitive="true"
-     style="display:inline"
+     style="display:none"
      transform="translate(170.07524,189.97161)">
     <g
        id="g146117"
@@ -20347,7 +20485,8 @@
      id="layer5"
      inkscape:label="Logos MALBEC BROADCAST"
      style="display:inline"
-     transform="translate(170.07524,189.97161)">
+     transform="translate(170.07524,189.97161)"
+     sodipodi:insensitive="true">
     <g
        id="g3667"
        transform="matrix(1.25,0,0,-1.25,185.64057,985.00285)">
@@ -20630,7 +20769,7 @@
     </g>
     <g
        style="filter:url(#filter12861)"
-       transform="matrix(0.45176462,-0.26082642,0.52165165,0.30117712,-353.1358,536.486)"
+       transform="matrix(0.45176462,-0.26082642,0.52165165,0.30117712,-356.60225,535.96526)"
        id="g13143"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
@@ -21414,7 +21553,7 @@
     </g>
     <g
        id="g15259"
-       transform="matrix(0.45176462,-0.26082642,0.52165165,0.30117712,-177.1716,635.44512)"
+       transform="matrix(0.45176462,-0.26082642,0.52165165,0.30117712,-172.61743,642.15726)"
        style="filter:url(#filter12861)"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
@@ -21658,7 +21797,7 @@
        id="g12527-5"
        style="display:inline" />
     <g
-       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,-445.45299,27.95801)"
+       transform="matrix(0.8660254,-0.5,0.99999767,0.57735161,-456.08711,26.317129)"
        id="g7521">
       <g
          id="g7523"
@@ -24056,7 +24195,7 @@
     </g>
     <g
        id="g6123"
-       transform="matrix(0.85686509,0,0,0.85686509,-25.458026,104.76862)"
+       transform="matrix(0.85686509,0,0,0.85686509,-32.072011,102.90287)"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -24113,7 +24252,7 @@
                      d="m 441.14873,407.79348 c -2.15896,1.3997 -2.28061,3.10062 0,4.42947 2.19449,1.27868 5.40745,1.27874 7.60194,3e-5 2.28057,-1.32888 2.25078,-3.11796 0,-4.42947 -2.28059,-1.32887 -5.38635,-1.43648 -7.60194,-3e-5 z"
                      style="fill:#8dc19d;fill-opacity:1;stroke:none" />
                   <path
-                     style="fill:none;stroke:url(#linearGradient14773);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none"
+                     style="fill:none;stroke:url(#linearGradient15053);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none"
                      d="m 441.16912,407.79315 c -2.13664,1.39991 -2.25702,3.10111 0,4.43016 2.17182,1.27888 5.35157,1.27894 7.52337,3e-5 2.25701,-1.32908 2.22752,-3.11846 0,-4.43017 -2.25702,-1.32909 -5.33066,-1.43671 -7.52337,-2e-5 z"
                      id="path15760"
                      inkscape:connector-curvature="0"
@@ -24155,7 +24294,7 @@
                      inkscape:connector-curvature="0"
                      id="path15774"
                      d="m 441.16912,407.79315 c -2.13664,1.39991 -2.25702,3.10111 0,4.43016 2.17182,1.27888 5.35157,1.27894 7.52337,3e-5 2.25701,-1.32908 2.22752,-3.11846 0,-4.43017 -2.25702,-1.32909 -5.33066,-1.43671 -7.52337,-2e-5 z"
-                     style="fill:none;stroke:url(#linearGradient14775);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none" />
+                     style="fill:none;stroke:url(#linearGradient15055);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none" />
                 </g>
               </g>
               <g
@@ -24189,7 +24328,7 @@
                      d="m 441.14873,407.79348 c -2.15896,1.3997 -2.28061,3.10062 0,4.42947 2.19449,1.27868 5.40745,1.27874 7.60194,3e-5 2.28057,-1.32888 2.25078,-3.11796 0,-4.42947 -2.28059,-1.32887 -5.38635,-1.43648 -7.60194,-3e-5 z"
                      style="fill:#8dc19d;fill-opacity:1;stroke:none" />
                   <path
-                     style="fill:none;stroke:url(#linearGradient14777);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none"
+                     style="fill:none;stroke:url(#linearGradient15057);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none"
                      d="m 441.16912,407.79315 c -2.13664,1.39991 -2.25702,3.10111 0,4.43016 2.17182,1.27888 5.35157,1.27894 7.52337,3e-5 2.25701,-1.32908 2.22752,-3.11846 0,-4.43017 -2.25702,-1.32909 -5.33066,-1.43671 -7.52337,-2e-5 z"
                      id="path15788"
                      inkscape:connector-curvature="0"
@@ -24274,7 +24413,7 @@
       </g>
     </g>
     <g
-       transform="translate(-760.25271,525.85788)"
+       transform="translate(-762.08496,526.49517)"
        id="g8499"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
@@ -24335,7 +24474,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.85686509,0,0,0.85686509,2.0803504,120.02033)"
+       transform="matrix(0.85686509,0,0,0.85686509,-4.5336336,118.15458)"
        id="g6379"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
@@ -24661,7 +24800,7 @@
                      inkscape:connector-curvature="0"
                      id="path6455"
                      d="m 441.16912,407.79315 c -2.13664,1.39991 -2.25702,3.10111 0,4.43016 2.17182,1.27888 5.35157,1.27894 7.52337,3e-5 2.25701,-1.32908 2.22752,-3.11846 0,-4.43017 -2.25702,-1.32909 -5.33066,-1.43671 -7.52337,-2e-5 z"
-                     style="fill:none;stroke:url(#linearGradient14779);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none" />
+                     style="fill:none;stroke:url(#linearGradient15047);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none" />
                 </g>
               </g>
               <g
@@ -24695,7 +24834,7 @@
                      d="m 441.14873,407.79348 c -2.15896,1.3997 -2.28061,3.10062 0,4.42947 2.19449,1.27868 5.40745,1.27874 7.60194,3e-5 2.28057,-1.32888 2.25078,-3.11796 0,-4.42947 -2.28059,-1.32887 -5.38635,-1.43648 -7.60194,-3e-5 z"
                      style="fill:#df8888;fill-opacity:1;stroke:none" />
                   <path
-                     style="fill:none;stroke:url(#linearGradient14781);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none"
+                     style="fill:none;stroke:url(#linearGradient15049);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none"
                      d="m 441.16912,407.79315 c -2.13664,1.39991 -2.25702,3.10111 0,4.43016 2.17182,1.27888 5.35157,1.27894 7.52337,3e-5 2.25701,-1.32908 2.22752,-3.11846 0,-4.43017 -2.25702,-1.32909 -5.33066,-1.43671 -7.52337,-2e-5 z"
                      id="path6469"
                      inkscape:connector-curvature="0"
@@ -24737,7 +24876,7 @@
                      inkscape:connector-curvature="0"
                      id="path6483"
                      d="m 441.16912,407.79315 c -2.13664,1.39991 -2.25702,3.10111 0,4.43016 2.17182,1.27888 5.35157,1.27894 7.52337,3e-5 2.25701,-1.32908 2.22752,-3.11846 0,-4.43017 -2.25702,-1.32909 -5.33066,-1.43671 -7.52337,-2e-5 z"
-                     style="fill:none;stroke:url(#linearGradient14783);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none" />
+                     style="fill:none;stroke:url(#linearGradient15051);stroke-width:0.19898097;stroke-miterlimit:4;stroke-dasharray:none" />
                 </g>
               </g>
             </g>
@@ -24755,7 +24894,7 @@
     </g>
     <g
        id="g6555"
-       transform="matrix(0.85686509,0,0,0.85686509,29.303968,135.3999)"
+       transform="matrix(0.85686509,0,0,0.85686509,22.689983,133.53415)"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -25157,7 +25296,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.85686509,0,0,0.85686509,146.34468,201.05224)"
+       transform="matrix(0.85686509,0,0,0.85686509,149.10412,211.16748)"
        id="g6981"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
@@ -25313,7 +25452,7 @@
     </g>
     <g
        id="g7039"
-       transform="matrix(0.85686509,0,0,0.85686509,173.88306,216.30395)"
+       transform="matrix(0.85686509,0,0,0.85686509,176.6425,226.41919)"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -25731,7 +25870,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.85686509,0,0,0.85686509,201.10668,231.68352)"
+       transform="matrix(0.85686509,0,0,0.85686509,203.86612,241.79876)"
        id="g7201"
        inkscape:export-filename="/home/xaiki/src/TV/design-artwork/presentations/g7709.png"
        inkscape:export-xdpi="300"
@@ -26538,7 +26677,7 @@
        y="0"
        xlink:href="#g4288"
        id="use14471"
-       transform="matrix(0.86564544,0,0,0.86564544,-666.92093,450.50021)"
+       transform="matrix(0.86564544,0,0,0.86564544,-668.75318,451.1375)"
        width="1052.3622"
        height="744.09448"
        style="filter:url(#filter14655)" />
@@ -26547,7 +26686,7 @@
        y="0"
        xlink:href="#g14287"
        id="use14669"
-       transform="translate(-777.37575,421.63364)"
+       transform="translate(-779.208,422.27093)"
        width="1052.3622"
        height="744.09448"
        style="filter:url(#filter14741)" />
