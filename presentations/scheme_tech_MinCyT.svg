@@ -29163,7 +29163,7 @@
         </g>
       </g>
       <image
-         sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/airtime_logo_big.png"
+         sodipodi:absref="./logos/airtime_logo_big.png"
          xlink:href="logos/airtime_logo_big.png"
          width="21.848673"
          height="8.2621031"
@@ -29224,7 +29224,7 @@
         </g>
       </g>
       <image
-         sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/Superdesk_SF_Logo_L_RGB.png"
+         sodipodi:absref="./logos/Superdesk_SF_Logo_L_RGB.png"
          xlink:href="logos/Superdesk_SF_Logo_L_RGB.png"
          width="22.138872"
          height="6.5982523"
@@ -29527,7 +29527,7 @@
         </g>
       </g>
       <image
-         sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/newscoop-mid.png"
+         sodipodi:absref="./logos/newscoop-mid.png"
          xlink:href="logos/newscoop-mid.png"
          transform="matrix(0,1,-1,0,0,0)"
          y="24.275682"
@@ -29564,7 +29564,7 @@
      style="display:inline"
      transform="translate(382.56003,189.97161)">
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/fpt.png"
+       sodipodi:absref="./logos/fpt.png"
        xlink:href="logos/fpt.png"
        style="display:inline"
        y="517.88287"
@@ -29574,7 +29574,7 @@
        width="15.153373"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/cda.jpg"
+       sodipodi:absref="./logos/cda.jpg"
        xlink:href="logos/cda.jpg"
        transform="matrix(0.8660254,0.5,-0.86602364,0.50000305,0,0)"
        width="13.831104"
@@ -29583,7 +29583,7 @@
        x="627.76575"
        y="532.29791" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/netflix-logo.png"
+       sodipodi:absref="./logos/netflix-logo.png"
        xlink:href="logos/netflix-logo.png"
        style="display:inline"
        y="550.11981"
@@ -29593,7 +29593,7 @@
        width="12.267221"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/hbo.png"
+       sodipodi:absref="./logos/hbo.png"
        xlink:href="logos/hbo.png"
        style="display:inline"
        y="537.54645"
@@ -29603,7 +29603,7 @@
        width="12.32341"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/afp.jpg"
+       sodipodi:absref="./logos/afp.jpg"
        xlink:href="logos/afp.jpg"
        style="display:inline"
        y="336.2868"
@@ -29613,7 +29613,7 @@
        width="23.643799"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/ANSOL.jpg"
+       sodipodi:absref="./logos/ANSOL.jpg"
        xlink:href="logos/ANSOL.jpg"
        style="display:inline"
        y="390.61395"
@@ -29623,7 +29623,7 @@
        width="40.464634"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/telam.jpg"
+       sodipodi:absref="./logos/telam.jpg"
        xlink:href="logos/telam.jpg"
        style="display:inline"
        y="374.28125"
@@ -29633,7 +29633,7 @@
        width="34.170219"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/thomson_reuters_logo.gif"
+       sodipodi:absref="./logos/thomson_reuters_logo.gif"
        xlink:href="logos/thomson_reuters_logo.gif"
        style="display:inline"
        y="379.92499"
@@ -29643,7 +29643,7 @@
        width="60.098289"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/agenciaDYN.jpg"
+       sodipodi:absref="./logos/agenciaDYN.jpg"
        xlink:href="logos/agenciaDYN.jpg"
        style="display:inline"
        y="357.77936"
@@ -29653,7 +29653,7 @@
        width="48.55756"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/iptv-logo.jpg"
+       sodipodi:absref="./logos/iptv-logo.jpg"
        xlink:href="logos/iptv-logo.jpg"
        y="699.94092"
        x="4.9201751"
@@ -29662,7 +29662,7 @@
        width="21.188082"
        transform="matrix(0.8660254,-0.5,0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/MICA.png"
+       sodipodi:absref="./logos/MICA.png"
        xlink:href="logos/MICA.png"
        y="520.5589"
        x="628.94781"
@@ -29671,7 +29671,7 @@
        width="11.671061"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/bacua.png"
+       sodipodi:absref="./logos/bacua.png"
        xlink:href="logos/bacua.png"
        style="display:inline"
        y="542.81219"
@@ -29681,7 +29681,7 @@
        width="16.205324"
        transform="matrix(0.8660254,0.5,-0.8660244,0.50000174,0,0)" />
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/incaa_tv.jpg"
+       sodipodi:absref="./logos/incaa_tv.jpg"
        xlink:href="logos/incaa_tv.jpg"
        y="555.33551"
        x="627.62183"
@@ -35810,7 +35810,7 @@
       </g>
     </g>
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/internet.png"
+       sodipodi:absref="./logos/internet.png"
        xlink:href="logos/internet.png"
        style="display:inline"
        width="16.206703"
@@ -35969,7 +35969,7 @@
       </g>
     </g>
     <image
-       sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/internet.png"
+       sodipodi:absref="./logos/internet.png"
        xlink:href="logos/internet.png"
        style="display:inline"
        width="16.206703"
@@ -38677,7 +38677,7 @@
              style="opacity:0.98999999;color:#000000;fill:#1b0d09;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.05297929;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
         </g>
         <image
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/debian-logo.png"
+           sodipodi:absref="./logos/debian-logo.png"
            xlink:href="logos/debian-logo.png"
            style="display:inline"
            y="41.97884"
@@ -39096,8 +39096,8 @@
            id="image15445-1"
            height="10.313952"
            width="8.3486166"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/debian-logo.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/debian-logo.png" />
+           xlink:href="./logos/debian-logo.png"
+           sodipodi:absref="./logos/debian-logo.png" />
       </g>
     </g>
     <g
@@ -39173,32 +39173,32 @@
            id="image9517-8-7-3"
            x="180.88663"
            y="145.31836"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/inkscape.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/inkscape.png" />
+           xlink:href="./logos/inkscape.png"
+           sodipodi:absref="./logos/inkscape.png" />
         <image
            width="14.017703"
            height="14.017703"
            id="image9331-8-9-6"
            x="209.96112"
            y="131.717"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/blender.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/blender.png" />
+           xlink:href="./logos/blender.png"
+           sodipodi:absref="./logos/blender.png" />
         <image
            width="16.100534"
            height="16.100534"
            id="image9393-3-3-1"
            x="177.06686"
            y="126.82644"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/gimp.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/gimp.png" />
+           xlink:href="./logos/gimp.png"
+           sodipodi:absref="./logos/gimp.png" />
         <image
            width="13.606589"
            height="14.630741"
            id="image9455-6-4-2"
            x="194.35947"
            y="133.43549"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/Kdenlive.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/Kdenlive.png" />
+           xlink:href="./logos/Kdenlive.png"
+           sodipodi:absref="./logos/Kdenlive.png" />
         <g
            id="g19431-7-7-7"
            transform="matrix(0.73664996,-0.62576093,0.62576093,0.73664996,4.9788963,160.72256)">
@@ -46595,32 +46595,32 @@
            id="image9517-8-7"
            x="148.23888"
            y="121.32079"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/inkscape.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/inkscape.png" />
+           xlink:href="./logos/inkscape.png"
+           sodipodi:absref="./logos/inkscape.png" />
         <image
            width="12.798692"
            height="12.798692"
            id="image9331-8-9"
            x="176.12012"
            y="130.19324"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/blender.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/blender.png" />
+           xlink:href="./logos/blender.png"
+           sodipodi:absref="./logos/blender.png" />
         <image
            width="16.50687"
            height="16.50687"
            id="image9393-3-3"
            x="157.64067"
            y="103.87854"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/gimp.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/gimp.png" />
+           xlink:href="./logos/gimp.png"
+           sodipodi:absref="./logos/gimp.png" />
         <image
            width="13.110117"
            height="14.096899"
            id="image9455-6-4"
            x="168.96732"
            y="119.0218"
-           xlink:href="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/Kdenlive.png"
-           sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/./logos/Kdenlive.png" />
+           xlink:href="./logos/Kdenlive.png"
+           sodipodi:absref="./logos/Kdenlive.png" />
         <g
            id="g19431-7-7"
            transform="matrix(0.93564948,0,0,0.93564948,16.297883,19.418193)">
@@ -50369,7 +50369,7 @@
      transform="translate(212.48479,-7.0615965e-7)"
      sodipodi:insensitive="true" />
   <image
-     sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/canal-encuentro.png"
+     sodipodi:absref="./logos/canal-encuentro.png"
      xlink:href="logos/canal-encuentro.png"
      transform="matrix(0.8660244,0.50000174,-0.8660254,0.5,0,0)"
      width="19.1984"
@@ -50378,7 +50378,7 @@
      x="1034.8126"
      y="542.77753" />
   <image
-     sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/spotify2.png"
+     sodipodi:absref="./logos/spotify2.png"
      xlink:href="logos/spotify2.png"
      transform="matrix(0.8660244,0.50000174,-0.8660254,0.5,0,0)"
      width="24.765715"
@@ -50387,7 +50387,7 @@
      x="1343.6171"
      y="488.33423" />
   <image
-     sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/spotify2.png"
+     sodipodi:absref="./logos/spotify2.png"
      xlink:href="logos/spotify2.png"
      transform="matrix(0.8660244,0.50000174,-0.8660254,0.5,0,0)"
      width="24.765715"
@@ -50397,7 +50397,7 @@
      y="488.06537"
      style="display:inline" />
   <image
-     sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/itunes.png"
+     sodipodi:absref="./logos/itunes.png"
      xlink:href="logos/itunes.png"
      transform="matrix(0.8660244,0.50000174,-0.8660254,0.5,0,0)"
      width="29.467693"
@@ -50406,7 +50406,7 @@
      x="1340.8556"
      y="498.64954" />
   <image
-     sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/itunes.png"
+     sodipodi:absref="./logos/itunes.png"
      xlink:href="logos/itunes.png"
      transform="matrix(0.8660244,0.50000174,-0.8660254,0.5,0,0)"
      width="29.467693"
@@ -50416,7 +50416,7 @@
      y="498.77881"
      style="display:inline" />
   <image
-     sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/radionacional.png"
+     sodipodi:absref="./logos/radionacional.png"
      xlink:href="logos/radionacional.png"
      transform="matrix(0.8660244,0.50000174,-0.8660254,0.5,0,0)"
      width="18.07641"
@@ -50426,7 +50426,7 @@
      y="515.82043"
      style="display:inline" />
   <image
-     sodipodi:absref="/home/alejo/desarrollo/opcode/caspa/grafica/diseño4/design-artwork/presentations/logos/radionacional.png"
+     sodipodi:absref="./logos/radionacional.png"
      xlink:href="logos/radionacional.png"
      transform="matrix(0.8660244,0.50000174,-0.8660254,0.5,0,0)"
      width="18.07641"
