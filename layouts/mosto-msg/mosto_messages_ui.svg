@@ -1085,9 +1085,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="1168.1952"
-     inkscape:cy="635.25116"
+     inkscape:zoom="0.64556964"
+     inkscape:cx="923.15684"
+     inkscape:cy="638.99998"
      inkscape:document-units="px"
      inkscape:current-layer="svg2"
      showgrid="false"
@@ -1121,13 +1121,13 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <image
-       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Mosto_Messaging_Background.png"
-       xlink:href="Mosto_Messaging_Background.png"
-       y="4.2907538"
-       x="1.5000001"
-       id="image23020"
+       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/mosto_msg_bg.png"
+       xlink:href="utils/mosto_msg_bg.png"
+       width="1437"
        height="879"
-       width="1437" />
+       id="image23020"
+       x="1.5000001"
+       y="4.2907538" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1202,7 +1202,7 @@
        inkscape:groupmode="layer"
        id="layer4"
        inkscape:label="click_red"
-       style="display:inline"
+       style="display:none"
        sodipodi:insensitive="true">
       <path
          style="opacity:0.99601596;fill:#ffcfc2;fill-opacity:1;stroke:#ff3305;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;filter:url(#filter23457)"
@@ -1314,7 +1314,7 @@
        inkscape:groupmode="layer"
        id="layer5"
        inkscape:label="btn_red"
-       style="display:inline"
+       style="display:none"
        sodipodi:insensitive="true">
       <g
          id="g22755"
@@ -1340,7 +1340,7 @@
       </g>
     </g>
     <g
-       style="display:inline"
+       style="display:none"
        inkscape:label="num_red."
        id="g13939"
        inkscape:groupmode="layer"
@@ -1375,7 +1375,7 @@
        inkscape:label="click_yellow"
        id="g23161"
        inkscape:groupmode="layer"
-       style="display:none"
+       style="display:inline"
        sodipodi:insensitive="true">
       <path
          sodipodi:nodetypes="ssccsscccss"
@@ -1451,33 +1451,33 @@
          id="g13924"
          transform="translate(-6.4852812,4.2426446)">
         <image
-           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
-           xlink:href="Scrollbar_Example.png"
-           width="17"
-           height="162"
-           id="image12935"
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+           xlink:href="utils/scroller_ex.png"
+           y="185.57446"
            x="1257.8069"
-           y="185.57446" />
-        <image
-           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scroller_Azul.png"
-           xlink:href="Scroller_Azul.png"
-           transform="translate(-101.12132,-108.5)"
-           clip-path="url(#clipPath12925)"
-           width="23"
-           height="39"
-           id="image12937"
-           x="1356.7516"
-           y="329.16992" />
-        <image
-           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
-           xlink:href="Scrollbar_Example.png"
-           y="274.57446"
-           x="1143.9282"
-           id="image13916"
+           id="image12935"
            height="162"
-           width="17"
+           width="17" />
+        <image
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
+           xlink:href="utils/scrollbar.png"
+           y="329.16992"
+           x="1356.7516"
+           id="image12937"
+           height="39"
+           width="23"
+           clip-path="url(#clipPath12925)"
+           transform="translate(-101.12132,-108.5)" />
+        <image
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+           xlink:href="utils/scroller_ex.png"
+           transform="translate(113.87868,-48)"
            clip-path="url(#clipPath13920)"
-           transform="translate(113.87868,-48)" />
+           width="17"
+           height="162"
+           id="image13916"
+           x="1143.9282"
+           y="274.57446" />
       </g>
       <g
          id="g15123"
@@ -1590,7 +1590,7 @@
        inkscape:groupmode="layer"
        id="layer6"
        inkscape:label="btn_yellow"
-       style="display:none"
+       style="display:inline"
        sodipodi:insensitive="true">
       <g
          id="g22759"
@@ -1617,7 +1617,7 @@
       </g>
     </g>
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:label="num_yellow."
        id="g13929"
        inkscape:groupmode="layer"
@@ -1906,23 +1906,23 @@
       <g
          id="g12929">
         <image
-           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
-           xlink:href="Scrollbar_Example.png"
-           y="178.57446"
-           x="1257.9282"
-           id="image12697"
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+           xlink:href="utils/scroller_ex.png"
+           width="17"
            height="162"
-           width="17" />
+           id="image12697"
+           x="1257.9282"
+           y="178.57446" />
         <image
-           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scroller_Azul.png"
-           xlink:href="Scroller_Azul.png"
-           y="329.16992"
-           x="1356.7516"
-           id="image12910"
-           height="39"
-           width="23"
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
+           xlink:href="utils/scrollbar.png"
+           transform="translate(-101,-115.5)"
            clip-path="url(#clipPath12925)"
-           transform="translate(-101,-115.5)" />
+           width="23"
+           height="39"
+           id="image12910"
+           x="1356.7516"
+           y="329.16992" />
       </g>
       <text
          xml:space="preserve"
@@ -2197,30 +2197,27 @@
            clip-path="url(#clipPath22421)" />
       </g>
     </g>
-    <g
-       id="g12951">
-      <image
-         sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
-         xlink:href="Scrollbar_Example.png"
-         y="178.57446"
-         x="1257.9282"
-         id="image12953"
-         height="162"
-         width="17" />
-      <image
-         sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scroller_Azul.png"
-         xlink:href="Scroller_Azul.png"
-         y="329.16992"
-         x="1356.7516"
-         id="image12955"
-         height="39"
-         width="23"
-         clip-path="url(#clipPath12925)"
-         transform="translate(-101,-115.5)" />
-    </g>
+    <image
+       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+       xlink:href="utils/scroller_ex.png"
+       y="178.57446"
+       x="1257.9282"
+       id="image12953"
+       height="162"
+       width="17" />
+    <image
+       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
+       xlink:href="utils/scrollbar.png"
+       y="329.16992"
+       x="1356.7516"
+       id="image12955"
+       height="39"
+       width="23"
+       clip-path="url(#clipPath12925)"
+       transform="translate(-101,-115.5)" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:groupmode="layer"
      id="g23085"
      inkscape:label="Iconos_04"
@@ -2278,8 +2275,8 @@
        inkscape:groupmode="layer"
        id="layer3"
        inkscape:label="notifications"
-       sodipodi:insensitive="true"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <g
          id="g15057">
         <g
@@ -2310,41 +2307,42 @@
            style="filter:url(#filter15015)"
            id="g15009">
           <image
-             y="396"
-             x="999"
-             id="image14980"
-             xlink:href="file:///Users/athy/Desktop/Imagen%206.png"
-             height="214"
+             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/list_and_scroll.png"
+             xlink:href="utils/list_and_scroll.png"
+             clip-path="url(#clipPath15002)"
              width="286"
-             clip-path="url(#clipPath15002)" />
+             height="214"
+             id="image14980"
+             x="999"
+             y="396" />
           <image
-             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
-             xlink:href="Scrollbar_Example.png"
-             y="401.16025"
-             x="1262.3424"
-             id="image12965"
-             height="162"
-             width="17" />
-          <image
-             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scroller_Azul.png"
-             xlink:href="Scroller_Azul.png"
-             y="329.16992"
-             x="1356.7516"
-             id="image12967"
-             height="39"
-             width="23"
-             clip-path="url(#clipPath12925)"
-             transform="translate(-96.58579,107.08579)" />
-          <image
-             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
-             xlink:href="Scrollbar_Example.png"
-             transform="translate(-264.87867,262.2929)"
-             clip-path="url(#clipPath14989)"
+             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+             xlink:href="utils/scroller_ex.png"
              width="17"
              height="162"
-             id="image14985"
+             id="image12965"
+             x="1262.3424"
+             y="401.16025" />
+          <image
+             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
+             xlink:href="utils/scrollbar.png"
+             transform="translate(-96.58579,107.08579)"
+             clip-path="url(#clipPath12925)"
+             width="23"
+             height="39"
+             id="image12967"
+             x="1356.7516"
+             y="329.16992" />
+          <image
+             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+             xlink:href="utils/scroller_ex.png"
+             y="180.16025"
              x="1527.3424"
-             y="180.16025" />
+             id="image14985"
+             height="162"
+             width="17"
+             clip-path="url(#clipPath14989)"
+             transform="translate(-264.87867,262.2929)" />
         </g>
       </g>
     </g>
@@ -2391,14 +2389,15 @@
              id="rect14888"
              style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:#fc937e;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter14668)" />
           <image
-             transform="translate(-66,39)"
-             clip-path="url(#clipPath14552)"
-             width="283"
-             height="215"
-             xlink:href="file:///Users/athy/Desktop/Imagen%201.png"
-             id="image14890"
+             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/list.png"
+             xlink:href="utils/list.png"
+             y="271.5"
              x="986.5"
-             y="271.5" />
+             id="image14890"
+             height="215"
+             width="283"
+             clip-path="url(#clipPath14552)"
+             transform="translate(-66,39)" />
         </g>
       </g>
     </g>
@@ -2407,7 +2406,7 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Iconos_05"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <g
        id="g14682"
@@ -2422,32 +2421,35 @@
          id="rect14610"
          style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:#fc937e;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter14668)" />
       <image
-         transform="translate(-66,39)"
-         clip-path="url(#clipPath14552)"
-         width="283"
-         height="215"
-         xlink:href="file:///Users/athy/Desktop/Imagen%201.png"
-         id="image14341"
+         sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/list.png"
+         xlink:href="utils/list.png"
+         y="271.5"
          x="986.5"
-         y="271.5" />
+         id="image14341"
+         height="215"
+         width="283"
+         clip-path="url(#clipPath14552)"
+         transform="translate(-66,39)" />
     </g>
     <image
-       y="444"
-       x="1060.5"
-       id="image14780"
-       xlink:href="file:///Users/athy/Desktop/Imagen%205.png"
-       height="42"
-       width="149"
+       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/warn.png"
+       xlink:href="utils/warn.png"
+       transform="matrix(0.85294118,0,0,0.85294118,251.83824,-238.11765)"
        clip-path="url(#clipPath14787)"
-       transform="matrix(0.85294118,0,0,0.85294118,251.83824,-238.11765)" />
+       width="149"
+       height="42"
+       id="image14780"
+       x="1060.5"
+       y="444" />
     <image
-       y="199"
-       x="1144.5"
-       id="image14869"
-       xlink:href="file:///Users/athy/Desktop/Imagen%204.png"
-       height="40"
-       width="173"
+       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/noti.png"
+       xlink:href="utils/noti.png"
+       transform="matrix(0.85294118,0,0,0.85294118,24.602941,-28.367647)"
        clip-path="url(#clipPath14882)"
-       transform="matrix(0.85294118,0,0,0.85294118,24.602941,-28.367647)" />
+       width="173"
+       height="40"
+       id="image14869"
+       x="1144.5"
+       y="199" />
   </g>
 </svg>
