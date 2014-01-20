@@ -866,6 +866,217 @@
        y1="180.10887"
        x2="1095.7882"
        y2="157.27995" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12925">
+      <rect
+         style="opacity:0.73705181;fill:#d83aaa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect12927"
+         width="15"
+         height="42"
+         x="1360"
+         y="331"
+         rx="0.81330949"
+         ry="0.89644223" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13920">
+      <rect
+         style="opacity:0.73705181;fill:#e00000;fill-opacity:1;fill-rule:nonzero;stroke:#ffb91d;stroke-width:0.43000001;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect13922"
+         width="78"
+         height="110"
+         x="1107"
+         y="347"
+         rx="0.81330949"
+         ry="0.89644223" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient23993"
+       id="linearGradient13969"
+       gradientUnits="userSpaceOnUse"
+       x1="1095.7882"
+       y1="180.10887"
+       x2="1095.7882"
+       y2="157.27995" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient23993"
+       id="linearGradient13971"
+       gradientUnits="userSpaceOnUse"
+       x1="1095.7882"
+       y1="180.10887"
+       x2="1095.7882"
+       y2="157.27995" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14552">
+      <rect
+         ry="5"
+         rx="5"
+         y="274"
+         x="987.5"
+         height="209"
+         width="278.5"
+         id="rect14554"
+         style="fill:#f08080;fill-opacity:1;fill-rule:nonzero;stroke:#fc937e;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </clipPath>
+    <filter
+       id="filter14594"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-0.25"
+       y="-0.25"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur14596"
+         in="SourceAlpha"
+         stdDeviation="10"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix14598"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
+      <feOffset
+         id="feOffset14600"
+         in="bluralpha"
+         dx="2"
+         dy="2"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge14602">
+        <feMergeNode
+           id="feMergeNode14604"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode14606"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter14668"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-0.25"
+       y="-0.25"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur14670"
+         in="SourceAlpha"
+         stdDeviation="3"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix14672"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0 " />
+      <feOffset
+         id="feOffset14674"
+         in="bluralpha"
+         dx="0"
+         dy="0"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge14676">
+        <feMergeNode
+           id="feMergeNode14678"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode14680"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14787">
+      <rect
+         style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect14789"
+         width="142"
+         height="33.5"
+         x="1063.5"
+         y="448"
+         rx="3"
+         ry="3" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14882">
+      <rect
+         ry="3"
+         rx="3"
+         y="202"
+         x="1146.5"
+         height="33.5"
+         width="167.5"
+         id="rect14884"
+         style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14989">
+      <rect
+         style="fill:#e00000;fill-opacity:0.30196078;fill-rule:nonzero;stroke:none"
+         id="rect14991"
+         width="87"
+         height="125"
+         x="1496"
+         y="255"
+         rx="5"
+         ry="5" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15002">
+      <rect
+         style="fill:#e00000;fill-opacity:0.30196078;fill-rule:nonzero;stroke:none"
+         id="rect15004"
+         width="278.60007"
+         height="208.5965"
+         x="1002.6774"
+         y="398.87448"
+         rx="3"
+         ry="3" />
+    </clipPath>
+    <filter
+       id="filter15015"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-0.25"
+       y="-0.25"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur15017"
+         in="SourceAlpha"
+         stdDeviation="3"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix15019"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.6 0 " />
+      <feOffset
+         id="feOffset15021"
+         in="bluralpha"
+         dx="0"
+         dy="0"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge15023">
+        <feMergeNode
+           id="feMergeNode15025"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode15027"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -874,11 +1085,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="1154.699"
-     inkscape:cy="594.14557"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="1168.1952"
+     inkscape:cy="635.25116"
      inkscape:document-units="px"
-     inkscape:current-layer="g23493"
+     inkscape:current-layer="svg2"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -912,11 +1123,11 @@
     <image
        sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Mosto_Messaging_Background.png"
        xlink:href="Mosto_Messaging_Background.png"
-       width="1437"
-       height="879"
-       id="image23020"
+       y="4.2907538"
        x="1.5000001"
-       y="4.2907538" />
+       id="image23020"
+       height="879"
+       width="1437" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -925,7 +1136,8 @@
      style="display:none"
      sodipodi:insensitive="true">
     <g
-       id="g23173">
+       id="g23173"
+       transform="translate(-2,1.3072373)">
       <path
          style="fill:none;stroke:#444444;stroke-width:1.02684534px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 1139.5054,141.73375 0,32.32402"
@@ -938,7 +1150,7 @@
          style="fill:#555555;fill-opacity:1;stroke:#666666;stroke-width:1.02684534px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
-       transform="translate(157.56392,-34.553591)"
+       transform="translate(155.56392,-33.246354)"
        id="g22771">
       <g
          id="g22845"
@@ -965,7 +1177,7 @@
       </g>
     </g>
     <g
-       transform="translate(144.74989,-35.014805)"
+       transform="translate(142.74989,-33.707568)"
        id="g22853">
       <rect
          ry="3"
@@ -990,22 +1202,16 @@
        inkscape:groupmode="layer"
        id="layer4"
        inkscape:label="click_red"
-       style="display:none"
+       style="display:inline"
        sodipodi:insensitive="true">
       <path
          style="opacity:0.99601596;fill:#ffcfc2;fill-opacity:1;stroke:#ff3305;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;filter:url(#filter23457)"
-         d="m 1146.7937,143.29973 132.9735,0 c 2.216,0 4,1.784 4,4 l 0,258.91912 c 0,2.216 -1.784,4 -4,4 l -278.9735,0 c -2.216,0 -4,-1.784 -4,-4 l 0,-231.45956 146,0.27022 0,-27.72978 c 0,-2.216 1.784,-4 4,-4 z"
+         d="m 1146.7937,143.29973 132.9735,0 c 2.216,0 4,1.784 4,4 l 0,174.91912 c 0,2.216 -1.784,4 -4,4 l -278.9735,0 c -2.216,0 -4,-1.784 -4,-4 l 0,-147.45956 146,0.27022 0,-27.72978 c 0,-2.216 1.784,-4 4,-4 z"
          id="rect23121"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ssccsscccss" />
       <g
          id="g23930">
-        <path
-           style="opacity:0.99601596;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 1270.0278,356.25417 0,-41.97155 -259.8143,0 0,41.97155 z"
-           id="path23928"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
         <path
            sodipodi:nodetypes="ccccc"
            inkscape:connector-curvature="0"
@@ -1025,52 +1231,94 @@
            d="m 1010.0583,229.9254 259.2022,0"
            style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
         <path
-           style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 1270.0278,313.74393 0,-41.64542 -259.8143,0 0,41.64542 z"
-           id="path23924"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-        <path
            style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            d="m 1010.0583,271.9254 259.2022,0"
            id="path23908"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cc" />
         <path
-           sodipodi:nodetypes="cc"
-           inkscape:connector-curvature="0"
-           id="path23914"
-           d="m 1010.0583,313.9254 259.2022,0"
-           style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <path
            sodipodi:nodetypes="sssccss"
            inkscape:connector-curvature="0"
            id="path23922"
-           d="m 1015.2135,395.30121 249.8143,0 c 2.77,0 5,-2.23 5,-5 l 0,-34.01478 -259.8143,0 0,34.01478 c 0,2.77 2.23,5 5,5 z"
+           d="m 1015.2135,311.30121 249.8143,0 c 2.77,0 5,-2.23 5,-5 l 0,-34.01478 -259.8143,0 0,34.01478 c 0,2.77 2.23,5 5,5 z"
            style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-        <path
-           style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           d="m 1010.0583,355.9254 259.2022,0"
-           id="path23918"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cc" />
         <path
            sodipodi:nodetypes="sssssssss"
            inkscape:connector-curvature="0"
            id="rect23903"
-           d="m 1015.2135,188.10164 249.8143,0 c 2.77,0 5,2.23 5,5 l 0,197.54623 c 0,2.77 -2.23,5 -5,5 l -249.8143,0 c -2.77,0 -5,-2.23 -5,-5 l 0,-197.54623 c 0,-2.77 2.23,-5 5,-5 z"
+           d="m 1015.2135,188.10164 249.8143,0 c 2.77,0 5,2.23 5,5 l 0,113.54623 c 0,2.77 -2.23,5 -5,5 l -249.8143,0 c -2.77,0 -5,-2.23 -5,-5 l 0,-113.54623 c 0,-2.77 2.23,-5 5,-5 z"
            style="opacity:0.99601596;fill:none;stroke:#848484;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      </g>
+      <g
+         transform="translate(-2.2426396,-172.53405)"
+         style="fill:#696969;fill-opacity:1"
+         id="g15240">
+        <text
+           sodipodi:linespacing="125%"
+           id="text15242"
+           y="377.43353"
+           x="1020.3995"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           xml:space="preserve"><tspan
+             y="377.43353"
+             x="1020.3995"
+             id="tspan15244"
+             sodipodi:role="line"># 901</tspan><tspan
+             id="tspan15246"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             y="389.23581"
+             x="1020.3995"
+             sodipodi:role="line">Text of a notification message, with one line.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           x="1020.3995"
+           y="416.12341"
+           id="text15248"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan15250"
+             x="1020.3995"
+             y="416.12341"># 902</tspan><tspan
+             sodipodi:role="line"
+             x="1020.3995"
+             y="427.92569"
+             id="tspan15252"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">Text of notification message, with 2 simple lines of </tspan><tspan
+             sodipodi:role="line"
+             x="1020.3995"
+             y="439.55069"
+             style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+             id="tspan15254"><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan15256">content</tspan>.</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text15258"
+           y="462.12341"
+           x="1020.3995"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           xml:space="preserve"><tspan
+             y="462.12341"
+             x="1020.3995"
+             id="tspan15260"
+             sodipodi:role="line"># 903</tspan><tspan
+             id="tspan15264"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             y="473.92569"
+             x="1020.3995"
+             sodipodi:role="line">Text of a notification message, with one line.</tspan></text>
       </g>
     </g>
     <g
        inkscape:groupmode="layer"
        id="layer5"
        inkscape:label="btn_red"
-       style="display:none"
+       style="display:inline"
        sodipodi:insensitive="true">
       <g
          id="g22755"
-         transform="translate(144.74989,-35.014805)">
+         transform="translate(142.74989,-33.707568)">
         <rect
            style="fill:url(#linearGradient22767);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient22769);stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44690282;stroke-dasharray:none"
            id="rect22729"
@@ -1092,10 +1340,42 @@
       </g>
     </g>
     <g
+       style="display:inline"
+       inkscape:label="num_red."
+       id="g13939"
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
+      <g
+         id="g13941"
+         transform="matrix(1.1981261,0,0,1.1981261,-86.884712,-45.669746)">
+        <rect
+           ry="2"
+           rx="2"
+           y="159.56285"
+           x="1088.9396"
+           height="10.436081"
+           width="14.02346"
+           id="rect13943"
+           style="opacity:0.99601596;fill:#3a3a3a;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient13971)" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text13945"
+           y="167.71603"
+           x="1095.7147"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           xml:space="preserve"><tspan
+             style="font-size:8px;text-align:center;text-anchor:middle;fill:#ffffff"
+             y="167.71603"
+             x="1095.7147"
+             id="tspan13947"
+             sodipodi:role="line">3</tspan></text>
+      </g>
+    </g>
+    <g
        inkscape:label="click_yellow"
        id="g23161"
        inkscape:groupmode="layer"
-       style="display:inline"
+       style="display:none"
        sodipodi:insensitive="true">
       <path
          sodipodi:nodetypes="ssccsscccss"
@@ -1104,7 +1384,8 @@
          d="m 1133.7672,143.29973 -132.9735,0 c -2.216,0 -4,1.784 -4,4 l 0,258.91912 c 0,2.216 1.784,4 4,4 l 278.9735,0 c 2.216,0 4,-1.784 4,-4 l 0,-231.45956 -146,0.27022 0,-27.72978 c 0,-2.216 -1.784,-4 -4,-4 z"
          style="opacity:0.99601596;fill:#fffcc2;fill-opacity:1;stroke:#ffb205;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;filter:url(#filter23443)" />
       <g
-         id="g23942">
+         id="g23942"
+         transform="translate(-0.12132034,0)">
         <path
            sodipodi:nodetypes="ccccc"
            inkscape:connector-curvature="0"
@@ -1121,7 +1402,7 @@
            sodipodi:nodetypes="sssccss"
            inkscape:connector-curvature="0"
            id="path23948"
-           d="m 1015.2135,188.10164 249.8143,0 c 2.77,0 5,2.23 5,5 l 0,36.6238 -259.8143,0 0,-36.6238 c 0,-2.77 2.23,-5 5,-5 z"
+           d="m 1015.2135,188.10164 249.8143,0 c 2.77,0 4.849,2.23412 5,5 l 0,36.6238 -259.8143,0 0,-36.6238 c 0,-2.77 2.23,-5 5,-5 z"
            style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none" />
         <path
            style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -1166,16 +1447,154 @@
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="sssssssss" />
       </g>
+      <g
+         id="g13924"
+         transform="translate(-6.4852812,4.2426446)">
+        <image
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
+           xlink:href="Scrollbar_Example.png"
+           width="17"
+           height="162"
+           id="image12935"
+           x="1257.8069"
+           y="185.57446" />
+        <image
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scroller_Azul.png"
+           xlink:href="Scroller_Azul.png"
+           transform="translate(-101.12132,-108.5)"
+           clip-path="url(#clipPath12925)"
+           width="23"
+           height="39"
+           id="image12937"
+           x="1356.7516"
+           y="329.16992" />
+        <image
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
+           xlink:href="Scrollbar_Example.png"
+           y="274.57446"
+           x="1143.9282"
+           id="image13916"
+           height="162"
+           width="17"
+           clip-path="url(#clipPath13920)"
+           transform="translate(113.87868,-48)" />
+      </g>
+      <g
+         id="g15123"
+         style="fill:#696969;fill-opacity:1"
+         transform="translate(-3.6568543,-171.11984)">
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           x="1022.3995"
+           y="377.43353"
+           id="text15093"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan15095"
+             x="1022.3995"
+             y="377.43353"># 901</tspan><tspan
+             sodipodi:role="line"
+             x="1022.3995"
+             y="389.23581"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             id="tspan15097">Text of a notification message, with one line.</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text15099"
+           y="414.12341"
+           x="1020.3995"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           xml:space="preserve"><tspan
+             y="414.12341"
+             x="1020.3995"
+             id="tspan15101"
+             sodipodi:role="line"># 902</tspan><tspan
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             id="tspan15103"
+             y="425.92569"
+             x="1020.3995"
+             sodipodi:role="line">Text of a notification message, with two lines of </tspan><tspan
+             id="tspan15105"
+             style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+             y="437.55069"
+             x="1020.3995"
+             sodipodi:role="line"><tspan
+   id="tspan15107"
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">content</tspan>.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           x="1020.3995"
+           y="456.12341"
+           id="text15208"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan15210"
+             x="1020.3995"
+             y="456.12341"># 903</tspan><tspan
+             sodipodi:role="line"
+             x="1020.3995"
+             y="467.92569"
+             id="tspan15212"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">Text of a notification message, with two lines of </tspan><tspan
+             sodipodi:role="line"
+             x="1020.3995"
+             y="479.55069"
+             style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+             id="tspan15214"><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan15216">content</tspan>.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           x="1020.3995"
+           y="538.57422"
+           id="text15224"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan15226"
+             x="1020.3995"
+             y="538.57422"># 905</tspan><tspan
+             sodipodi:role="line"
+             x="1020.3995"
+             y="550.37646"
+             id="tspan15228"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">Text of a notification message, with two lines of </tspan><tspan
+             sodipodi:role="line"
+             x="1020.3995"
+             y="562.00146"
+             style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+             id="tspan15230"><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan15232">content</tspan>.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           x="1022.3995"
+           y="503.88434"
+           id="text15234"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan15236"
+             x="1022.3995"
+             y="503.88434"># 904</tspan><tspan
+             sodipodi:role="line"
+             x="1022.3995"
+             y="515.68658"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             id="tspan15238">Text of a notification message, with one line.</tspan></text>
+      </g>
     </g>
     <g
        inkscape:groupmode="layer"
        id="layer6"
        inkscape:label="btn_yellow"
-       style="display:inline"
+       style="display:none"
        sodipodi:insensitive="true">
       <g
          id="g22759"
-         transform="translate(74.08421,-35.014805)">
+         transform="translate(72.08421,-33.707568)">
         <rect
            ry="3"
            rx="3"
@@ -1197,12 +1616,45 @@
            y="42.455246" />
       </g>
     </g>
+    <g
+       style="display:none"
+       inkscape:label="num_yellow."
+       id="g13929"
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
+      <g
+         transform="matrix(1.1981261,0,0,1.1981261,-229.43146,-45.762072)"
+         id="g13931">
+        <rect
+           style="opacity:0.99601596;fill:#3a3a3a;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient13969)"
+           id="rect13933"
+           width="14.02346"
+           height="10.436081"
+           x="1088.9396"
+           y="159.56285"
+           rx="2"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           x="1095.7147"
+           y="167.71603"
+           id="text13935"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan13937"
+             x="1095.7147"
+             y="167.71603"
+             style="font-size:8px;text-align:center;text-anchor:middle;fill:#ffffff">15</tspan></text>
+      </g>
+    </g>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Iconos_02"
      id="g23471"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <g
        id="g23473">
       <path
@@ -1266,10 +1718,11 @@
          clip-path="url(#clipPath22743)" />
     </g>
     <g
-       style="display:inline"
+       style="display:none"
        inkscape:label="click_red"
        id="g23493"
-       inkscape:groupmode="layer">
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
       <path
          sodipodi:nodetypes="ccsscc"
          inkscape:connector-curvature="0"
@@ -1295,9 +1748,71 @@
          id="path23519"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ssccssccs" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text13801"
+         y="192.29289"
+         x="1011.7929"
+         style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e00000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="192.29289"
+           x="1011.7929"
+           id="tspan13803"
+           sodipodi:role="line"># 901</tspan><tspan
+           id="tspan13805"
+           style="font-size:9.30000019px;font-weight:normal;fill:#e00000;fill-opacity:1;-inkscape-font-specification:Sans"
+           y="204.09517"
+           x="1011.7929"
+           sodipodi:role="line">Text of a notification message, with one line.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e00000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="1011.7929"
+         y="250.98276"
+         id="text13807"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan13809"
+           x="1011.7929"
+           y="250.98276"># 903</tspan><tspan
+           sodipodi:role="line"
+           x="1011.7929"
+           y="262.78503"
+           style="font-size:9.30000019px;fill:#e00000;fill-opacity:1"
+           id="tspan13813"><tspan
+             id="tspan13908"
+             style="font-size:9.30000019px;font-weight:normal;fill:#e00000;fill-opacity:1;-inkscape-font-specification:Sans">Text of a notification message, with two lines of nice &amp;</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="1011.7929"
+           y="274.41003"
+           style="font-size:9.30000019px;fill:#e00000;fill-opacity:1"
+           id="tspan13910"><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#e00000;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan13912">pretty content</tspan>.</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text13817"
+         y="308.96552"
+         x="1011.7929"
+         style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#e00000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="308.96552"
+           x="1011.7929"
+           id="tspan13819"
+           sodipodi:role="line"># 904</tspan><tspan
+           id="tspan13823"
+           style="font-size:9.30000019px;font-weight:normal;fill:#e00000;fill-opacity:1;-inkscape-font-specification:Sans"
+           y="320.76779"
+           x="1011.7929"
+           sodipodi:role="line">Text of a notification message, with a big big content, </tspan><tspan
+           id="tspan13827"
+           style="font-size:9.30000019px;font-weight:normal;fill:#e00000;fill-opacity:1;-inkscape-font-specification:Sans"
+           y="332.39279"
+           x="1011.7929"
+           sodipodi:role="line">perhaps more than three lines of text, or perhaps not...</tspan></text>
     </g>
     <g
-       style="display:inline"
+       style="display:none"
        inkscape:label="btn_red"
        id="g23501"
        inkscape:groupmode="layer"
@@ -1329,7 +1844,7 @@
        inkscape:groupmode="layer"
        id="layer12"
        inkscape:label="num_red"
-       style="display:inline"
+       style="display:none"
        sodipodi:insensitive="true">
       <g
          transform="matrix(1.1981261,0,0,1.1981261,-86.884712,-47.669746)"
@@ -1358,21 +1873,21 @@
       </g>
     </g>
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:groupmode="layer"
        id="g23497"
        inkscape:label="click_yellow"
        sodipodi:insensitive="true">
       <path
          style="opacity:0.99601596;fill:#4f4f4f;fill-opacity:1;stroke:url(#linearGradient23607);stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter23843)"
-         d="m 995.77208,173.29973 0,234.91912 c 0,2.216 1.784,4 4,4 l 281.99512,0 c 2.216,0 4,-1.784 4,-4 l 0,-236.91912 -146.604,0"
+         d="m 995.77208,173.29973 0,174.91912 c 0,2.216 1.784,4 4,4 l 281.99512,0 c 2.216,0 4,-1.784 4,-4 l 0,-176.91912 -146.604,0"
          id="path23529"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccssccc"
          clip-path="url(#clipPath23857)" />
       <path
-         style="opacity:0.99601596;fill:#fffcc2;fill-opacity:1;stroke:#ffc009;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 1269.7672,179.29973 -258.9735,0 c -2.216,0 -4,1.784 -4,4 l 0,36.91912 c 0,2.216 1.784,4 4,4 l 258.9735,0 c 2.216,0 4,-1.784 4,-4 l 0,-36.91912 c 0,-2.216 -1.784,-4 -4,-4 z"
+         style="opacity:0.99601596;fill:#fffcc2;fill-opacity:1;stroke:#ffb91d;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 1241.7672,179.29973 -230.9735,0 c -2.216,0 -4,1.784 -4,4 l 0,26.91912 c 0,2.216 1.784,4 4,4 l 230.9735,0 c 2.216,0 4,-1.784 4,-4 l 0,-26.91912 c 0,-2.216 -1.784,-4 -4,-4 z"
          id="path23499"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ssccssccs" />
@@ -1380,23 +1895,107 @@
          sodipodi:nodetypes="ssccssccs"
          inkscape:connector-curvature="0"
          id="path23523"
-         d="m 1269.7672,237.29973 -258.9735,0 c -2.216,0 -4,1.784 -4,4 l 0,36.91912 c 0,2.216 1.784,4 4,4 l 258.9735,0 c 2.216,0 4,-1.784 4,-4 l 0,-36.91912 c 0,-2.216 -1.784,-4 -4,-4 z"
-         style="opacity:0.99601596;fill:#fffcc2;fill-opacity:1;stroke:#ffc009;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         d="m 1241.7672,225.29973 -230.9735,0 c -2.216,0 -4,1.784 -4,4 l 0,36.91912 c 0,2.216 1.784,4 4,4 l 230.9735,0 c 2.216,0 4,-1.784 4,-4 l 0,-36.91912 c 0,-2.216 -1.784,-4 -4,-4 z"
+         style="opacity:0.99601596;fill:#fffcc2;fill-opacity:1;stroke:#ffb91d;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <path
-         style="opacity:0.99601596;fill:#fffcc2;fill-opacity:1;stroke:#ffc009;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 1269.7672,295.29973 -258.9735,0 c -2.216,0 -4,1.784 -4,4 l 0,36.91912 c 0,2.216 1.784,4 4,4 l 258.9735,0 c 2.216,0 4,-1.784 4,-4 l 0,-36.91912 c 0,-2.216 -1.784,-4 -4,-4 z"
+         style="opacity:0.99601596;fill:#fffcc2;fill-opacity:1;stroke:#ffb91d;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 1241.7672,279.29973 -230.9735,0 c -2.216,0 -4,1.784 -4,4 l 0,52.91912 c 0,2.216 1.784,4 4,4 l 230.9735,0 c 2.216,0 4,-1.784 4,-4 l 0,-52.91912 c 0,-2.216 -1.784,-4 -4,-4 z"
          id="path23525"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ssccssccs" />
-      <path
-         sodipodi:nodetypes="ssccssccs"
-         inkscape:connector-curvature="0"
-         id="path23527"
-         d="m 1269.7672,353.29973 -258.9735,0 c -2.216,0 -4,1.784 -4,4 l 0,36.91912 c 0,2.216 1.784,4 4,4 l 258.9735,0 c 2.216,0 4,-1.784 4,-4 l 0,-36.91912 c 0,-2.216 -1.784,-4 -4,-4 z"
-         style="opacity:0.99601596;fill:#fffcc2;fill-opacity:1;stroke:#ffc009;stroke-width:0.80000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <g
+         id="g12929">
+        <image
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
+           xlink:href="Scrollbar_Example.png"
+           y="178.57446"
+           x="1257.9282"
+           id="image12697"
+           height="162"
+           width="17" />
+        <image
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scroller_Azul.png"
+           xlink:href="Scroller_Azul.png"
+           y="329.16992"
+           x="1356.7516"
+           id="image12910"
+           height="39"
+           width="23"
+           clip-path="url(#clipPath12925)"
+           transform="translate(-101,-115.5)" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff9d2a;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="1012.5"
+         y="193"
+         id="text12981"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan12983"
+           x="1012.5"
+           y="193"># 901</tspan><tspan
+           sodipodi:role="line"
+           x="1012.5"
+           y="204.80228"
+           style="font-size:9.30000019px;font-weight:normal;fill:#fb8200;fill-opacity:1;-inkscape-font-specification:Sans"
+           id="tspan13765">Text of a notification message, with one line.</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text13769"
+         y="239.68987"
+         x="1012.5"
+         style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff9d2a;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="239.68987"
+           x="1012.5"
+           id="tspan13771"
+           sodipodi:role="line"># 903</tspan><tspan
+           style="font-size:9.30000019px;font-weight:normal;fill:#fb8200;fill-opacity:1;-inkscape-font-specification:Sans"
+           id="tspan13773"
+           y="251.49214"
+           x="1012.5"
+           sodipodi:role="line">Text of a notification message, with two lines of </tspan><tspan
+           id="tspan13775"
+           style="font-size:9.30000019px;fill:#fb8200;fill-opacity:1"
+           y="263.11713"
+           x="1012.5"
+           sodipodi:role="line"><tspan
+   id="tspan13777"
+   style="font-size:9.30000019px;font-weight:normal;fill:#fb8200;fill-opacity:1;-inkscape-font-specification:Sans">content</tspan>.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff9d2a;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="1012.5"
+         y="295.67261"
+         id="text13781"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan13783"
+           x="1012.5"
+           y="295.67261"># 904</tspan><tspan
+           sodipodi:role="line"
+           x="1012.5"
+           y="307.47488"
+           id="tspan13785"
+           style="font-size:9.30000019px;font-weight:normal;fill:#fb8200;fill-opacity:1;-inkscape-font-specification:Sans">Text of a notification message, with a big big big</tspan><tspan
+           sodipodi:role="line"
+           x="1012.5"
+           y="319.09988"
+           style="font-size:9.30000019px;fill:#fb8200;fill-opacity:1"
+           id="tspan13787"><tspan
+             style="font-size:9.30000019px;font-weight:normal;fill:#fb8200;fill-opacity:1;-inkscape-font-specification:Sans"
+             id="tspan13789">content, perhaps more than three lines of text, </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="1012.5"
+           y="330.72488"
+           style="font-size:9.30000019px;fill:#fb8200;fill-opacity:1"
+           id="tspan13797"><tspan
+             style="font-size:9.30000019px;font-weight:normal;fill:#fb8200;fill-opacity:1;-inkscape-font-specification:Sans"
+             id="tspan13799">or perhaps not but it's a test.</tspan></tspan></text>
     </g>
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:label="btn_yellow"
        id="g23509"
        inkscape:groupmode="layer"
@@ -1429,7 +2028,7 @@
        inkscape:groupmode="layer"
        id="layer11"
        inkscape:label="num_yellow"
-       style="display:none"
+       style="display:inline"
        sodipodi:insensitive="true">
       <g
          id="g24051"
@@ -1598,6 +2197,27 @@
            clip-path="url(#clipPath22421)" />
       </g>
     </g>
+    <g
+       id="g12951">
+      <image
+         sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
+         xlink:href="Scrollbar_Example.png"
+         y="178.57446"
+         x="1257.9282"
+         id="image12953"
+         height="162"
+         width="17" />
+      <image
+         sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scroller_Azul.png"
+         xlink:href="Scroller_Azul.png"
+         y="329.16992"
+         x="1356.7516"
+         id="image12955"
+         height="39"
+         width="23"
+         clip-path="url(#clipPath12925)"
+         transform="translate(-101,-115.5)" />
+    </g>
   </g>
   <g
      style="display:none"
@@ -1605,73 +2225,6 @@
      id="g23085"
      inkscape:label="Iconos_04"
      sodipodi:insensitive="true">
-    <g
-       transform="translate(-27.25011,-35.014805)"
-       id="g23087">
-      <rect
-         ry="3"
-         rx="3"
-         y="181.81606"
-         x="1057.3025"
-         height="23.44875"
-         width="23.44875"
-         id="rect23089"
-         style="opacity:0.99601596;fill:url(#linearGradient23117);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient23119);stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44690282;stroke-dasharray:none" />
-      <image
-         clip-path="url(#clipPath22743)"
-         mask="none"
-         width="469"
-         height="159"
-         xlink:href="file:///Users/athy/Documents/Opcode/Repositorios/mbc-caspa/public/img/glyphicons-halflings.png"
-         id="image23091"
-         x="917.57111"
-         y="65.903664" />
-    </g>
-    <g
-       id="g23093"
-       transform="translate(-27.25011,-35.014805)">
-      <rect
-         style="fill:url(#linearGradient23113);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient23115);stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44690282;stroke-dasharray:none"
-         id="rect23095"
-         width="23.44875"
-         height="23.44875"
-         x="1057.3025"
-         y="181.81606"
-         rx="3"
-         ry="3" />
-      <image
-         y="65.903664"
-         x="917.57111"
-         id="image23097"
-         xlink:href="file:///Users/athy/Documents/Opcode/Repositorios/mbc-caspa/public/img/glyphicons-halflings.png"
-         height="159"
-         width="469"
-         mask="none"
-         clip-path="url(#clipPath22743)" />
-    </g>
-    <g
-       id="g23099"
-       transform="translate(16.500061,-35.014805)">
-      <rect
-         ry="3"
-         rx="3"
-         y="181.81606"
-         x="984.24994"
-         height="23.44875"
-         width="23.44875"
-         id="rect23101"
-         style="fill:url(#linearGradient23081);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient23083);stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44690282;stroke-dasharray:none" />
-      <image
-         clip-path="url(#clipPath22421)"
-         transform="translate(-213.33603,-0.03275785)"
-         mask="none"
-         width="469"
-         height="159"
-         xlink:href="file:///Users/athy/Documents/Opcode/Repositorios/mbc-caspa/public/img/glyphicons-halflings.png"
-         id="image23103"
-         x="1154.3883"
-         y="42.455246" />
-    </g>
     <g
        transform="translate(99.979771,-34.553591)"
        id="g23105">
@@ -1699,11 +2252,202 @@
            y="42.455246" />
       </g>
     </g>
+    <g
+       transform="translate(-27.25011,-35.014805)"
+       id="g23087">
+      <rect
+         ry="3"
+         rx="3"
+         y="181.81606"
+         x="1057.3025"
+         height="23.44875"
+         width="23.44875"
+         id="rect23089"
+         style="opacity:0.99601596;fill:url(#linearGradient23117);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient23119);stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44690282;stroke-dasharray:none" />
+      <image
+         clip-path="url(#clipPath22743)"
+         mask="none"
+         width="469"
+         height="159"
+         xlink:href="file:///Users/athy/Documents/Opcode/Repositorios/mbc-caspa/public/img/glyphicons-halflings.png"
+         id="image23091"
+         x="917.57111"
+         y="65.903664" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="notifications"
+       sodipodi:insensitive="true"
+       style="display:inline">
+      <g
+         id="g15057">
+        <g
+           transform="translate(16.500061,-35.014805)"
+           id="g23099">
+          <rect
+             style="fill:url(#linearGradient23081);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient23083);stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44690282;stroke-dasharray:none"
+             id="rect23101"
+             width="23.44875"
+             height="23.44875"
+             x="984.24994"
+             y="181.81606"
+             rx="3"
+             ry="3" />
+          <image
+             y="42.455246"
+             x="1154.3883"
+             id="image23103"
+             xlink:href="file:///Users/athy/Documents/Opcode/Repositorios/mbc-caspa/public/img/glyphicons-halflings.png"
+             height="159"
+             width="469"
+             mask="none"
+             transform="translate(-213.33603,-0.03275785)"
+             clip-path="url(#clipPath22421)" />
+        </g>
+        <g
+           transform="translate(0,-221.32442)"
+           style="filter:url(#filter15015)"
+           id="g15009">
+          <image
+             y="396"
+             x="999"
+             id="image14980"
+             xlink:href="file:///Users/athy/Desktop/Imagen%206.png"
+             height="214"
+             width="286"
+             clip-path="url(#clipPath15002)" />
+          <image
+             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
+             xlink:href="Scrollbar_Example.png"
+             y="401.16025"
+             x="1262.3424"
+             id="image12965"
+             height="162"
+             width="17" />
+          <image
+             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scroller_Azul.png"
+             xlink:href="Scroller_Azul.png"
+             y="329.16992"
+             x="1356.7516"
+             id="image12967"
+             height="39"
+             width="23"
+             clip-path="url(#clipPath12925)"
+             transform="translate(-96.58579,107.08579)" />
+          <image
+             sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/Scrollbar_Example.png"
+             xlink:href="Scrollbar_Example.png"
+             transform="translate(-264.87867,262.2929)"
+             clip-path="url(#clipPath14989)"
+             width="17"
+             height="162"
+             id="image14985"
+             x="1527.3424"
+             y="180.16025" />
+        </g>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer14"
+       inkscape:label="warnings"
+       style="display:none"
+       sodipodi:insensitive="true">
+      <g
+         id="g15078">
+        <g
+           transform="translate(-27.25011,-35.014805)"
+           id="g23093">
+          <rect
+             ry="3"
+             rx="3"
+             y="181.81606"
+             x="1057.3025"
+             height="23.44875"
+             width="23.44875"
+             id="rect23095"
+             style="fill:url(#linearGradient23113);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient23115);stroke-width:1.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.44690282;stroke-dasharray:none" />
+          <image
+             clip-path="url(#clipPath22743)"
+             mask="none"
+             width="469"
+             height="159"
+             xlink:href="file:///Users/athy/Documents/Opcode/Repositorios/mbc-caspa/public/img/glyphicons-halflings.png"
+             id="image23097"
+             x="917.57111"
+             y="65.903664" />
+        </g>
+        <g
+           id="g14886"
+           transform="translate(80.999995,-136)">
+          <rect
+             ry="5"
+             rx="5"
+             y="313"
+             x="921.5"
+             height="209"
+             width="278.5"
+             id="rect14888"
+             style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:#fc937e;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter14668)" />
+          <image
+             transform="translate(-66,39)"
+             clip-path="url(#clipPath14552)"
+             width="283"
+             height="215"
+             xlink:href="file:///Users/athy/Desktop/Imagen%201.png"
+             id="image14890"
+             x="986.5"
+             y="271.5" />
+        </g>
+      </g>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="Auxiliar"
-     style="display:none"
-     sodipodi:insensitive="true" />
+     inkscape:label="Iconos_05"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="g14682"
+       transform="translate(81,-136)">
+      <rect
+         ry="5"
+         rx="5"
+         y="313"
+         x="921.5"
+         height="209"
+         width="278.5"
+         id="rect14610"
+         style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:#fc937e;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter14668)" />
+      <image
+         transform="translate(-66,39)"
+         clip-path="url(#clipPath14552)"
+         width="283"
+         height="215"
+         xlink:href="file:///Users/athy/Desktop/Imagen%201.png"
+         id="image14341"
+         x="986.5"
+         y="271.5" />
+    </g>
+    <image
+       y="444"
+       x="1060.5"
+       id="image14780"
+       xlink:href="file:///Users/athy/Desktop/Imagen%205.png"
+       height="42"
+       width="149"
+       clip-path="url(#clipPath14787)"
+       transform="matrix(0.85294118,0,0,0.85294118,251.83824,-238.11765)" />
+    <image
+       y="199"
+       x="1144.5"
+       id="image14869"
+       xlink:href="file:///Users/athy/Desktop/Imagen%204.png"
+       height="40"
+       width="173"
+       clip-path="url(#clipPath14882)"
+       transform="matrix(0.85294118,0,0,0.85294118,24.602941,-28.367647)" />
+  </g>
 </svg>
