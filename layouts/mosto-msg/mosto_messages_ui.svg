@@ -17,9 +17,34 @@
    version="1.1"
    inkscape:version="0.48.0 r9654"
    sodipodi:docname="mosto_messages_ui.svg"
-   style="display:inline">
+   style="display:inline"
+   inkscape:export-filename="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/renders/Version_E-01.png"
+   inkscape:export-xdpi="74.948807"
+   inkscape:export-ydpi="74.948807">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4641">
+      <stop
+         style="stop-color:#696969;stop-opacity:1;"
+         offset="0"
+         id="stop4643" />
+      <stop
+         style="stop-color:#424242;stop-opacity:1;"
+         offset="1"
+         id="stop4647" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4633">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4635" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4637" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient23993">
@@ -1077,6 +1102,72 @@
            in="SourceGraphic" />
       </feMerge>
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4641"
+       id="linearGradient4639"
+       x1="995.10028"
+       y1="258.76077"
+       x2="1249.7628"
+       y2="258.76077"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4641"
+       id="linearGradient5259"
+       gradientUnits="userSpaceOnUse"
+       x1="995.10028"
+       y1="258.76077"
+       x2="1249.7628"
+       y2="258.76077" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient23993"
+       id="linearGradient5301"
+       gradientUnits="userSpaceOnUse"
+       x1="1095.7882"
+       y1="180.10887"
+       x2="1095.7882"
+       y2="157.27995" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient23993"
+       id="linearGradient5303"
+       gradientUnits="userSpaceOnUse"
+       x1="1095.7882"
+       y1="180.10887"
+       x2="1095.7882"
+       y2="157.27995" />
+    <filter
+       id="filter4047"
+       inkscape:label="Desaturate"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4049"
+         type="saturate"
+         values="0" />
+    </filter>
+    <filter
+       id="filter4847"
+       inkscape:label="Desaturate"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4849"
+         type="saturate"
+         values="0" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1085,11 +1176,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64556964"
-     inkscape:cx="923.15684"
-     inkscape:cy="638.99998"
+     inkscape:zoom="1.8259467"
+     inkscape:cx="1126.5132"
+     inkscape:cy="675.46106"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="layer10"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -1110,6 +1201,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1123,18 +1215,17 @@
     <image
        sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/mosto_msg_bg.png"
        xlink:href="utils/mosto_msg_bg.png"
-       width="1437"
-       height="879"
-       id="image23020"
+       y="4.2907538"
        x="1.5000001"
-       y="4.2907538" />
+       id="image23020"
+       height="879"
+       width="1437" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Iconos_01"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:none">
     <g
        id="g23173"
        transform="translate(-2,1.3072373)">
@@ -1314,8 +1405,7 @@
        inkscape:groupmode="layer"
        id="layer5"
        inkscape:label="btn_red"
-       style="display:none"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <g
          id="g22755"
          transform="translate(142.74989,-33.707568)">
@@ -1340,11 +1430,10 @@
       </g>
     </g>
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:label="num_red."
        id="g13939"
-       inkscape:groupmode="layer"
-       sodipodi:insensitive="true">
+       inkscape:groupmode="layer">
       <g
          id="g13941"
          transform="matrix(1.1981261,0,0,1.1981261,-86.884712,-45.669746)">
@@ -1375,8 +1464,7 @@
        inkscape:label="click_yellow"
        id="g23161"
        inkscape:groupmode="layer"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:none">
       <path
          sodipodi:nodetypes="ssccsscccss"
          inkscape:connector-curvature="0"
@@ -1453,31 +1541,31 @@
         <image
            sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
            xlink:href="utils/scroller_ex.png"
-           y="185.57446"
-           x="1257.8069"
-           id="image12935"
+           width="17"
            height="162"
-           width="17" />
+           id="image12935"
+           x="1257.8069"
+           y="185.57446" />
         <image
            sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
            xlink:href="utils/scrollbar.png"
-           y="329.16992"
-           x="1356.7516"
-           id="image12937"
-           height="39"
-           width="23"
+           transform="translate(-101.12132,-108.5)"
            clip-path="url(#clipPath12925)"
-           transform="translate(-101.12132,-108.5)" />
+           width="23"
+           height="39"
+           id="image12937"
+           x="1356.7516"
+           y="329.16992" />
         <image
            sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
            xlink:href="utils/scroller_ex.png"
-           transform="translate(113.87868,-48)"
-           clip-path="url(#clipPath13920)"
-           width="17"
-           height="162"
-           id="image13916"
+           y="274.57446"
            x="1143.9282"
-           y="274.57446" />
+           id="image13916"
+           height="162"
+           width="17"
+           clip-path="url(#clipPath13920)"
+           transform="translate(113.87868,-48)" />
       </g>
       <g
          id="g15123"
@@ -1590,8 +1678,7 @@
        inkscape:groupmode="layer"
        id="layer6"
        inkscape:label="btn_yellow"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <g
          id="g22759"
          transform="translate(72.08421,-33.707568)">
@@ -1620,8 +1707,7 @@
        style="display:inline"
        inkscape:label="num_yellow."
        id="g13929"
-       inkscape:groupmode="layer"
-       sodipodi:insensitive="true">
+       inkscape:groupmode="layer">
       <g
          transform="matrix(1.1981261,0,0,1.1981261,-229.43146,-45.762072)"
          id="g13931">
@@ -1812,7 +1898,7 @@
            sodipodi:role="line">perhaps more than three lines of text, or perhaps not...</tspan></text>
     </g>
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:label="btn_red"
        id="g23501"
        inkscape:groupmode="layer"
@@ -1908,21 +1994,21 @@
         <image
            sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
            xlink:href="utils/scroller_ex.png"
-           width="17"
-           height="162"
-           id="image12697"
+           y="178.57446"
            x="1257.9282"
-           y="178.57446" />
+           id="image12697"
+           height="162"
+           width="17" />
         <image
            sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
            xlink:href="utils/scrollbar.png"
-           transform="translate(-101,-115.5)"
-           clip-path="url(#clipPath12925)"
-           width="23"
-           height="39"
-           id="image12910"
+           y="329.16992"
            x="1356.7516"
-           y="329.16992" />
+           id="image12910"
+           height="39"
+           width="23"
+           clip-path="url(#clipPath12925)"
+           transform="translate(-101,-115.5)" />
       </g>
       <text
          xml:space="preserve"
@@ -2116,21 +2202,264 @@
        inkscape:groupmode="layer"
        id="layer9"
        inkscape:label="hover_red"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:none">
+      <g
+         id="g5047"
+         transform="translate(23.688991,-184.33333)">
+        <path
+           style="fill:#4e4e4e;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient5259);display:inline"
+           d="m 1249.3755,172.30048 0,211.92057 c 0,2.77 -2.23,5 -5,5 l -243.8879,0 c -2.77007,0 -5.00007,-2.23 -5.00007,-5 l 0,-211.92057"
+           id="path5049"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cssssc"
+           transform="translate(11.401952,183.512)" />
+        <g
+           style="display:inline"
+           id="g5051"
+           transform="translate(-237.21569,346.15905)">
+          <g
+             id="g5053"
+             transform="translate(240.75122,-175.03921)">
+            <path
+               sodipodi:nodetypes="ccccc"
+               inkscape:connector-curvature="0"
+               id="path5055"
+               d="m 1252.0278,356.25417 0,-41.97155 -241.8143,0 0,41.97155 z"
+               style="opacity:0.99601596;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+            <path
+               style="opacity:0.99601596;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 1252.0278,271.74393 0,-41.64542 -241.8143,0 0,41.64542 z"
+               id="path5057"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccc" />
+            <path
+               sodipodi:nodetypes="sssccss"
+               inkscape:connector-curvature="0"
+               id="path5059"
+               d="m 1015.2135,188.10164 231.8143,0 c 2.77,0 5.151,2.23412 5,5 l 0,36.6238 -241.8143,0 0,-36.6238 c 0,-2.77 2.23,-5 5,-5 z"
+               style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+            <path
+               style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               d="m 1010.0583,229.9254 241.2022,0"
+               id="path5061"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cc" />
+            <path
+               sodipodi:nodetypes="ccccc"
+               inkscape:connector-curvature="0"
+               id="path5063"
+               d="m 1252.0278,313.74393 0,-41.64542 -241.8143,0 0,41.64542 z"
+               style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+            <path
+               sodipodi:nodetypes="cc"
+               inkscape:connector-curvature="0"
+               id="path5065"
+               d="m 1010.0583,271.9254 241.2022,0"
+               style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+            <path
+               style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               d="m 1010.0583,313.9254 241.2022,0"
+               id="path5067"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cc" />
+            <path
+               style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 1015.2135,395.30121 231.8143,0 c 2.77,0 5.1626,-2.23478 5,-5 l 0,-34.01478 -241.8143,0 0,34.01478 c 0,2.77 2.23,5 5,5 z"
+               id="path5069"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="sssccss" />
+            <path
+               sodipodi:nodetypes="cc"
+               inkscape:connector-curvature="0"
+               id="path5071"
+               d="m 1010.0583,355.9254 241.2022,0"
+               style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+            <path
+               style="opacity:0.99601596;fill:none;stroke:#848484;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+               d="m 1015.2135,188.10164 231.8143,0 c 2.77,0 5,2.23 5,5 l 0,197.54623 c 0,2.77 -2.23,5 -5,5 l -231.8143,0 c -2.77,0 -5,-2.23 -5,-5 l 0,-197.54623 c 0,-2.77 2.23,-5 5,-5 z"
+               id="path5073"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="sssssssss" />
+          </g>
+          <g
+             id="g5075"
+             transform="translate(216.38726,-170.79657)">
+            <image
+               sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+               xlink:href="utils/scroller_ex.png"
+               width="17"
+               height="162"
+               id="image5077"
+               x="1257.8069"
+               y="185.57446" />
+            <image
+               sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
+               xlink:href="utils/scrollbar.png"
+               transform="translate(-101.12132,-108.5)"
+               clip-path="url(#clipPath12925)"
+               width="23"
+               height="39"
+               id="image5079"
+               x="1356.7516"
+               y="329.16992" />
+            <image
+               sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+               xlink:href="utils/scroller_ex.png"
+               y="274.57446"
+               x="1143.9282"
+               id="image5081"
+               height="162"
+               width="17"
+               clip-path="url(#clipPath13920)"
+               transform="translate(113.87868,-48)" />
+          </g>
+        </g>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5083"
+           y="377.43353"
+           x="1022.3995"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           xml:space="preserve"><tspan
+             y="377.43353"
+             x="1022.3995"
+             id="tspan5085"
+             sodipodi:role="line"># 901</tspan><tspan
+             id="tspan5087"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             y="389.23581"
+             x="1022.3995"
+             sodipodi:role="line">Text of a notification message, with one line.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           x="1020.3995"
+           y="414.12341"
+           id="text5089"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5091"
+             x="1020.3995"
+             y="414.12341"># 902</tspan><tspan
+             sodipodi:role="line"
+             x="1020.3995"
+             y="425.92569"
+             id="tspan5093"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">Text of a notification message, with two lines</tspan><tspan
+             sodipodi:role="line"
+             x="1020.3995"
+             y="437.55069"
+             style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+             id="tspan5095"><tspan
+   id="tspan5097"
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">of </tspan><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan5099">content</tspan>.</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5101"
+           y="456.12341"
+           x="1020.3995"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           xml:space="preserve"><tspan
+             y="456.12341"
+             x="1020.3995"
+             id="tspan5103"
+             sodipodi:role="line"># 903</tspan><tspan
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             id="tspan5105"
+             y="467.92569"
+             x="1020.3995"
+             sodipodi:role="line">Text of a notification message, with two lines</tspan><tspan
+             id="tspan5107"
+             style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+             y="479.55069"
+             x="1020.3995"
+             sodipodi:role="line"><tspan
+   id="tspan5109"
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">of </tspan><tspan
+   id="tspan5111"
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">content</tspan>.</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5113"
+           y="538.57422"
+           x="1020.3995"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           xml:space="preserve"><tspan
+             y="538.57422"
+             x="1020.3995"
+             id="tspan5115"
+             sodipodi:role="line"># 905</tspan><tspan
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             id="tspan5117"
+             y="550.37646"
+             x="1020.3995"
+             sodipodi:role="line">Text of a notification message, with two lines</tspan><tspan
+             style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+             y="562.00146"
+             x="1020.3995"
+             sodipodi:role="line"
+             id="tspan5119"><tspan
+   id="tspan5121"
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">of </tspan><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan5123">content</tspan>.</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5125"
+           y="503.88434"
+           x="1022.3995"
+           style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           xml:space="preserve"><tspan
+             y="503.88434"
+             x="1022.3995"
+             id="tspan5127"
+             sodipodi:role="line"># 904</tspan><tspan
+             id="tspan5129"
+             style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+             y="515.68658"
+             x="1022.3995"
+             sodipodi:role="line">Text of a notification message, with one line.</tspan></text>
+      </g>
       <path
          style="opacity:0.99601596;fill:#fecec2;fill-opacity:1;fill-rule:nonzero;stroke:#ff3d09;stroke-opacity:1"
-         d="m 1031.6306,147.45291 216.1065,0 c 1.7017,0 3.0716,1.40859 3.0716,3.15829 l 0,15.90331 c 0,1.7497 -1.3699,3.1583 -3.0716,3.1583 l -216.1065,0 c -1.7017,0 -3.0716,-1.4086 -3.0716,-3.1583 l 0,-15.90331 c 0,-1.7497 1.3699,-3.15829 3.0716,-3.15829 z"
+         d="m 1039.6306,147.45291 208.1065,0 c 1.7017,0 3.0716,1.40859 3.0716,3.15829 l 0,15.90331 c 0,1.7497 -1.3699,3.1583 -3.0716,3.1583 l -208.1065,0 c -1.7017,0 -3.0716,-1.4086 -3.0716,-3.1583 l 0,-15.90331 c 0,-1.7497 1.3699,-3.15829 3.0716,-3.15829 z"
          id="rect23896"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="sssssssss" />
+      <g
+         transform="translate(-109.53361,-0.32081246)"
+         id="g3823">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3825"
+           d="m 1139.5054,141.73375 0,32.32402"
+           style="fill:none;stroke:#444444;stroke-width:1.02684534px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           style="fill:#555555;fill-opacity:1;stroke:#666666;stroke-width:1.02684534px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 1140.4677,141.85532 0,32.32402"
+           id="path3827"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff2f00;fill-opacity:1;stroke:none;font-family:Sans"
+         x="1043.842"
+         y="162.27795"
+         id="text4667"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4669"
+           x="1043.842"
+           y="162.27795">Search</tspan></text>
     </g>
     <g
        inkscape:groupmode="layer"
        id="layer7"
        inkscape:label="btn_red#1"
-       sodipodi:insensitive="true"
-       style="display:inline">
+       style="display:none"
+       sodipodi:insensitive="true">
       <g
          transform="translate(198.74989,-35.014805)"
          id="g23045">
@@ -2155,7 +2484,7 @@
       </g>
     </g>
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:label="hover_yellow"
        id="g23899"
        inkscape:groupmode="layer"
@@ -2164,14 +2493,264 @@
          sodipodi:nodetypes="sssssssss"
          inkscape:connector-curvature="0"
          id="path23901"
-         d="m 1031.6306,147.45291 216.1065,0 c 1.7017,0 3.0716,1.40859 3.0716,3.15829 l 0,15.90331 c 0,1.7497 -1.3699,3.1583 -3.0716,3.1583 l -216.1065,0 c -1.7017,0 -3.0716,-1.4086 -3.0716,-3.1583 l 0,-15.90331 c 0,-1.7497 1.3699,-3.15829 3.0716,-3.15829 z"
+         d="m 1031.6306,147.45291 209.5588,0 c 1.7017,0 3.0716,1.40859 3.0716,3.15829 l 0,15.90331 c 0,1.7497 -1.3699,3.1583 -3.0716,3.1583 l -209.5588,0 c -1.7017,0 -3.0716,-1.4086 -3.0716,-3.1583 l 0,-15.90331 c 0,-1.7497 1.3699,-3.15829 3.0716,-3.15829 z"
          style="opacity:0.99601596;fill:#fefbc2;fill-opacity:1;fill-rule:nonzero;stroke:#ffc609;stroke-opacity:1" />
+      <g
+         id="g3811"
+         transform="translate(110.0785,-0.32081246)">
+        <path
+           style="fill:none;stroke:#444444;stroke-width:1.02684534px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 1139.5054,141.73375 0,32.12795"
+           id="path3813"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3815"
+           d="m 1140.4677,141.85532 0,32.32402"
+           style="fill:#555555;fill-opacity:1;stroke:#666666;stroke-width:1.02684534px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:11px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff8c00;fill-opacity:1;stroke:none;font-family:Sans"
+         x="1033.9706"
+         y="162.25491"
+         id="text4655"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4657"
+           x="1033.9706"
+           y="162.25491">Search</tspan></text>
+      <g
+         transform="translate(-11.401952,-183.512)"
+         style="fill:#696969;fill-opacity:1"
+         id="g4836">
+        <g
+           id="g5004">
+          <path
+             transform="translate(11.401952,183.512)"
+             sodipodi:nodetypes="cssssc"
+             inkscape:connector-curvature="0"
+             id="rect3862"
+             d="m 1249.3755,172.30048 0,211.92057 c 0,2.77 -2.23,5 -5,5 l -243.8879,0 c -2.77007,0 -5.00007,-2.23 -5.00007,-5 l 0,-211.92057"
+             style="fill:#4e4e4e;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient4639);display:inline" />
+          <g
+             transform="translate(-237.21569,346.15905)"
+             id="g4723"
+             style="display:inline">
+            <g
+               transform="translate(240.75122,-175.03921)"
+               id="g4693">
+              <path
+                 style="opacity:0.99601596;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 d="m 1252.0278,356.25417 0,-41.97155 -241.8143,0 0,41.97155 z"
+                 id="path4695"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="ccccc" />
+              <path
+                 sodipodi:nodetypes="ccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4697"
+                 d="m 1252.0278,271.74393 0,-41.64542 -241.8143,0 0,41.64542 z"
+                 style="opacity:0.99601596;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+              <path
+                 style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 d="m 1015.2135,188.10164 231.8143,0 c 2.77,0 5.151,2.23412 5,5 l 0,36.6238 -241.8143,0 0,-36.6238 c 0,-2.77 2.23,-5 5,-5 z"
+                 id="path4699"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="sssccss" />
+              <path
+                 sodipodi:nodetypes="cc"
+                 inkscape:connector-curvature="0"
+                 id="path4701"
+                 d="m 1010.0583,229.9254 241.2022,0"
+                 style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+              <path
+                 style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 d="m 1252.0278,313.74393 0,-41.64542 -241.8143,0 0,41.64542 z"
+                 id="path4703"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="ccccc" />
+              <path
+                 style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+                 d="m 1010.0583,271.9254 241.2022,0"
+                 id="path4705"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="cc" />
+              <path
+                 sodipodi:nodetypes="cc"
+                 inkscape:connector-curvature="0"
+                 id="path4707"
+                 d="m 1010.0583,313.9254 241.2022,0"
+                 style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+              <path
+                 sodipodi:nodetypes="sssccss"
+                 inkscape:connector-curvature="0"
+                 id="path4709"
+                 d="m 1015.2135,395.30121 231.8143,0 c 2.77,0 5.1626,-2.23478 5,-5 l 0,-34.01478 -241.8143,0 0,34.01478 c 0,2.77 2.23,5 5,5 z"
+                 style="opacity:0.99601596;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+              <path
+                 style="fill:none;stroke:#848484;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+                 d="m 1010.0583,355.9254 241.2022,0"
+                 id="path4711"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="cc" />
+              <path
+                 sodipodi:nodetypes="sssssssss"
+                 inkscape:connector-curvature="0"
+                 id="path4713"
+                 d="m 1015.2135,188.10164 231.8143,0 c 2.77,0 5,2.23 5,5 l 0,197.54623 c 0,2.77 -2.23,5 -5,5 l -231.8143,0 c -2.77,0 -5,-2.23 -5,-5 l 0,-197.54623 c 0,-2.77 2.23,-5 5,-5 z"
+                 style="opacity:0.99601596;fill:none;stroke:#848484;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+            </g>
+            <g
+               transform="translate(216.38726,-170.79657)"
+               id="g4715">
+              <image
+                 sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+                 xlink:href="utils/scroller_ex.png"
+                 y="185.57446"
+                 x="1257.8069"
+                 id="image4717"
+                 height="162"
+                 width="17" />
+              <image
+                 sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
+                 xlink:href="utils/scrollbar.png"
+                 y="329.16992"
+                 x="1356.7516"
+                 id="image4719"
+                 height="39"
+                 width="23"
+                 clip-path="url(#clipPath12925)"
+                 transform="translate(-101.12132,-108.5)" />
+              <image
+                 sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
+                 xlink:href="utils/scroller_ex.png"
+                 transform="translate(113.87868,-48)"
+                 clip-path="url(#clipPath13920)"
+                 width="17"
+                 height="162"
+                 id="image4721"
+                 x="1143.9282"
+                 y="274.57446" />
+            </g>
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+             x="1022.3995"
+             y="377.43353"
+             id="text4838"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan4840"
+               x="1022.3995"
+               y="377.43353"># 901</tspan><tspan
+               sodipodi:role="line"
+               x="1022.3995"
+               y="389.23581"
+               style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+               id="tspan4842">Text of a notification message, with one line.</tspan></text>
+          <text
+             sodipodi:linespacing="125%"
+             id="text4844"
+             y="414.12341"
+             x="1020.3995"
+             style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="414.12341"
+               x="1020.3995"
+               id="tspan4846"
+               sodipodi:role="line"># 902</tspan><tspan
+               style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+               id="tspan4848"
+               y="425.92569"
+               x="1020.3995"
+               sodipodi:role="line">Text of a notification message, with two lines</tspan><tspan
+               id="tspan4850"
+               style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+               y="437.55069"
+               x="1020.3995"
+               sodipodi:role="line"><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan4970">of </tspan><tspan
+   id="tspan4852"
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">content</tspan>.</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+             x="1020.3995"
+             y="456.12341"
+             id="text4854"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan4856"
+               x="1020.3995"
+               y="456.12341"># 903</tspan><tspan
+               sodipodi:role="line"
+               x="1020.3995"
+               y="467.92569"
+               id="tspan4858"
+               style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">Text of a notification message, with two lines</tspan><tspan
+               sodipodi:role="line"
+               x="1020.3995"
+               y="479.55069"
+               style="font-size:9.30000019px;fill:#696969;fill-opacity:1"
+               id="tspan4860"><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan4974">of </tspan><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan4862">content</tspan>.</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+             x="1020.3995"
+             y="538.57422"
+             id="text4864"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan4866"
+               x="1020.3995"
+               y="538.57422"># 905</tspan><tspan
+               sodipodi:role="line"
+               x="1020.3995"
+               y="550.37646"
+               id="tspan4868"
+               style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">Text of a notification message, with two lines</tspan><tspan
+               id="tspan4978"
+               sodipodi:role="line"
+               x="1020.3995"
+               y="562.00146"
+               style="font-size:9.30000019px;fill:#696969;fill-opacity:1"><tspan
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+   id="tspan4985">of </tspan><tspan
+   id="tspan4980"
+   style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans">content</tspan>.</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+             x="1022.3995"
+             y="503.88434"
+             id="text4874"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan4876"
+               x="1022.3995"
+               y="503.88434"># 904</tspan><tspan
+               sodipodi:role="line"
+               x="1022.3995"
+               y="515.68658"
+               style="font-size:9.30000019px;font-weight:normal;fill:#696969;fill-opacity:1;-inkscape-font-specification:Sans"
+               id="tspan4878">Text of a notification message, with one line.</tspan></text>
+        </g>
+      </g>
     </g>
     <g
        inkscape:groupmode="layer"
        id="layer8"
        inkscape:label="btn_yellow#1"
-       style="display:none"
+       style="display:inline"
        sodipodi:insensitive="true">
       <g
          transform="translate(16.500061,-35.014805)"
@@ -2197,27 +2776,9 @@
            clip-path="url(#clipPath22421)" />
       </g>
     </g>
-    <image
-       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
-       xlink:href="utils/scroller_ex.png"
-       y="178.57446"
-       x="1257.9282"
-       id="image12953"
-       height="162"
-       width="17" />
-    <image
-       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
-       xlink:href="utils/scrollbar.png"
-       y="329.16992"
-       x="1356.7516"
-       id="image12955"
-       height="39"
-       width="23"
-       clip-path="url(#clipPath12925)"
-       transform="translate(-101,-115.5)" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:groupmode="layer"
      id="g23085"
      inkscape:label="Iconos_04"
@@ -2275,7 +2836,7 @@
        inkscape:groupmode="layer"
        id="layer3"
        inkscape:label="notifications"
-       style="display:inline"
+       style="display:none"
        sodipodi:insensitive="true">
       <g
          id="g15057">
@@ -2309,40 +2870,40 @@
           <image
              sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/list_and_scroll.png"
              xlink:href="utils/list_and_scroll.png"
-             clip-path="url(#clipPath15002)"
-             width="286"
-             height="214"
-             id="image14980"
+             y="396"
              x="999"
-             y="396" />
+             id="image14980"
+             height="214"
+             width="286"
+             clip-path="url(#clipPath15002)" />
           <image
              sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
              xlink:href="utils/scroller_ex.png"
-             width="17"
-             height="162"
-             id="image12965"
+             y="401.16025"
              x="1262.3424"
-             y="401.16025" />
+             id="image12965"
+             height="162"
+             width="17" />
           <image
              sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scrollbar.png"
              xlink:href="utils/scrollbar.png"
-             transform="translate(-96.58579,107.08579)"
-             clip-path="url(#clipPath12925)"
-             width="23"
-             height="39"
-             id="image12967"
+             y="329.16992"
              x="1356.7516"
-             y="329.16992" />
+             id="image12967"
+             height="39"
+             width="23"
+             clip-path="url(#clipPath12925)"
+             transform="translate(-96.58579,107.08579)" />
           <image
              sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/scroller_ex.png"
              xlink:href="utils/scroller_ex.png"
-             y="180.16025"
-             x="1527.3424"
-             id="image14985"
-             height="162"
-             width="17"
+             transform="translate(-264.87867,262.2929)"
              clip-path="url(#clipPath14989)"
-             transform="translate(-264.87867,262.2929)" />
+             width="17"
+             height="162"
+             id="image14985"
+             x="1527.3424"
+             y="180.16025" />
         </g>
       </g>
     </g>
@@ -2350,8 +2911,7 @@
        inkscape:groupmode="layer"
        id="layer14"
        inkscape:label="warnings"
-       style="display:none"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <g
          id="g15078">
         <g
@@ -2391,14 +2951,76 @@
           <image
              sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/list.png"
              xlink:href="utils/list.png"
-             y="271.5"
-             x="986.5"
-             id="image14890"
-             height="215"
-             width="283"
+             transform="translate(-66,39)"
              clip-path="url(#clipPath14552)"
-             transform="translate(-66,39)" />
+             width="283"
+             height="215"
+             id="image14890"
+             x="986.5"
+             y="271.5" />
         </g>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g5271"
+       inkscape:label="num_red. copia"
+       style="display:none">
+      <g
+         transform="matrix(1.1981261,0,0,1.1981261,-255.56433,-48.955713)"
+         id="g5273">
+        <rect
+           style="opacity:0.99601596;fill:#3a3a3a;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient5301)"
+           id="rect5275"
+           width="14.02346"
+           height="10.436081"
+           x="1088.9396"
+           y="159.56285"
+           rx="2"
+           ry="2" />
+        <text
+           xml:space="preserve"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           x="1095.7147"
+           y="167.71603"
+           id="text5277"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5279"
+             x="1095.7147"
+             y="167.71603"
+             style="font-size:8px;text-align:center;text-anchor:middle;fill:#ffffff">3</tspan></text>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g5261"
+       inkscape:label="num_yellow. copia"
+       style="display:none">
+      <g
+         id="g5263"
+         transform="matrix(1.1981261,0,0,1.1981261,-286.76951,-49.048038)">
+        <rect
+           ry="2"
+           rx="2"
+           y="159.56285"
+           x="1088.9396"
+           height="10.436081"
+           width="14.02346"
+           id="rect5265"
+           style="opacity:0.99601596;fill:#3a3a3a;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient5303)" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5267"
+           y="167.71603"
+           x="1095.7147"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+           xml:space="preserve"><tspan
+             style="font-size:8px;text-align:center;text-anchor:middle;fill:#ffffff"
+             y="167.71603"
+             x="1095.7147"
+             id="tspan5269"
+             sodipodi:role="line">15</tspan></text>
       </g>
     </g>
   </g>
@@ -2406,11 +3028,109 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Iconos_05"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
+    <g
+       id="g4871"
+       transform="translate(4.3812889,-73.93425)"
+       inkscape:export-filename="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/renders/Version_E-01.png"
+       inkscape:export-xdpi="74.948807"
+       inkscape:export-ydpi="74.948807">
+      <g
+         id="g4862">
+        <image
+           sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/noti.png"
+           xlink:href="utils/noti.png"
+           transform="matrix(0.85294118,0,0,0.85294118,20.221652,45.566603)"
+           clip-path="url(#clipPath14882)"
+           width="173"
+           height="40"
+           id="image4845"
+           x="1144.5"
+           y="199"
+           style="filter:url(#filter4847)" />
+      </g>
+      <rect
+         ry="2.1717172"
+         rx="5"
+         y="227.83093"
+         x="1090.3933"
+         height="9.8578997"
+         width="14.78685"
+         id="rect4851"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4867"
+         y="236.04585"
+         x="1093.6792"
+         style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#b4b4b4;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="236.04585"
+           x="1093.6792"
+           id="tspan4869"
+           sodipodi:role="line">0</tspan></text>
+    </g>
+    <image
+       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/warn.png"
+       xlink:href="utils/warn.png"
+       y="444"
+       x="1060.5"
+       id="image14780"
+       height="42"
+       width="149"
+       clip-path="url(#clipPath14787)"
+       transform="matrix(0.85294118,0,0,0.85294118,251.83824,-238.11765)" />
+    <g
+       id="g4839">
+      <image
+         sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/warn.png"
+         xlink:href="utils/warn.png"
+         style="filter:url(#filter4047)"
+         y="444"
+         x="1060.5"
+         id="image4045"
+         height="42"
+         width="149"
+         clip-path="url(#clipPath14787)"
+         transform="matrix(0.85294118,0,0,0.85294118,251.83824,-238.11765)" />
+      <rect
+         ry="2.1717172"
+         rx="5"
+         y="152.80136"
+         x="1233.6066"
+         height="11.774714"
+         width="10.405561"
+         id="rect4837"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4051"
+         y="162.11162"
+         x="1234.9758"
+         style="font-size:10px;font-style:normal;font-weight:bold;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#6f6f6f;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="162.11162"
+           x="1234.9758"
+           id="tspan4053"
+           sodipodi:role="line">0</tspan></text>
+    </g>
+    <image
+       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/noti.png"
+       xlink:href="utils/noti.png"
+       y="199"
+       x="1144.5"
+       id="image14869"
+       height="40"
+       width="173"
+       clip-path="url(#clipPath14882)"
+       transform="matrix(0.85294118,0,0,0.85294118,24.602941,-28.367647)" />
     <g
        id="g14682"
-       transform="translate(81,-136)">
+       transform="translate(81.821492,-136)"
+       inkscape:export-filename="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/renders/Version_E-04.png"
+       inkscape:export-xdpi="74.948807"
+       inkscape:export-ydpi="74.948807"
+       style="opacity:1">
       <rect
          ry="5"
          rx="5"
@@ -2419,37 +3139,35 @@
          height="209"
          width="278.5"
          id="rect14610"
-         style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:#fc937e;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter14668)" />
+         style="fill:#d3d3d3;fill-opacity:1;fill-rule:nonzero;stroke:#fc937e;stroke-width:0.50000000000000000;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter14668)" />
       <image
          sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/list.png"
          xlink:href="utils/list.png"
-         y="271.5"
-         x="986.5"
-         id="image14341"
-         height="215"
-         width="283"
+         transform="translate(-66,39)"
          clip-path="url(#clipPath14552)"
-         transform="translate(-66,39)" />
+         width="283"
+         height="215"
+         id="image14341"
+         x="986.5"
+         y="271.5" />
     </g>
-    <image
-       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/warn.png"
-       xlink:href="utils/warn.png"
-       transform="matrix(0.85294118,0,0,0.85294118,251.83824,-238.11765)"
-       clip-path="url(#clipPath14787)"
-       width="149"
-       height="42"
-       id="image14780"
-       x="1060.5"
-       y="444" />
-    <image
-       sodipodi:absref="/Users/athy/Documents/Opcode/Repositorios/design-artwork/layouts/mosto-msg/utils/noti.png"
-       xlink:href="utils/noti.png"
-       transform="matrix(0.85294118,0,0,0.85294118,24.602941,-28.367647)"
-       clip-path="url(#clipPath14882)"
-       width="173"
-       height="40"
-       id="image14869"
-       x="1144.5"
-       y="199" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1242.7009"
+       y="158.89954"
+       id="text5339"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5341" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1111.7521"
+       y="162.65926"
+       id="text5349"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5351" /></text>
   </g>
 </svg>
