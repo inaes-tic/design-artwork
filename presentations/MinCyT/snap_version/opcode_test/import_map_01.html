@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">        
+        <title>Importando decentemente un .SVG complejo.</title>     
+        
+        <script src="snap.svg-min.js"></script>
+    </head>
+    <body>
+        <script>			
+			var s = Snap();
+			
+			var bigCircle = s.circle(500, 150, 100);
+			bigCircle.attr({
+			 fill:"#0FE",
+			 stroke:"#0EC",
+			 strokeWidth:"20px",
+			});
+            			
+			Snap.load("test_01.svg", function (f) {
+			 var g = f.select("g");
+			 s.append(g);
+			});
+			
+        </script>
+    </body>
+</html>
